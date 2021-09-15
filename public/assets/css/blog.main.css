@@ -1,0 +1,37 @@
+#logoImage{
+    width:100%;
+    max-width:250px;
+    margin-bottom:1rem;
+    margin-left:50%;
+    position:relative;
+    visibility:visible;
+    display:block;
+    transform:translateX(-50%);
+}
+
+.card-image {
+    width: 100%;
+    aspect-ratio: 2;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition:0.3s all ease;
+}
+
+.card-date{
+    font-size:0.8rem;
+    color:#aaa;
+    margin-top:1rem;
+}
+
+.card-read{
+    font-size:0.8rem;
+    color:#aaa;
+    margin-top:0.5rem;
+}
+
+.blogWrapper:hover .card-image{
+    background-size:120% 120%;
+    transition:0.3s all ease;
+}
