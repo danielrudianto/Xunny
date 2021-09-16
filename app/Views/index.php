@@ -625,7 +625,9 @@
 												<div class="vlt-gap-40--sm"></div>
 											</div>
 										<?php } ?>
-										<a href='<?= base_url("Blogs") ?>'>View more</a>
+										<div class='col-12 mt-3'>
+											<a href='<?= base_url("Blogs") ?>'>View more</a>
+										</div>
 									</div>
 								</div>
 							</div>

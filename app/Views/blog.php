@@ -1,60 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Protal Berita Codeigniter</title>
-
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css') ?>" />
-</head>
-
-<body>
-
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-		<div class="container">
-			<a class="navbar-brand" href="<?= base_url() ?>">Home</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="<?= base_url('about') ?>">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="<?= base_url('contact') ?>">Contact</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="<?= base_url('faqs') ?>">Faqs</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-
-	<header class="jumbotron jumbotron-fluid">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h1 class="h1">Portal Berita Codeigniter</h1>
-				</div>
-			</div>
-		</div>
-    </header>
-    
-    <?= $this->renderSection('content') ?>
-
-	<footer class="jumbotron jumbotron-fluid mt-5 mb-0">
-		<div class="container text-center">Copyright &copy <?= Date('Y') ?> CI News</div>
-	</footer>
-
-	<!-- Jquery dan Bootsrap JS -->
-	<script src="<?= base_url('js/jquery.min.js') ?>"></script>
-	<script src="<?= base_url('js/bootstrap.min.js') ?>"></script>
-
-</body>
-
+<html lang='en'>
+    <head>
+		<title>Xunny Blog | <?= $header['title'] ?></title>
+        <link rel="icon" type="image/png" href="<?= base_url('assets/img/root/favicon.png') ?>">
+	    <link rel="stylesheet" href="<?= base_url('assets/css/framework/bootstrap.min.css') ?>">
+        <link rel='stylesheet' href='<?= base_url('assets/css/blog.main.css') ?>'>
+		<script src="<?= base_url('assets/vendors/jquery-3.5.1.min.js') ?>"></script>
+        <meta name='keywords' content='<?= $header['keywords'] ?>'>
+        <meta name='description' content='<?= $header['subtitle'] ?>'>
+    </head>
+    <body>
+        <main>
+            <div class='container'>
+                <div class='row justify-content-center'>
+                    <div class='col-xl-10 col-12'>
+                        <img src='<?= base_url("assets/blog/Logo.webp") ?>' id='logoImage' alt='Xunny Blog Logo'>
+						<article><?= $this->renderSection('content') ?></article>
+                    </div>
+                </div>
+                <div class='row justify-content-center' id='blogWrapper'></div>
+            </div>
+        </main>
+    </body>
 </html>

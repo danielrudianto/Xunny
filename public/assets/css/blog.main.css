@@ -35,3 +35,9 @@
     background-size:120% 120%;
     transition:0.3s all ease;
 }
+
+p{
+    font-size:21px;
+    line-height:2;
+    margin-top:1rem;
+}

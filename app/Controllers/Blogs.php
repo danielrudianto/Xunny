@@ -10,7 +10,16 @@ use App\Models\BlogModel;
             if($name == NULL){
                 echo view("blogs");
             } else {
-                echo view('blog');
+                $formattedName = str_replace(["-"], " ", $name);
+                $blogModel = new BlogModel();
+                $blogHeader       = $blogModel->where(['title' => $formattedName])->first();
+                if($blogHeader == NULL){
+                    echo view("blogs/notFound");
+                } else {
+                    $data['header']   = $blogHeader;
+                    echo view("blogs/" . $blogHeader['id'], $data);
+                }
+                
             }
         }
 
