@@ -13,10 +13,17 @@ use App\Models\BlogModel;
                 $formattedName = str_replace(["-"], " ", $name);
                 $blogModel = new BlogModel();
                 $blogHeader       = $blogModel->where(['title' => $formattedName])->first();
+                $data['header'] = array(
+                    "title" => "Not found"
+                );
+                
                 if($blogHeader == NULL){
-                    echo view("blogs/notFound");
+                    echo view("blogs/notFound", $data);
+                    $data['featured']   = array();
                 } else {
                     $data['header']   = $blogHeader;
+                    $data['featured']   = $blogModel->orderBy('RAND()')->whereNotIn('id', array($blogHeader['id']))->paginate(2);
+
                     echo view("blogs/" . $blogHeader['id'], $data);
                 }
                 
@@ -27,7 +34,7 @@ use App\Models\BlogModel;
             $blogModel = new BlogModel();
             $data = array();
             $blogsCount = $blogModel->countAllResults();
-            $blogs      = $blogModel->orderBy('created_date', "ASC")->findAll();
+            $blogs      = $blogModel->orderBy('created_date', "ASC")->paginate(10);
             
             $data['blogs']  = $blogs;
             $data['count']  = $blogsCount;

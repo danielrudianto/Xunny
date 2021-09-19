@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 15, 2021 at 03:19 AM
+-- Generation Time: Sep 19, 2021 at 11:00 PM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 7.4.20
 
@@ -29,21 +29,23 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `blog` (
   `id` int(255) NOT NULL,
-  `title` varchar(50) NOT NULL,
-  `subtitle` varchar(100) NOT NULL,
+  `title` varchar(100) NOT NULL,
+  `subtitle` varchar(300) NOT NULL,
   `words` int(255) NOT NULL,
   `created_by` varchar(50) NOT NULL,
-  `created_date` date DEFAULT NULL
+  `created_date` date DEFAULT NULL,
+  `keywords` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `blog`
 --
 
-INSERT INTO `blog` (`id`, `title`, `subtitle`, `words`, `created_by`, `created_date`) VALUES
-(1, 'Desain Web Responsif', 'Apa itu desain responsif? Apa pengaruhnya terhadap website anda?', 572, 'Daniel Tri', '2021-09-12'),
-(2, 'Hal Krusial Semua Programmer Perlu Ketahui', 'Mengapa kebiasaan yang tepat menjadi hal yang krusial untuk menjadi programmer yang baik?', 500, 'Daniel Tri', '2021-09-14'),
-(3, 'Kesalahan Programmer Berujung Pada Masalah Keamana', 'Simak Beberapa kesalahan para programmer dan solusinya untuk mencegah keamanan data anda', 500, 'Daniel Tri', '2021-09-15');
+INSERT INTO `blog` (`id`, `title`, `subtitle`, `words`, `created_by`, `created_date`, `keywords`) VALUES
+(1, 'Desain Web Responsif', 'Desain responsif merupakan suatu konsep yang dibangun dimana sebuah website / web application dapat terlihat proposional untuk beragam perangkat yang saat ini ada. Kita akan membagikan bagimana konsep ini akan berpengaruh pada pembuatan ataupun website anda sendiri.', 572, 'Daniel Tri', '2021-09-12', 'Responsive Web Design, Responsive, Responsif, Desain web, Web Developer Indonesia, Web Developer, Jasa Pembuatan Aplikasi'),
+(2, 'Hal Krusial Semua Programmer Perlu Ketahui', 'Kebiasaan yang baik merupakan salah satu komponen penting untuk menjadi seorang programmer yang baik. Hal ini dikarenakan programmer dituntut untuk selalu update dengan teknologi yang ada. Lalu apa saja kebiasaan yang tepat menjadi hal yang krusial untuk menjadi seorang programmer handal?', 1173, 'Daniel Tri', '2021-09-14', 'Programmer, Programming, Hal Krusial Semua Programmer Perlu Ketahui, Web Developer Indonesia, Web Developer, Jasa Pembuatan Aplikasi'),
+(3, 'Kesalahan Programmer Berujung Pada Masalah Keamanan Data', 'Tidak dapat dipungkiri bahwa keamanan data merupakan salah satu hal yang krusial dalam pembuatan aplikasi. Namun ada beberapa kesalahan yang dapat menyebabkan isu keamanan data yang mungkin kita lalaikan.', 664, 'Daniel Tri', '2021-09-15', 'Kesalahan Programmer, Programmer Pemula, Keamanan Data, Cybersecurity, Web Developer Indonesia, Web Developer, Jasa Pembuatan Aplikasi'),
+(4, '5 Framework CSS Terbaik Untuk Pengembangan Website', 'CSS merupakan bahasa yang digunakan untuk membantu mengatur tampilan dari website anda. Saat ini tersedia sejumlah library yang digunakan untuk membantu para developer untuk memastikan website anda tampil dengan baik, simak beberapa library CSS yang kami pilih.', 506, 'Daniel Tri', '2021-09-18', 'CSS, Bootstrap, Foundation, Materialize, Pure, Bulma, Web Developer Indonesia, Web Developer, Jasa Pembuatan Aplikasi');
 
 --
 -- Indexes for dumped tables
@@ -63,7 +65,7 @@ ALTER TABLE `blog`
 -- AUTO_INCREMENT for table `blog`
 --
 ALTER TABLE `blog`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

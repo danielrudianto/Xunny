@@ -1,10 +1,12 @@
 <?= $this->extend('/blog') ?>
 
 <?= $this->section('content') ?>
+<h1 class='text-center'><?= $header['title'] ?></h1>
     <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' class='w-100' />
-    <h1 class='text-center'><?= $header['title'] ?></h1>
-    <h2 class='text-center h3'><?= $header['subtitle'] ?></h2>
-    <p class='text-center'><?= date_format(date_create($blog["created_date"]), "d M Y") ?></p>
+    <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
+    <p class='text-center h5'><?= date_format(date_create($blog["created_date"]), "d M Y") ?></p>
+    <hr>
+    <br>
     <p>Pernahkah anda terbesit pertanyaan, mengapa banyak perusahaan atau industri di luar sana yang menggunakan website? Website digunakan sebagai wadah informasi dari sebuah perusahaan atau industri yang dapat diakses oleh orang luar. Website umumnya digunakan oleh calon pelanggan atau pelanggan untuk mencari informasi mengenai sebuah perusahaan. Dengan memiliki sebuah website, perusahaan dapat terlihat lebih professional dan berkredibilitas.</p>
     <p>Namun seiring perkembangan teknologi, perangkat perangkat lain seperti <i>Handphone</i>, tablet, bahkan televisi saat ini dapat mengakses website website tersebut, website yang semula tampak bagus, menjadi tidak enak dipandang karena semisal gambar menjadi tidak proposional dengan ukuran perangkat yang digunakan.</p>
     <p><i>Responsive website</i> / <i>web app</i> merupakan suatu konsep bagi para developer, khususnya front-end developer untuk melakukan desain yang dapat menyesuaikan dengan ukuran layar perangkat yang digunakan oleh pengguna.  Konsep ini pertama kali diciptakan oleh desainer dan pengembang web, Ethan Marcotte dalam bukunya Responsive Web Design. Desain responsif dapat kita analogikan seperti cairan / air. Cairan atau air bersifat fleksibel dan mengikuti bentuk dari wadah saat mereka diletakkan.  Mengapa hal ini diperlukan dan relatif penting bagi seorang web developer untuk menerapkan ini? Hal ini berkaitan dengan SEO ( <i>Search Engine Optimizer</i> ), website dengan tingkat responsifitas lebih tinggi, dapat meningkatkan peringkat SEO. </p>

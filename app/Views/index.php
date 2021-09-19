@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="assets/css/vlt-plugins.min.css">
 	<link rel="stylesheet" href="assets/css/vlt-main.min.css">
 	<link rel="stylesheet" href="assets/css/custom.css">
+	<script>var idArray = [];</script>
 </head>
 
 <body class=" animsition">
@@ -61,6 +62,7 @@
 				<li data-menuanchor="Services"><a href="#Services">Services</a></li>
 				<li data-menuanchor="Testimonials"><a href="#Testimonials">Testimonials</a></li>
 				<li data-menuanchor="Portfolio"><a href="#Portfolio">Portfolio</a></li>
+				<li data-menuanchor="Blogs"><a href="#Blogs">Portfolio</a></li>
 			</ul>
 		</nav>
 		<div class="vlt-offcanvas-menu__footer">
@@ -608,9 +610,11 @@
 									<div class="row">
 										<?php foreach($blogs as $blog){ ?>
 											<div class="col-md-4 d-flex align-items-stretch">
-												<div class="vlt-animated-block card p-3" style="animation-delay:100ms; animation-duration:700ms;">
+												<div class="vlt-animated-block card p-3"
+													style="animation-delay:100ms; animation-duration:700ms;"
+													id='blog-<?= $blog['id'] ?>'>
 													<article class="vlt-post">
-														<div class="vlt-post-thumbnail"><img src="assets/blog/<?= $blog['id'] ?>.webp" alt="Construction Management Application"><a class="vlt-post-thumbnail__link" href="#"></a>
+														<div class="vlt-post-thumbnail"><img src="assets/blog/<?= $blog['id'] ?>.webp" alt="<?= $blog['title'] ?> blog thumbnail"><a class="vlt-post-thumbnail__link" href="#"></a>
 														</div>
 														<div class="vlt-post-content">
 															<header class="vlt-post-header">
@@ -624,6 +628,12 @@
 												</div>
 												<div class="vlt-gap-40--sm"></div>
 											</div>
+											<script>
+												idArray.push({
+													id: <?= $blog['id'] ?>,
+													title: "<?= $blog['title'] ?>"
+												});
+											</script>
 										<?php } ?>
 										<div class='col-12 mt-3'>
 											<a href='<?= base_url("Blogs") ?>'>View more</a>
@@ -663,6 +673,15 @@
 	<script src="assets/scripts/vlt-plugins.min.js"></script>
 	<script src="assets/scripts/vlt-helpers.js"></script>
 	<script src="assets/scripts/vlt-controllers.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			idArray.forEach(blog => {
+				$('#blog-' + blog.id).click(function(){
+					window.location.href = "<?= site_url('Blogs') ?>/" + blog.title.toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'');
+				})
+			})
+		})
+	</script>
 </body>
 
 </html>

@@ -13,7 +13,7 @@
             <div class='container'>
                 <div class='row'>
                     <div class='col-12'>
-                        <img src='<?= base_url("assets/blog/Logo.webp") ?>' id='logoImage' alt='Xunny Blog Logo'>
+                    <a style='text-decoration:none' href='<?= base_url('/') ?>'><img src='<?= base_url("assets/blog/Logo.webp") ?>' id='logoImage' alt='Xunny Blog Logo'></a>
                         <h1 class='text-center d-none'>Blogs</h1>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
 
                             var dateString = date.getDate() + " " + month[date.getMonth()] + " " + date.getFullYear();
                             var minutes     = Math.ceil(blog.words/130);
-                            $('#blogWrapper').append(`<div class='col-xl-3 col-lg-4 col-md-6 col-sm-10 col-12 d-flex align-items-stretch mb-3' id='blog-${blog.id}'><div class='card w-100'><img class="card-img-top" src="assets/blog/${blog.id}.webp" alt="${blog.title}"><div class='card-body'><h5 class='card-title'>${blog.title}</h5><h6 class='card-text'>${blog.subtitle}</h6><p class='card-date'>${dateString} | ${minutes} min read</p></div></div></div>`);
+                            $('#blogWrapper').append(`<div class='col-xl-3 col-lg-4 col-md-6 col-sm-10 col-12 d-flex align-items-stretch mb-3' id='blog-${blog.id}'><div class='card w-100'><img class="card-img-top" src="<?= base_url() ?>/assets/blog/${blog.id}.webp" alt="${blog.title}"><div class='card-body'><h5 class='card-title'>${blog.title}</h5><h6 class='card-text'>${blog.subtitle}</h6><p class='card-date'>${dateString} | ${minutes} min read</p></div></div></div>`);
 
                             $(`#blog-${blog.id}`).click(function(){
                                 window.location.href='<?= base_url('Blogs') ?>/' + blog.title.toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'');

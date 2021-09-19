@@ -9,7 +9,10 @@ class Home extends BaseController
     {
         $blogModel = new BlogModel();
         $data = array();
-        $blogs      = $blogModel->orderBy('created_date', "DESC")->limit(3)->findAll();
+        $blogs = $blogModel
+                    ->orderBy('created_date', 'DESC')
+                    ->paginate(3);
+
         $data['blogs'] = $blogs;
         return view('index', $data);
     }
