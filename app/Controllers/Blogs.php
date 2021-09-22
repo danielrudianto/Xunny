@@ -11,6 +11,7 @@ use App\Models\BlogModel;
                 echo view("blogs");
             } else {
                 $formattedName = str_replace(["-"], " ", $name);
+
                 $blogModel = new BlogModel();
                 $blogHeader       = $blogModel->where(['title' => $formattedName])->first();
                 $data['header'] = array(
@@ -18,8 +19,7 @@ use App\Models\BlogModel;
                 );
                 
                 if($blogHeader == NULL){
-                    echo view("blogs/notFound", $data);
-                    $data['featured']   = array();
+                    throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
                 } else {
                     $data['header']   = $blogHeader;
                     $data['featured']   = $blogModel->orderBy('RAND()')->whereNotIn('id', array($blogHeader['id']))->paginate(2);

@@ -1,8 +1,8 @@
 <?= $this->extend('/blog') ?>
 
 <?= $this->section('content') ?>
-<h1 class='text-center'><?= $header['title'] ?></h1>
-    <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' class='w-100' />
+    <h1 class='text-center'><?= $header['title'] ?></h1>
+    <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' alt='<?= $header['title'] ?>' class='w-100' />
     <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
     <p class='text-center h5'><?= date_format(date_create($blog["created_date"]), "d M Y") ?></p>
     <hr>

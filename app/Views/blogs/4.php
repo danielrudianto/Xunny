@@ -2,15 +2,18 @@
 
 <?= $this->section('content') ?>
     <h1 class='text-center'><?= $header['title'] ?></h1>
-    <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' class='w-100' />
+    <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' alt='<?= $header['title'] ?>' class='w-100' />
     <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
     <p class='text-center h5'><?= date_format(date_create($blog["created_date"]), "d M Y") ?></p>
     <hr>
     <br>
-    <h2 class='h3'>1. Bootstrap</h2>
-    <img src='<?= base_url('assets/blogContent/BootstrapLogo.png') ?>' class='w-100' alt='Bootstrap banner' />
+    <h2 class='h3 mt-5'>1. Bootstrap</h2>
+    <figure>
+        <img src='<?= base_url('assets/blogContent/BootstrapLogo.png') ?>' class='w-100' alt='Bootstrap banner' />
+        <figcaption>Bootstrap banner</figcaption>
+    </figure>
     <p><strong>Bootstrap</strong> merupakan framework CSS yang paling populer hingga hari ini dengan alasan yang baik. Bagi para <i>front-end developer</i>, Bootstrap merupakan pilihan pertama dalam framework CSS, menimbang beberapa keunggulan dibandingkan beberapa framework lain.</p>
-    <h3 class='h4'>Keunggulan:</h3>
+    <h3 class='h5 mt-5'>Keunggulan:</h3>
     <ul style='padding-inline-start:20px'>
         <li>
             <p>
@@ -28,7 +31,7 @@
             </p>
         </li>
     </ul>
-    <h3 class='h4'>Kekurangan:</h3>
+    <h3 class='h5 mt-5'>Kekurangan:</h3>
     <ul style='padding-inline-start:20px'>
         <li>
             <p>
@@ -37,11 +40,14 @@
         </li>
     </ul>
 
-    <h2 class='h3'>2. Foundation</h2>
-    <img src='<?= base_url('assets/blogContent/FoundationLogo.png') ?>' class='w-100' alt='Foundation banner' />
+    <h2 class='h3 mt-5'>2. Foundation</h2>
+    <figure>
+        <img src='<?= base_url('assets/blogContent/FoundationLogo.png') ?>' class='w-100' alt='Foundation banner' />
+        <figcaption>Foundation banner</figcaption>
+    </figure>
     <p>Framework ini sangat elegan, lebih rumit dan canggih dibandingkan dengan hampir seluruh framework tersedia lainnya. Desain yang canggih tersebut kompatibel dengan beragam browser dan perangkat. Dan menunya sangat responsif.</p>
 
-    <h3 class='h4'>Keunggulan:</h3>
+    <h3 class='h5 mt-5'>Keunggulan:</h3>
     <ul style='padding-inline-start:20px'>
         <li>
             <p>
@@ -54,7 +60,7 @@
             </p>
         </li>
     </ul>
-    <h3 class='h4'>Kekurangan:</h3>
+    <h3 class='h5 mt-5'>Kekurangan:</h3>
     <ul style='padding-inline-start:20px'>
         <li>
             <p>
@@ -69,10 +75,13 @@
     </ul>
 
     <h2 class='h3'>3. Materialize</h2>
-    <img src='<?= base_url('assets/blogContent/MaterializeLogo.png') ?>' class='w-100' alt='Materialize banner' />
+    <figure>
+        <img src='<?= base_url('assets/blogContent/MaterializeLogo.png') ?>' class='w-100' alt='Materialize banner' />
+        <figcaption>Materialize banner</figcaption>
+    </figure>
     <p>Materialize merupakan salah satu produk dari Google, dilahirkan dari fitur - fitur terbaik Java, HTML, dan CSS, ditempa dengan menggunakan desain yang estetik menjadikan salah satu framework CSS terbaik yang ada.</p>
 
-    <h3 class='h4'>Keunggulan:</h3>
+    <h3 class='h5 mt-5'>Keunggulan:</h3>
     <ul style='padding-inline-start:20px'>
         <li>
             <p>
@@ -90,7 +99,7 @@
             </p>
         </li>
     </ul>
-    <h3 class='h4'>Kekurangan:</h3>
+    <h3 class='h5 mt-5'>Kekurangan:</h3>
     <ul style='padding-inline-start:20px'>
         <li>
             <p>
@@ -104,11 +113,14 @@
         </li>
     </ul>
 
-    <h2 class='h3'>4. Semantic UI</h2>
-    <img src='<?= base_url('assets/blogContent/SemanticUI.png') ?>' class='w-100' alt='Semantic UI banner' />
+    <h2 class='h3 mt-5'>4. Semantic UI</h2>
+    <figure>
+        <img src='<?= base_url('assets/blogContent/SemanticUI.png') ?>' class='w-100' alt='Semantic UI banner' />
+        <figcaption>Semantic UI banner</figcaption>
+    </figure>
     <p>Dengan gaya yang lebih kontemporer, Semantic UI menawarkan framework yang paling ringan bagi para pengguna. Dikembangkan oleh seorang <em>bintang</em> di bidang web development, Jack Lukic, Semantic UI menjadi salah satu framework CSS terbaik tahunan.</p>
 
-    <h3 class='h4'>Keunggulan:</h3>
+    <h3 class='h5 mt-5'>Keunggulan:</h3>
     <ul style='padding-inline-start:20px'>
         <li>
             <p>
@@ -121,7 +133,7 @@
             </p>
         </li>
     </ul>
-    <h3 class='h4'>Kekurangan:</h3>
+    <h3 class='h5 mt-5'>Kekurangan:</h3>
     <ul style='padding-inline-start:20px'>
         <li>
             <p>
@@ -135,11 +147,14 @@
         </li>
     </ul>
 
-    <h2 class='h3'>5. Bulma</h2>
-    <img src='<?= base_url('assets/blogContent/BulmaLogo.png') ?>' class='w-100' alt='Bulma banner' />
+    <h2 class='h3 mt-5'>5. Bulma</h2>
+    <figure>
+        <img src='<?= base_url('assets/blogContent/BulmaLogo.png') ?>' class='w-100' alt='Bulma banner' />
+        <figcaption>Bulma banner</figcaption>
+    </figure>
     <p>Satu hal yang membuat orang - orang menyukai Bulma, adalah framework ini open-source, sehingga tersedia bagi semua orang. Itu pun berarti framework ini sangat populer, mendorong lebih dari 200.000 developer di seluruh dunia untuk menggunakannya. Bulma pun memiliki interface yang bagik untuk komponen visual.</p>
 
-    <h3 class='h4'>Keunggulan:</h3>
+    <h3 class='h5 mt-5'>Keunggulan:</h3>
     <ul style='padding-inline-start:20px'>
         <li>
             <p>
@@ -152,7 +167,7 @@
             </p>
         </li>
     </ul>
-    <h3 class='h4'>Kekurangan:</h3>
+    <h3 class='h5 mt-5'>Kekurangan:</h3>
     <ul style='padding-inline-start:20px'>
         <li>
             <p>
@@ -165,6 +180,7 @@
             </p>
         </li>
     </ul>
+    <p>Itulah kelima framework CSS yang populer saat ini, anda dapat memilih salah satu dari kelima framework tersebut, atau bahkan tanpa menggunakan framework sama sekali. Framework hanya kita gunakan untuk mempermudah pekerjaan kita, namun tidak berarti kita harus bergantung pada salah satu framework yang ada.</p>
 
 
 <?= $this->endSection() ?>
