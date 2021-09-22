@@ -23,7 +23,6 @@ use App\Models\BlogModel;
                 } else {
                     $data['header']   = $blogHeader;
                     $data['featured']   = $blogModel->orderBy('RAND()')->whereNotIn('id', array($blogHeader['id']))->paginate(2);
-
                     echo view("blogs/" . $blogHeader['id'], $data);
                 }
                 
