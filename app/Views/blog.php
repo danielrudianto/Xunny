@@ -9,13 +9,15 @@
 	    <link rel="stylesheet" href="<?= base_url('assets/css/framework/bootstrap.min.css') ?>">
         <link rel='stylesheet' href='<?= base_url('assets/css/blog.main.css') ?>'>
 		<script src="<?= base_url('assets/vendors/jquery-3.5.1.min.js') ?>"></script>
+        <script src="<?= base_url('assets/vendors/popper.js') ?>"></script>
+        <script src="<?= base_url('assets/vendors/bootstrap.min.js') ?>"></script>
         <meta name='keywords' content='<?= $header['keywords'] ?>'>
         <meta name='description' content='<?= $header['subtitle'] ?>'>
         <script>
             var idArray = [];
         </script>
         <style>
-            section{
+            #callToActionSection{
                 background-color:#FFB423;
                 border-radius:20px;
                 padding:1rem;
@@ -65,7 +67,7 @@
                     transform:translateX(-50%);
                     margin-top:2rem;
                 }
-            }
+            } 
         </style>
     </head>
     <body>
@@ -79,13 +81,18 @@
                     <div class='col-xl-8 col-lg-10 col-12'>
                         <br>
                         <?php if(count($featured) > 0){ ?>
-                        <section>
+                        <section id='callToActionSection'>
                             <img 
                                 id='callToActionImage'
                                 src='<?= base_url('assets/img/CallToAction.png') ?>' alt='Call to action logo'>
                             <h3 id='callToActionText'>Siap untuk mewujudkan ide anda menjadi aplikasi?</h3>
-                            <button id='callToActionButton'>Kontak Kami!</button>
+                            <button 
+                                type='button'
+                                data-toggle="modal" 
+                                data-target="#callToActionModal"
+                                id='callToActionButton'>Dapatkan Penawaran</button>
                         </section>
+                        <section class='d-block mt-5'>
                         <h3>Artikel lain yang mungkin anda suka.</h3>
                         <div class='row'>
                             <?php foreach($featured as $feature){ ?>
@@ -107,12 +114,39 @@
                                 </script>
                             <?php } ?>
                         </div>
+                        </section>
                         <?php } ?>
                     </div>
                 </div>
                 <div class='row justify-content-center' id='blogWrapper'></div>
             </div>
         </main>
+        <div class="modal fade" id="callToActionModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Formulir Kontak</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <form id='contactForm'>
+                  <div class="modal-body">
+                    <label>Name</label>
+                    <input type='text' class='formControl' name='name'>
+
+                    <label>Email</label>
+                    <input type='email' class='formControl' name='email'>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  </div>
+                </form>
+
+            </div>
+          </div>
+        </div>
         <script>
             $(document).ready(function(){
                 idArray.forEach(blog => {
