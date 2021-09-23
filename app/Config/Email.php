@@ -47,28 +47,28 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $SMTPHost = 'mail.xunny.id';
+    public $SMTPHost;
 
     /**
      * SMTP Username
      *
      * @var string
      */
-    public $SMTPUser = 'system@xunny.id';
+    public $SMTPUser;
 
     /**
      * SMTP Password
      *
      * @var string
      */
-    public $SMTPPass = 'wz7dl5f&3}y@';
+    public $SMTPPass;
 
     /**
      * SMTP Port
      *
      * @var int
      */
-    public $SMTPPort = 465;
+    public $SMTPPort;
 
     /**
      * SMTP Timeout (in seconds)
@@ -89,7 +89,7 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $SMTPCrypto = 'ssl';
+    public $SMTPCrypto = 'tls';
 
     /**
      * Enable word-wrap
