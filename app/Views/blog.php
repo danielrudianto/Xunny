@@ -177,10 +177,9 @@
                                 $('#contactForm').trigger("reset");
                                 closeModal();
 
-                                $('#snackbar').addClass('show');
-                                setTimeout(function(){
-                                    $('#snackBar').removeClass('show');
-                                }, 1500);
+                                var x = document.getElementById("snackbar");
+                                x.className = "show";
+                                setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
                             } else {
                                 
                             }
