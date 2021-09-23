@@ -16,4 +16,24 @@ class Home extends BaseController
         $data['blogs'] = $blogs;
         return view('index', $data);
     }
+
+    public function sendEmail(){
+        $name       = $_POST['name'];
+        $mail      = $_POST['email'];
+        $text       = $_POST['message'];
+
+        $email = \Config\Services::email();
+        $email->setFrom('system@xunny.id', 'Xunny System');
+        $email->setTo('hello@xunny.id');
+        $email->setReplyTo($mail);
+
+        $email->setSubject('New contact from ' . $name);
+        $email->setMessage($text);
+
+        if($email->send()){
+            echo 1;
+        } else {
+            echo 0;
+        }
+    }
 }

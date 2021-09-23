@@ -9,66 +9,11 @@
 	    <link rel="stylesheet" href="<?= base_url('assets/css/framework/bootstrap.min.css') ?>">
         <link rel='stylesheet' href='<?= base_url('assets/css/blog.main.css') ?>'>
 		<script src="<?= base_url('assets/vendors/jquery-3.5.1.min.js') ?>"></script>
-        <script src="<?= base_url('assets/vendors/popper.js') ?>"></script>
-        <script src="<?= base_url('assets/vendors/bootstrap.min.js') ?>"></script>
         <meta name='keywords' content='<?= $header['keywords'] ?>'>
         <meta name='description' content='<?= $header['subtitle'] ?>'>
         <script>
             var idArray = [];
         </script>
-        <style>
-            #callToActionSection{
-                background-color:#FFB423;
-                border-radius:20px;
-                padding:1rem;
-                color:white;
-
-            }
-
-            #callToActionImage{
-                width:50%;
-                float:left;
-            }
-            
-            #callToActionButton{
-                background-color:white;
-                border:none;
-                border-radius:10px;
-                padding:0.5rem 1.5rem;
-                font-size:1rem;
-                font-family:sans-serif;
-                font-weight:bold;
-                cursor:pointer;
-                outline:none;
-                position:relative;
-                display:block;
-                transform:none;
-                margin-left:0;
-                margin-right:0;
-                margin-top:1rem;
-            }
-
-            #callToActionText{
-                text-align:start;
-            }
-
-            @media screen and (max-width:576px){
-                #callToActionImage{
-                    width:100%;
-                    float:none;
-                }
-
-                #callToActionText{
-                    text-align:center;
-                }
-
-                #callToActionButton{
-                    margin-left:50%;
-                    transform:translateX(-50%);
-                    margin-top:2rem;
-                }
-            } 
-        </style>
     </head>
     <body>
         <main>
@@ -88,8 +33,7 @@
                             <h3 id='callToActionText'>Siap untuk mewujudkan ide anda menjadi aplikasi?</h3>
                             <button 
                                 type='button'
-                                data-toggle="modal" 
-                                data-target="#callToActionModal"
+                                onclick='openModal()'
                                 id='callToActionButton'>Dapatkan Penawaran</button>
                         </section>
                         <section class='d-block mt-5'>
@@ -121,32 +65,56 @@
                 <div class='row justify-content-center' id='blogWrapper'></div>
             </div>
         </main>
-        <div class="modal fade" id="callToActionModal">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
+        <aside 
+        onclick='closeModal()'
+        class="modal" 
+        id="callToActionModal">
+          <div 
+          class="modalDialog"
+          onclick='event.stopPropagation();'>
+            <div class="modal-content" onclick='event.stopPropagation();'>
+              <div class="modal-header" onclick='event.stopPropagation();'>
                 <h4 class="modal-title">Formulir Kontak</h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
               </div>
 
-              <form id='contactForm'>
+              <form
+              id='contactForm' 
+              onclick='event.stopPropagation();'>
                   <div class="modal-body">
-                    <label>Name</label>
-                    <input type='text' class='formControl' name='name'>
+                    <label>Nama</label>
+                    <input 
+                    type='text' 
+                    class='formControl'
+                    id='nameInput' 
+                    name='name'>
+                    <p class='errorText'>Input ini wajib diisi</p>
 
                     <label>Email</label>
-                    <input type='email' class='formControl' name='email'>
+                    <input 
+                    type='email' 
+                    class='formControl' 
+                    id='emailInput'
+                    name='email'>
+                    <p class='errorText'>Input harus merupakan email</p>
+
+                    <label>Pesan</label>
+                    <textarea 
+                    rows='5'
+                    class='formControl' 
+                    id='messageInput'
+                    style='resize:none'></textarea>
+                    <p class='errorText'>Input ini wajib diisi</p>
                   </div>
 
-                  <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button class='submitFormButton' type='submit'>Submit</button>
                   </div>
                 </form>
 
             </div>
           </div>
-        </div>
+        </aside>
+        <div id="snackbar">Terima kasih telah menghubungi kami. Kami akan segera kontak anda kembali.</div>
         <script>
             $(document).ready(function(){
                 idArray.forEach(blog => {
@@ -154,7 +122,85 @@
                         window.location.href = "<?= base_url('Blogs') ?>/" + blog.title.toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'');
                     })
                 })
+
+                $(".formControl").keyup(function(){
+                    let type = $(this).attr('type');
+                    if(type == "text" || type == undefined){
+                        if($(this).val() == ""){
+                            $(this).next('.errorText').show();
+                        } else {
+                            $(this).next('.errorText').hide();
+                        }
+                    } else {
+                        if(isEmail($(this).val())){
+                            $(this).next('.errorText').hide();
+                        } else {
+                            $(this).next('.errorText').show();
+                        }
+                    }
+                })
             })
+
+            function isEmail(email) {
+                var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                return regex.test(email);
+            }
+
+            function openModal(){
+                $('.modal').fadeIn(300);
+                $('.modalDialog').addClass("shown");
+                document.body.style.overflow = 'hidden';
+            }
+
+            $('#contactForm').submit(function(event){
+                event.preventDefault();
+
+                var name        = $("#nameInput").val();
+                var email       = $("#emailInput").val();
+                var message     = $("#messageInput").val();
+                
+                if(name != "" && isEmail(email) && message != ""){
+                    $.ajax({
+                        url:"<?= base_url('Home/sendEmail') ?>",
+                        data:{
+                            name: name,
+                            email: email,
+                            message: message
+                        },
+                        type:"POST",
+                        beforeSend:function(){
+                            $('.submitFormButton').attr('disabled', true);
+                        },
+                        success:function(response){
+                            $('.submitFormButton').attr('disabled', false);
+                            if(response == 1){
+                                $('#contactForm').trigger("reset");
+                                closeModal();
+
+                                $('#snackbar').addClass('show');
+                                setTimeout(function(){
+                                    $('#snackBar').removeClass('show');
+                                }, 1500);
+                            } else {
+                                
+                            }
+                        }
+                    })
+                }
+            });
+
+            function closeModal(){
+                $('.modalDialog').removeClass('shown');
+                $('.modalDialog').addClass('hidden');
+
+                setTimeout(function(){
+                    $('.modal').fadeOut(300);
+                }, 300);
+
+                setTimeout(function(){
+                    document.body.style.overflow = 'auto';
+                }, 600)
+            }
         </script>
     </body>
 </html>

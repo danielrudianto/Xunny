@@ -126,3 +126,11 @@ nb-configuration.xml
 /.phpunit.*.cache
 
 /.vs
+
+#-------------------------
+# Configuration Files
+#-------------------------
+
+app/Config/App.php
+app/Config/Database.php
+env

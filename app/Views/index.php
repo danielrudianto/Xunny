@@ -62,7 +62,8 @@
 				<li data-menuanchor="Services"><a href="#Services">Services</a></li>
 				<li data-menuanchor="Testimonials"><a href="#Testimonials">Testimonials</a></li>
 				<li data-menuanchor="Portfolio"><a href="#Portfolio">Portfolio</a></li>
-				<li data-menuanchor="Blogs"><a href="#Blogs">Portfolio</a></li>
+				<li data-menuanchor="Contact"><a href="#Contact">Contact</a></li>
+				<li data-menuanchor="Blogs"><a href="#Blogs">Blogs</a></li>
 			</ul>
 		</nav>
 		<div class="vlt-offcanvas-menu__footer">
@@ -591,6 +592,47 @@
 					</div>
 				</div>
 			</div>
+			<div class="vlt-section pp-scrollable" data-anchor="Contact" data-brightness="dark">
+				<div class="vlt-section__vertical-align">
+					<div class="vlt-section__content">
+						<div class="vlt-section__ken-burn-background"><img src="assets/img/attachment-04.webp" alt="Contact background"></div>
+						<div class="vlt-section__particles">
+							<div class="vlt-particle vlt-custom--1259 vlt-fade-in-right" style="background-image: url(assets/img/root/plus-light-pattern.webp); animation-delay: 750ms;"></div>
+							<div class="vlt-particle vlt-custom--2355 vlt-fade-in-left" style="background-image: url(assets/img/root/elipse-light.webp); animation-delay: 500ms;"></div>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-10 offset-lg-1">
+									<h1 class="d-block has-white-color">Kontak</h1>
+									<div class="vlt-gap-30--sm"></div>
+									<p class='h4 d-block text-white'>Ada yang ingin anda tanyakan? Jangan sungkan untuk kontak kami!</p>
+									<hr>
+									<form id='contactForm' method='POST'>
+										<label class='text-white'>Name</label>
+										<input name='name' type='text' required id='name'>
+
+										<label class='text-white'>Email</label>
+										<input name='email' type='email' required id='email'>
+
+										<label class='text-white'>Pesan</label>
+										<textarea  
+											style='resize:none'
+											name='message' 
+											rows='5'
+											type='text' 
+											required
+											id='message'></textarea>
+										<br>
+
+										<button id='submitButton' type='submit' class='vlt-btn'>Submit</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="snackbar">Terima kasih telah menghubungi kami. Kami akan segera kontak anda kembali.</div>
 			<div class="vlt-section pp-scrollable" data-anchor="Blogs" data-brightness="light">
 				<div class="vlt-section__vertical-align">
 					<div class="vlt-section__content">
@@ -655,6 +697,7 @@
 				<li data-menuanchor="Services"></li>
 				<li data-menuanchor="Testimonials"></li>
 				<li data-menuanchor="Portfolio"></li>
+				<li data-menuanchor="Contact"></li>
 				<li data-menuanchor="Blogs"></li>
 			</ul>
 			<!--Numbers-->
@@ -678,6 +721,34 @@
 			idArray.forEach(blog => {
 				$('#blog-' + blog.id).click(function(){
 					window.location.href = "<?= site_url('Blogs') ?>/" + blog.title.toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'');
+				})
+			})
+
+			$('#contactForm').submit(function(event){
+				event.preventDefault();
+				$.ajax({
+					url:"<?= base_url('Home/sendEmail') ?>",
+					data:{
+						name: $('#name').val(),
+						email: $('#email').val(),
+						message: $('#message').val()
+					},
+					type:"POST",
+					beforeSend:function(){
+						$('#submitButton').attr('disabled', true);
+					},
+					success:function(response){
+						$('#submitButton').attr('disabled', false);
+						if(response == 1){
+							$('#contactForm').trigger("reset");
+							$('#snackbar').addClass('show');
+							setTimeout(function(){
+								$('#snackBar').removeClass('show');
+							}, 1500);
+						} else {
+
+						}
+					}
 				})
 			})
 		})
