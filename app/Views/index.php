@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Xunny | Web Developer Indonesia</title>
+	<title>Xunny | IT Developer Indonesia</title>
 	<meta name="description" content="Kami adalah perusahaan programmer yang memiliki spesialisasi dalam web development.">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -673,10 +673,10 @@
 								</div>
 							</div>
 						</div>
+						<div id="snackbar">Terima kasih telah menghubungi kami. Kami akan segera kontak anda kembali.</div>
 					</div>
 				</div>
 			</div>
-			<div id="snackbar">Terima kasih telah menghubungi kami. Kami akan segera kontak anda kembali.</div>
 			<div class="vlt-section pp-scrollable" data-anchor="Blogs" data-brightness="light">
 				<div class="vlt-section__vertical-align">
 					<div class="vlt-section__content">
