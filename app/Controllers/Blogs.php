@@ -33,7 +33,7 @@ use App\Models\BlogModel;
             $blogModel = new BlogModel();
             $data = array();
             $blogsCount = $blogModel->countAllResults();
-            $blogs      = $blogModel->orderBy('created_date', "ASC")->paginate(10);
+            $blogs      = $blogModel->orderBy('created_date', "DESC")->paginate(10);
             
             $data['blogs']  = $blogs;
             $data['count']  = $blogsCount;
