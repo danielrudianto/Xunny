@@ -11,6 +11,8 @@
 		<script src="<?= base_url('assets/vendors/jquery-3.5.1.min.js') ?>"></script>
         <meta name='keywords' content='<?= $header['keywords'] ?>'>
         <meta name='description' content='<?= $header['subtitle'] ?>'>
+        <meta name='robots' content='follow, index'>
+        <meta name="author" content="Xunny.id">
         <script>
             var idArray = [];
         </script>

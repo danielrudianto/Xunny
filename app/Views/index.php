@@ -4,7 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Xunny | IT Developer Indonesia</title>
-	<meta name="description" content="Kami adalah perusahaan programmer yang memiliki spesialisasi dalam web development.">
+	<meta name="description" content="Kami adalah perusahaan programmer yang memiliki spesialisasi dalam mobile, melingkupi android dan iOS, dan web development. Dengan satu visi, untuk membantu mengembangkan UMKM di Indonesia, kami akan senantiasa memberikan anda produk custom dengan kualitas terbaik.">
+	<meta name='robots' content='follow, index'>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="icon" type="image/png" href="assets/img/root/favicon.png">
@@ -13,6 +14,7 @@
 	<link rel="stylesheet" href="assets/css/vlt-plugins.min.css">
 	<link rel="stylesheet" href="assets/css/vlt-main.min.css">
 	<link rel="stylesheet" href="assets/css/custom.css">
+	<meta name="author" content="Xunny.id">
 	<script>var idArray = [];</script>
 	<style>
 		#snackbar {
