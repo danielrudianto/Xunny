@@ -10,6 +10,7 @@
         <link rel='stylesheet' href='<?= base_url('assets/css/blog.main.css') ?>'>
         <meta name='keywords' content='Xunny Blog, Web Developer Blog, Blog, Programming Blog, App Developer Blog'>
         <meta name='description' content='Selamat datang di blog kami. Kami membuat blog edukatif mengenai pengembangan web dan aplikasi.'
+		<meta name="author" content="xunny.id">
     </head>
     <body>
         <main>

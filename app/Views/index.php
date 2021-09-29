@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="assets/css/vlt-plugins.min.css">
 	<link rel="stylesheet" href="assets/css/vlt-main.min.css">
 	<link rel="stylesheet" href="assets/css/custom.css">
+	<meta name="author" content="xunny.id">
 	<script>var idArray = [];</script>
 	<style>
 		#snackbar {
