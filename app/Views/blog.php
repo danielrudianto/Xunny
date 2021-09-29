@@ -13,6 +13,8 @@
         <meta name='keywords' content='<?= $header['keywords'] ?>'>
 		<meta name="author" content="xunny.id">
         <meta name='description' content='<?= $header['subtitle'] ?>'>
+        <meta name='robots' content='follow, index'>
+        <meta name="author" content="Xunny.id">
         <script>
             var idArray = [];
         </script>

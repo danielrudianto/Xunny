@@ -5,12 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title>Xunny | Blogs</title>
+        <meta name='robots' content='follow, index'>
         <link rel="icon" type="image/png" href="<?= base_url('assets/img/root/favicon.png') ?>">
 	    <link rel="stylesheet" href="<?= base_url('assets/css/framework/bootstrap.min.css') ?>">
         <link rel='stylesheet' href='<?= base_url('assets/css/blog.main.css') ?>'>
         <meta name='keywords' content='Xunny Blog, Web Developer Blog, Blog, Programming Blog, App Developer Blog'>
-        <meta name='description' content='Selamat datang di blog kami. Kami membuat blog edukatif mengenai pengembangan web dan aplikasi.'
-		<meta name="author" content="xunny.id">
+        <meta name='description' content='Selamat datang di blog kami, Xunny Blog. Kami membuat blog edukatif mengenai pengembangan web dan aplikasi.'>
+        <meta name="author" content="Xunny.id">
     </head>
     <body>
         <main>
