@@ -29,6 +29,6 @@
         </li>
     </ol>
     
-    <p>Setiap komponen pasti memiliki kelebihan dan kekurangannya masing - masing dalam membangun aplikasi dan menarik perhatian pengguna masing - masing. Hal yang perlu diperhatikan adalah gunakan komponen yang cocok atau sesuai dengan tujuan pengguna anda dan bisa menguntungkan developer serta perusahaan. Sekian pembahasan kita tentang </p>
+    <p>Setiap komponen pasti memiliki kelebihan dan kekurangannya masing - masing dalam membangun aplikasi dan menarik perhatian pengguna masing - masing. Hal yang perlu diperhatikan adalah gunakan komponen yang cocok atau sesuai dengan tujuan pengguna anda dan bisa menguntungkan developer serta perusahaan. Sekian pembahasan kita tentang <i>branding</i> dengan internet, semoga artikel ini dapat membantu anda.</p>
 
 <?= $this->endSection() ?>
