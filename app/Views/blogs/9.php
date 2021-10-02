@@ -14,6 +14,10 @@
     <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2674_RC03/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"php","geo":"","time":"2020-10-01 2021-10-01"},{"keyword":"javascript","geo":"","time":"2020-10-01 2021-10-01"}],"category":0,"property":""}, {"exploreQuery":"q=php,javascript&date=today 12-m,today 12-m","guestPath":"https://trends.google.co.id:443/trends/embed/"}); </script>
 
     <h2 class='mt-5'>1. Laravel</h2>
+    <figure>
+        <img src="<?= base_url('assets/blogContent/Laravel.png') ?>" class='w-100' alt='Laravel Banner'>
+        <figcaption>Laravel logo</figcaption>
+    </figure>
     <p>Laravel adalah salah satu framework PHP paling populer untuk development web dengan lebih dari 64 ribu bintang di GitHub. Walaupun berada pada urutan ke 7 pada daftar framework PHP performa tertinggi, Laravel tetap menjadi nomor 1 dalam daftar kami, karena komunitasnya yang sangat besar, fitur yang lengkap, dan kemudahan untuk digunakan.</p>
     <p><strong>Alasan penggunaan Laravel</strong></p>
     <ul>
@@ -38,6 +42,10 @@
     </ul>
 
     <h2 class='mt-5'>2. Codeigniter</h2>
+    <figure>
+        <img src="<?= base_url('assets/blogContent/Codeigniter.png') ?>" class='w-100' alt='Codeigniter Banner'>
+        <figcaption>Codeigniter logo</figcaption>
+    </figure>
     <p>Codeigniter adalah sebuah framework aplikasi web dengan ukuran yang sangat kecil. CodeIgniter 4, versi terakhir dari CodeIgniter, sekarang hanya berukuran 1.2MB. Seperti Laravel, framework ini open source dan memiliki lebih dari 18 ribu bintang pada GitHub. Seperti layaknya framework lain, CodeIgniter menyediakan library dan interface yang intuitif untuk meningkatkan web development PHP. Saat ini CodeIgniter tidak terdapat pada daftar <a href='https://phpbenchmarks.com' rel='nofollow'>PHP Benchmarks</a>, namun dikonsidersasi sebagai salah satu framework PHP terbaik.</p>
     
     <p><strong>Apa saja fitur dari CodeIgniter?</strong></p>
@@ -72,9 +80,11 @@
     </ul>
 
     <h2 class='mt-5'>3. Yii</h2>
-    <p>
-        Framework Yii memiliki lebih dari 11 juta pengunduhan dari Packagist dan lebih dari 13.6 ribu bintang pada GitHub. Yii, diiklankan dengan "Yes it is!", adalah framework PHP yang cepat, aman, dan fleksibel, terutama untuk membuat website dengan arsitektur MVC. Yii memiliki peringkat 4 pada daftar PHP Benchmarks. Yii merupakan framework PHP yang secara ketat menerapkan OOP, dan membutuhkan pengetahuan dari <i>inheritance</i>, <i>polymorphism</i>, dan lain lain.
-    </p>
+    <figure>
+        <img src="<?= base_url('assets/blogContent/Yii.png') ?>" class='w-100' alt='Yii Banner'>
+        <figcaption>Yii logo</figcaption>
+    </figure>
+    <p>Framework Yii memiliki lebih dari 11 juta pengunduhan dari Packagist dan lebih dari 13.6 ribu bintang pada GitHub. Yii, diiklankan dengan "Yes it is!", adalah framework PHP yang cepat, aman, dan fleksibel, terutama untuk membuat website dengan arsitektur MVC. Yii memiliki peringkat 4 pada daftar PHP Benchmarks. Yii merupakan framework PHP yang secara ketat menerapkan OOP, dan membutuhkan pengetahuan dari <i>inheritance</i>, <i>polymorphism</i>, dan lain lain.</p>
     <p><strong>Apa saja fitur dari Yii?</strong></p>
     <ul>
         <li>
@@ -102,6 +112,10 @@
     </ul>
 
     <h2 class='mt-5'>4. CakePHP</h2>
+    <figure>
+        <img src="<?= base_url('assets/blogContent/CakePHP.png') ?>" class='w-100' alt='CakePHP Banner'>
+        <figcaption>CakePHP logo</figcaption>
+    </figure>
     <p>CakePHP adalah sebuah framework PHP yang bersifat open-source. CakePHP memiliki peringkat 6 pada PHP Benchmarks, di atas framework Laravel. Versi 4.0 yang baru saja dirilis dengan desain rangka yang telah direnovasi menyediakan beragam API untuk memungkinkan para developer untuk mengembangkan aplikasi PHP dengan cepat. Di GitHub, 8.3 ribu bintang telah diperoleh dan telah dikolaborasikan oleh 555 kontributor. Anda dapat membangun aplikasi web dengan tingkat keamanan dan skalabilitas tinggi, termasuk jaringan sosial, ataupun e-commerce.</p>
     <p><strong>Apa saja fitur dari CakePHP?</strong></p>
     <ul>
@@ -123,6 +137,10 @@
     </ul>
 
     <h2 class='mt-5'>5. Slim</h2>
+    <figure>
+        <img src="<?= base_url('assets/blogContent/SlimPHP.png') ?>" class='w-100' alt='Slim Banner'>
+        <figcaption>Slim logo</figcaption>
+    </figure>
     <p>Tidak seperti framework lain yang disebutkan sebelumnya, Slim, seperti namanya, merupakan micro-framework PHP yang digunakan untuk web development. Apakah anda familiar dengan micro-framework? Seluruh framework yang disebutkan di atas merupakan framework full-stack. Slim, dengan lebih dari 10 ribu bintang pada GitHub, adalah framework aplikasi web yang minimalis dan pengembangan API. Secara sederhana, hal ini berarti anda hanya akan memperoleh resep dan tidak akan memperoleh fungsi yang siap untuk digunakan. Dalam framework full-satck, anda akan memperoleh komponen, interface, kelas untuk autorisasi, autentikasi, <i>routing</i> dan lain lain, namun pada micro-framework, anda akan memperoleh dukungan yang minimal untuk <i>HTTP request</i> dan <i>routing request</i> hingga <i>controller</i> yang sesuai. Lalu mengapa anda perlu bahkan untuk konsiderasi penggunakan micro-framework? Karena hal tersebut memberikan fleksibilitas dan ekstensibilitas tinggi.</p>
     <p><strong>Apa saja fitur dari Slim?</strong></p>
     <ul>
