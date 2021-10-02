@@ -144,7 +144,7 @@
 							<div class="row">
 								<div class="col-lg-7 offset-lg-1">
 									<div class="vlt-animated-block" style="animation-delay:0s; animation-duration:700ms;">
-										<h1 class="vlt-display-1 has-white-color">XUNNY.ID | WEB DEVELOPER</h1>
+										<h1 class="vlt-display-1 has-white-color">XUNNY.ID | IT DEVELOPER</h1>
 										<div class="vlt-gap-10"></div>
 										<h2 class="h2 vlt-large-heading text-white">Kami Merubah Ide Anda Menjadi Aplikasi</h2>
 										<div class="vlt-gap-40"></div>
