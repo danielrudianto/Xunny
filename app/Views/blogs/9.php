@@ -43,7 +43,7 @@
 
     <h2 class='mt-5'>2. Codeigniter</h2>
     <figure>
-        <img src="<?= base_url('assets/blogContent/Codeigniter.png') ?>" class='w-100' alt='Codeigniter Banner'>
+        <img src="<?= base_url('assets/blogContent/CodeIgniter.png') ?>" class='w-100' alt='Codeigniter Banner'>
         <figcaption>Codeigniter logo</figcaption>
     </figure>
     <p>Codeigniter adalah sebuah framework aplikasi web dengan ukuran yang sangat kecil. CodeIgniter 4, versi terakhir dari CodeIgniter, sekarang hanya berukuran 1.2MB. Seperti Laravel, framework ini open source dan memiliki lebih dari 18 ribu bintang pada GitHub. Seperti layaknya framework lain, CodeIgniter menyediakan library dan interface yang intuitif untuk meningkatkan web development PHP. Saat ini CodeIgniter tidak terdapat pada daftar <a href='https://phpbenchmarks.com' rel='nofollow'>PHP Benchmarks</a>, namun dikonsidersasi sebagai salah satu framework PHP terbaik.</p>
