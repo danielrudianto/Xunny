@@ -31,7 +31,7 @@
         <li>
             <h3 class='h5 mt-3'>Socket.io</h3>
             <figure>
-                <img src="<?= base_url('Assets/blogContent/SocketIO.png') ?>" class='w-100' alt='Socket.io logo' />
+                <img src="<?= base_url('assets/blogContent/SocketIO.png') ?>" class='w-100' alt='Socket.io logo' />
                 <figcaption>Socket.io logo</figcaption>
             </figure>
             <p><a href="https://socket.io" rel="dofollow">Socket.Io</a> merupakan salah satu <i>library</i> webSocket paling populer yang digunakan pada Javascript untuk membuat aplikasi real-time. Socket.io menyediakan anda dengan komunikasi antara browser dengan server anda. Library ini memiliki 2 bagian utama, yakni library pada server dan <i>library</i> pada client / browser. <i>Library</i> ini dapat dengan mudah diinstall dengan menggunakan npm.</p>
@@ -58,7 +58,7 @@
         <li>
             <h3 class='h5 mt-5'>Sockette</h3>
             <figure>
-                <img src="<?= base_url('Assets/blogContent/Sockette.png') ?>" class='w-100' alt='Sockette logo' />
+                <img src="<?= base_url('assets/blogContent/Sockette.png') ?>" class='w-100' alt='Sockette logo' />
                 <figcaption>Socket.io logo</figcaption>
             </figure>
             <p>
