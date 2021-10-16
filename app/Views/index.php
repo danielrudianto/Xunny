@@ -779,7 +779,7 @@
 		$(document).ready(function(){
 			idArray.forEach(blog => {
 				$('#blog-' + blog.id).click(function(){
-					window.location.href = "<?= site_url('Blogs') ?>/" + blog.title.toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'');
+					window.location.href = "<?= base_url('Blogs') ?>/" + blog.title.toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'');
 				})
 			})
 

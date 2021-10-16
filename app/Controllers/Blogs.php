@@ -5,6 +5,11 @@ use App\Models\BlogModel;
 
     class Blogs extends BaseController
     {
+        public function __construct()
+        {
+            $this->pager = \Config\Services::pager();
+        }
+
         public function index($name = NULL)
         {
             if($name == NULL){
@@ -33,7 +38,7 @@ use App\Models\BlogModel;
             $blogModel = new BlogModel();
             $data = array();
             $blogsCount = $blogModel->countAllResults();
-            $blogs      = $blogModel->orderBy('created_date', "DESC")->paginate(10);
+            $blogs      = $blogModel->orderBy('created_date', "DESC")->findAll(12, ($page - 1) * 12);
             
             $data['blogs']  = $blogs;
             $data['count']  = $blogsCount;
