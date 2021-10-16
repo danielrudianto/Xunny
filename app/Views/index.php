@@ -631,6 +631,19 @@
 												</article>
 											</div>
 										</div>
+										<div class="col-md-4">
+											<div class="vlt-animated-block" style="animation-delay:300ms; animation-duration:700ms;">
+												<article class="vlt-post">
+													<div class="vlt-post-thumbnail"><img src="assets/img/attachment-12.webp" alt="Website Upgrade Portfolio"><a class="vlt-post-thumbnail__link" href="#"></a>
+													</div>
+													<div class="vlt-post-content">
+														<header class="vlt-post-header">
+															<h3 class="vlt-post-title">Sigap: Security Reporting Application</h3>
+														</header>
+													</div>
+												</article>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
