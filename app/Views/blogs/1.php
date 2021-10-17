@@ -4,7 +4,7 @@
     <h1 class='text-center'><?= $header['title'] ?></h1>
     <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' class='w-100' />
     <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
-    <p class='text-center h5'><?= date_format(date_create($blog["created_date"]), "d M Y") ?></p>
+    <p class='text-center h5'><?= date("d M Y", strtotime($header['created_date'])) ?></p>
     <hr>
     <br>
     <p>Pernahkah anda terbesit pertanyaan, mengapa banyak perusahaan atau industri di luar sana yang menggunakan website? Website digunakan sebagai wadah informasi dari sebuah perusahaan atau industri yang dapat diakses oleh orang luar. Website umumnya digunakan oleh calon pelanggan atau pelanggan untuk mencari informasi mengenai sebuah perusahaan. Dengan memiliki sebuah website, perusahaan dapat terlihat lebih professional dan berkredibilitas.</p>

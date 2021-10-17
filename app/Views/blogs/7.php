@@ -4,7 +4,7 @@
     <h1 class='text-center'><?= $header['title'] ?></h1>
     <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' class='w-100' />
     <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
-    <p class='text-center h5'><?= date_format(date_create($blog["created_date"]), "d M Y") ?></p>
+    <p class='text-center h5'><?= date("d M Y", strtotime($header['created_date'])) ?></p>
     <hr>
     <br>
     <p>IT <i>sourcing</i> merupakan penyedia tenaga kerja dalam bidang teknologi atau dalam bidang IT. Umumnya, hal ini dilakukan untuk mencari tenaga kerja yang ahli dalam bidang sistem informasi atau teknologi lainnya, yang digunakan untuk memperbaiki sistem informasi perusahaan. Sama seperti manfaat <i>outsourcing</i> pada umumnya, IT <i>outsourcing</i> juga membawa banyak manfaat seperti meningkatkan performa perusahaan, meningkatkan pelayanan konsumen, atau meningkatkan produktivitas karyawan.</p>

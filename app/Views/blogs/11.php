@@ -4,7 +4,7 @@
     <h1 class='text-center'><?= $header['title'] ?></h1>
     <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' alt='<?= $header['title'] ?>' class='w-100' />
     <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
-    <p class='text-center h5'><?= date_format(date_create($blog["created_date"]), "d M Y") ?></p>
+    <p class='text-center h5'><?= date("d M Y", strtotime($header['created_date'])) ?></p>
     <hr>
     <br>
     <p>Saat ini, penggunaan website sudah menjadi hal yang lumrah bagi perusahaan. Dulu, belum banyak perusahaan yang menggunakan website karena memerlukan keahlian khusus dan biaya. Nyatanya manfaat website bagi perusahaan sangat efektif. Bukan hanya sebagai media informasi dan promosi, namun juga mendekatkan perusahaan dengan masyarakat.</p>

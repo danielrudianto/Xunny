@@ -4,7 +4,7 @@
     <h1 class='text-center'><?= $header['title'] ?></h1>
     <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' alt='<?= $header['title'] ?>' class='w-100' />
     <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
-    <p class='text-center h5'><?= date_format(date_create($blog["created_date"]), "d M Y") ?></p>
+    <p class='text-center h5'><?= date("d M Y", strtotime($header['created_date'])) ?></p>
     <hr>
     <br>
     <p>Berdasarkan Wikipedia, <q cite="https://id.wikipedia.org/wiki/WebSocket">Websocket merupakan protokol komunikasi komputer, yang menyediakan saluran komunikasi dupleks secara penuh melalui koneksi TCP tunggal</q>. Apa yang dimaksud dengan itu? Websocket menyediakan sebuah <em>perangkat</em> baik untuk client dan server untuk melakukan komunikasi, memungkinkan mereka untuk menerima dan mengirimkan suatu data dalam waktu yang relatif instan. Pada aplikasi yang tradisional, aplikasi client akan secara kontinu memeriksa apakah ada data baru di server, menimbulkan <i>latency</i> yang tinggi pada jaringan. Dengan keberadaan dan aplikasi websocket, maka aplikasi client <strong>hanya</strong> menerima data pada saat server "memberitahu".</p>

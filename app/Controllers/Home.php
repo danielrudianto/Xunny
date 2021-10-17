@@ -19,7 +19,7 @@ class Home extends BaseController
 
     public function sendEmail(){
         $name       = $_POST['name'];
-        $mail      = $_POST['email'];
+        $mail       = $_POST['email'];
         $text       = $_POST['message'];
 
         $email = \Config\Services::email();

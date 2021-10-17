@@ -9,7 +9,8 @@
 	<h1 class='text-center'><?= $header['title'] ?></h1>
     <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' alt='<?= $header['title'] ?>' class='w-100' />
     <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
-    <p class='text-center h5'><?= date_format(date_create($blog["created_date"]), "d M Y") ?></p>
+    <p class='text-center h5'><?= date("d M Y", strtotime($header['created_date'])) ?></p>
+
 	<p>Dalam menentukan desain <i>website</i>, banyak hal yang harus diperhatikan dan dipertimbangkan, mulai dari merancang tampilan visual hingga tampilan fungsional. Seiring berjalannya waktu, desain web juga kini hendak mengikuti perkembangan tren. Oleh karena itu, kita harus bisa beradaptasi dan memiliki inovasi yang lebih banyak lagi.</p>
 	<p class='mt-5'><strong>Lalu, bagaimana cara membuat desain <i>website</i>yang mudah untuk digunakan?</strong></p>
 	<img src='<?= base_url()?>/assets/blogContent/DesignerIdeas.png' alt='Designer ideas' class='w-100'>

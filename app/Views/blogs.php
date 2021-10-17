@@ -65,12 +65,9 @@
                         complete:function(){
                             pages++;
                             loading = false;
-
-                            console.log('fetched');
                         }
                     })
                 }
-                
             }
         </script>
     </body>

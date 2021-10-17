@@ -4,7 +4,7 @@
     <h1 class='text-center'><?= $header['title'] ?></h1>
     <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' alt='<?= $header['title'] ?>' class='w-100' />
     <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
-    <p class='text-center h5'><?= date_format(date_create($blog["created_date"]), "d M Y") ?></p>
+    <p class='text-center h5'><?= date("d M Y", strtotime($header['created_date'])) ?></p>
     <hr>
     <br>
     <p>Dengan gaji rata rata sebesar <em>IDR 90.000.000</em> per tahun di Indonesia, PHP merupakan salah satu bahasa pemrograman paling populer di komunitas para developer. PHP merupakan bahasa dibalik CMS paling terkenal, yakni <i>Wordpress</i> yang telah digunakan 79% dari seluruh website di dunia, termasuk salah satu <i>social media</i> yang digunakan terbanyak, <a href='https://facebook.com' rel="nofollow">Facebook</a>, dan ensiklopedia terbesar di seluruh dunia, <a href='https://wikipedia.com' rel='nofollow'>Wikipedia</a>.

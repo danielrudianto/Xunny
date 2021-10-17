@@ -4,7 +4,7 @@
     <h1 class='text-center'><?= $header['title'] ?></h1>
     <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' class='w-100' />
     <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
-    <p class='text-center h5'><?= date_format(date_create($blog["created_date"]), "d M Y") ?></p>
+    <p class='text-center h5'><?= date("d M Y", strtotime($header['created_date'])) ?></p>
     <hr>
     <br>
     <p>Seiring perkembangan teknologi dalam pembuatan website kian maju dan semakin kompleks, maka peran developer sangat dibutuhkan. Peran developer yang diperlukan adalah front-end dan back-end. Kedua peran ini saling berkaitan dan saling membantu untuk menghasilkan produk web yang berkualitas.</p>
