@@ -16,7 +16,7 @@
         <li>
             <h2 class='h5 mt-5'>Untuk Memantau Keuangan</h2>
             <figure>
-                <img src='<?= base_url() ?>/assets/blogContent/monitorFinance.png' alt='Ilustrasi monitor keuangan' class='w-100'>
+                <img src='<?= base_url() ?>/assets/blogContent/MonitorFinance.png' alt='Ilustrasi monitor keuangan' class='w-100'>
             </figure>
             <p>Manfaat lain ketika menggunakan aplikasi keuangan perusahaan adalah bisa membantu para pelaku usaha untuk melakukan pemantauan terhadap kondisi keuangan usaha. Secara umum penggunaan catatan berupa buku perhitungan secara manual biasanya mayoritas pekerjaan hanya dijalankan pada akhir bulan maupun tahun saja. Yakni saat dimana laporan yang berhubungan dengan administrasi hendak dibutuhkan.</p>
             <p>Akan tetapi dengan menggunakan kecanggihan teknologi berupa aplikasi dalam menjalankan tugas akuntan ini maka pemantauan keuangan bisa dilakukan kapan pun juga secara terus-menerus. Dengan begitu pelaku usaha bisa memperoleh laporan terkait keuangan dengan lebih mendalam serta bisa melakukan penyelesaian terkait keuangan dalam waktu lebih cepat.</p>
