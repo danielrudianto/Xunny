@@ -58,7 +58,6 @@
     <ul class='socialMediaUl'>
     <li><button  class='facebookButton' data-layout="button_count" data-size="large"><a target="_blank" class="fb-xfbml-parse-ignore"><img src='<?= base_url() ?>/assets/img/facebook.png' width='50' height='50' alt='Share Facebook icon'></a></button></li>
         <li><button class='twitterButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/twitter.png' width='50' height='50' alt='Share Twitter icon'></a></button></li>
-        <li><button class='linkedInButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/linkedIn.png' width='50' height='50' alt='Share LinkedIn icon'></a></button></li>
         <li><button class='clipboard'><img src='<?= base_url() ?>/assets/img/copyLink.png' width='50' height='50' alt='Copy to clipboard icon'></button></li>
     </ul>
 <?= $this->endSection() ?>
@@ -67,7 +66,6 @@
 <ul class='socialMediaUl'>
     <li><button  class='facebookButton' data-layout="button_count" data-size="large"><a target="_blank" class="fb-xfbml-parse-ignore"><img src='<?= base_url() ?>/assets/img/facebook.png' width='50' height='50' alt='Share Facebook icon'></a></button></li>
         <li><button class='twitterButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/twitter.png' width='50' height='50' alt='Share Twitter icon'></a></button></li>
-        <li><button class='linkedInButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/linkedIn.png' width='50' height='50' alt='Share LinkedIn icon'></a></button></li>
         <li><button class='clipboard'><img src='<?= base_url() ?>/assets/img/copyLink.png' width='50' height='50' alt='Copy to clipboard icon'></button></li>
     </ul>
     <script>
