@@ -1,12 +1,6 @@
 <?= $this->extend('/blog') ?>
 
 <?= $this->section('content') ?>
-    <h1 class='text-center'><?= $header['title'] ?></h1>
-    <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' alt='<?= $header['title'] ?>' class='w-100' />
-    <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
-    <p class='text-center h5'><?= date("d M Y", strtotime($header['created_date'])) ?></p>
-    <hr>
-    <br>
     <p>Dengan gaji rata rata sebesar <em>IDR 90.000.000</em> per tahun di Indonesia, PHP merupakan salah satu bahasa pemrograman paling populer di komunitas para developer. PHP merupakan bahasa dibalik CMS paling terkenal, yakni <i>Wordpress</i> yang telah digunakan 79% dari seluruh website di dunia, termasuk salah satu <i>social media</i> yang digunakan terbanyak, <a href='https://facebook.com' rel="nofollow">Facebook</a>, dan ensiklopedia terbesar di seluruh dunia, <a href='https://wikipedia.com' rel='nofollow'>Wikipedia</a>.
     <p>Hari ini, kita memiliki beberapa framework PHP berperforma tinggi, seperti Laravel, CodeIgniter, CakePHP, dan lain lain. Framework - framework ini menyediakan <i>library</i> dan fungsi API untuk mempercepat proses <i>development</i> secara aman.</p>
     <p>Namun, di balik kesuksesan PHP merubah muka dari pengembangan website di dunia, beberapa orang menyebut bahwa <quote>PHP is a dead language</quote>. Faktanya adalah pada survei yang dilakukan beberapa saat lalu, 62% sampel mengatakan bahwa PHP merupakan bahasa yang ditakuti, dan 3% ingin untuk mempelajari PHP. Namun trend pencarian di Google dengan kata kunci "PHP" dan "JavaScript" berkata lain ( berdasarkan Google Trends pada waktu penulisan ), menunjukan bahwa PHP bukan bahasa yang akan mati dalam waktu dekat. Dengan itu, maka coba kita simak 5 framework PHP terbaik yang tersedia saat ini.</p>
@@ -164,4 +158,36 @@
 
     <p class='mt-5'>Masih ada banyak framework PHP yang populer seperti PHPixie, Ubiquity. Apabila anda mencoba untuk mengeksplor dunia web development, konsiderasikan beberapa pilihan kami yang kami sebutkan di atas. Apabila anda sudah merupakan seorang programmer PHP, pilihlah framework PHP apapun yang cocok dengan kebutuhan anda. Selamat mencoba framework PHP rekomendasi kami.</p>
 
+<?= $this->endSection() ?>
+
+<?= $this->section('share') ?>
+    <ul class='socialMediaUl'>
+    <li><button  class='facebookButton' data-layout="button_count" data-size="large"><a target="_blank" class="fb-xfbml-parse-ignore"><img src='<?= base_url() ?>/assets/img/facebook.png' width='50' height='50' alt='Share Facebook icon'></a></button></li>
+        <li><button class='twitterButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/twitter.png' width='50' height='50' alt='Share Twitter icon'></a></button></li>
+        <li><button class='linkedInButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/linkedIn.png' width='50' height='50' alt='Share LinkedIn icon'></a></button></li>
+        <li><button class='clipboard'><img src='<?= base_url() ?>/assets/img/copyLink.png' width='50' height='50' alt='Copy to clipboard icon'></button></li>
+    </ul>
+<?= $this->endSection() ?>
+
+<?= $this->section('bottomShare') ?>
+<ul class='socialMediaUl'>
+    <li><button  class='facebookButton' data-layout="button_count" data-size="large"><a target="_blank" class="fb-xfbml-parse-ignore"><img src='<?= base_url() ?>/assets/img/facebook.png' width='50' height='50' alt='Share Facebook icon'></a></button></li>
+        <li><button class='twitterButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/twitter.png' width='50' height='50' alt='Share Twitter icon'></a></button></li>
+        <li><button class='linkedInButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/linkedIn.png' width='50' height='50' alt='Share LinkedIn icon'></a></button></li>
+        <li><button class='clipboard'><img src='<?= base_url() ?>/assets/img/copyLink.png' width='50' height='50' alt='Copy to clipboard icon'></button></li>
+    </ul>
+    <script>
+        $(".facebookButton").attr('data-href', `<?= base_url() ?>/Blogs/${"<?= $header['title'] ?>".toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'')}`);
+        $('.facebookButton > a').attr('href', `https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fxunny.id%2FBlogs%2F${"<?= $header['title'] ?>".toLocaleLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'')}&amp;src=sdkpreparse`)
+        $('.twitterButton > a').attr('href', `https://twitter.com/share?url="${encodeURIComponent(document.URL)}`);
+        $('.linkedInButton > a').attr('href', `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(document.URL)}`);
+        var $temp = $("<input>");
+        var $url = $(location).attr('href');
+            $('.clipboard').on('click', function() {
+            $("body").append($temp);
+            $temp.val($url).select();
+            document.execCommand("copy");
+            $temp.remove();
+        })
+    </script>
 <?= $this->endSection() ?>

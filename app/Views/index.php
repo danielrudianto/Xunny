@@ -721,8 +721,8 @@
 															<header class="vlt-post-header">
 																<h3 class="vlt-post-title"><?= $blog['title'] ?></h3>
 																<h6 style='font-size:1rem;'><?= $blog['subtitle'] ?></h6>
-																<br>
-																<p><?= date_format(date_create($blog["created_date"]), "d M Y") ?></p>
+																<br><br>
+																<p style='position:absolute;bottom:0.8rem'><?= date_format(date_create($blog["created_date"]), "d M Y") ?> | <?= number_format($blog['words'] / 130, 0) ?> min. read</p>
 															</header>
 														</div>
 													</article>

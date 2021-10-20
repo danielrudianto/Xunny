@@ -1,12 +1,6 @@
 <?= $this->extend('/blog') ?>
 
 <?= $this->section('content') ?>
-    <h1 class='text-center'><?= $header['title'] ?></h1>
-    <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' class='w-100' />
-    <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
-    <p class='text-center h5'><?= date("d M Y", strtotime($header['created_date'])) ?></p>
-    <hr>
-    <br>
     <p>Seiring perkembangan teknologi dalam pembuatan website kian maju dan semakin kompleks, maka peran developer sangat dibutuhkan. Peran developer yang diperlukan adalah front-end dan back-end. Kedua peran ini saling berkaitan dan saling membantu untuk menghasilkan produk web yang berkualitas.</p>
     <p>Front-end developer berperan untuk membangun tampilan situs atau aplikasi dengan menggunakan CSS, HTML, dan Javascript. Selain itu, juga berperan untuk memastikan konten yang ditampilkan dalam browser pengguna dapat berjalan dengan baik dan bertanggung jawab atas semua kode yang dikirim dari server dan dapat diterima oleh browser pengguna. Sedangkan, back end developer bertanggung jawab dalam mengelola aplikasi, mengelola server, dan database agar komunikasi yang dilakukan berjalan dengan lancar. Peran ini juga digunakan untuk memastikan fungsi fitur dapat berjalan lancar.</p>
     <p>Lalu, apa saja komponen - komponen yang dapat membantu anda dalam membangun aplikasi untuk menarik perhatian pengguna?</p>
@@ -31,4 +25,36 @@
     
     <p>Setiap komponen pasti memiliki kelebihan dan kekurangannya masing - masing dalam membangun aplikasi dan menarik perhatian pengguna masing - masing. Hal yang perlu diperhatikan adalah gunakan komponen yang cocok atau sesuai dengan tujuan pengguna anda dan bisa menguntungkan developer serta perusahaan. Sekian pembahasan kita tentang <i>branding</i> dengan internet, semoga artikel ini dapat membantu anda.</p>
 
+<?= $this->endSection() ?>
+
+<?= $this->section('share') ?>
+    <ul class='socialMediaUl'>
+    <li><button  class='facebookButton' data-layout="button_count" data-size="large"><a target="_blank" class="fb-xfbml-parse-ignore"><img src='<?= base_url() ?>/assets/img/facebook.png' width='50' height='50' alt='Share Facebook icon'></a></button></li>
+        <li><button class='twitterButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/twitter.png' width='50' height='50' alt='Share Twitter icon'></a></button></li>
+        <li><button class='linkedInButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/linkedIn.png' width='50' height='50' alt='Share LinkedIn icon'></a></button></li>
+        <li><button class='clipboard'><img src='<?= base_url() ?>/assets/img/copyLink.png' width='50' height='50' alt='Copy to clipboard icon'></button></li>
+    </ul>
+<?= $this->endSection() ?>
+
+<?= $this->section('bottomShare') ?>
+<ul class='socialMediaUl'>
+    <li><button  class='facebookButton' data-layout="button_count" data-size="large"><a target="_blank" class="fb-xfbml-parse-ignore"><img src='<?= base_url() ?>/assets/img/facebook.png' width='50' height='50' alt='Share Facebook icon'></a></button></li>
+        <li><button class='twitterButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/twitter.png' width='50' height='50' alt='Share Twitter icon'></a></button></li>
+        <li><button class='linkedInButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/linkedIn.png' width='50' height='50' alt='Share LinkedIn icon'></a></button></li>
+        <li><button class='clipboard'><img src='<?= base_url() ?>/assets/img/copyLink.png' width='50' height='50' alt='Copy to clipboard icon'></button></li>
+    </ul>
+    <script>
+        $(".facebookButton").attr('data-href', `<?= base_url() ?>/Blogs/${"<?= $header['title'] ?>".toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'')}`);
+        $('.facebookButton > a').attr('href', `https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fxunny.id%2FBlogs%2F${"<?= $header['title'] ?>".toLocaleLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'')}&amp;src=sdkpreparse`)
+        $('.twitterButton > a').attr('href', `https://twitter.com/share?url="${encodeURIComponent(document.URL)}`);
+        $('.linkedInButton > a').attr('href', `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(document.URL)}`);
+        var $temp = $("<input>");
+        var $url = $(location).attr('href');
+            $('.clipboard').on('click', function() {
+            $("body").append($temp);
+            $temp.val($url).select();
+            document.execCommand("copy");
+            $temp.remove();
+        })
+    </script>
 <?= $this->endSection() ?>

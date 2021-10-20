@@ -1,12 +1,6 @@
 <?= $this->extend('/blog') ?>
 
 <?= $this->section('content') ?>
-    <h1 class='text-center'><?= $header['title'] ?></h1>
-    <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' alt='<?= $header['title'] ?>' class='w-100' />
-    <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
-    <p class='text-center h5'><?= date("d M Y", strtotime($header['created_date'])) ?></p>
-    <hr>
-    <br>
     <p>Pada dasarnya dalam menjalankan sebuah usaha, tata pengelolaan terkait keuangan memang bukan perkara yang mudah. Bukan tidak mungkin jika salah perhitungan bisa berdampak pada kerugian yang dialami oleh pelaku usaha tersebut. Maka keberadaan dari aplikasi keuangan perusahaan penting untuk membantu perusahaan dalam melakukan perhitungan keuangan yang dimiliki.</p>
     <figure>
         <img src='<?= base_url() ?>/assets/blogContent/FinanceReport.png' alt='Ilustrasi laporan keuangan' class='w-100'>
@@ -76,4 +70,36 @@
         </li>
     </ol>
     <p>Demikian pembahasan mengenai berbagai manfaat menggunakan aplikasi keuangan perusahaan untuk membantu mengelola usaha yang dijalankan. Ulasan tersebut kiranya cukup penting diketahui oleh para pelaku usaha yang merasa kesulitan ketika dihadapkan dengan beberapa hal mengenai sistem keuangan di perusahaannya. Dengan sejumlah beberapa manfaat di atas bisa menjadi pertimbangan bagi pelaku usaha untuk memakai software keuangan. <a href='<?= site_url() ?>'>Xunny.id</a> dapat membantu anda untuk mewujudkan keinginan anda untuk aplikasi keuangan perusahaan anda. Kontak kami <a href='<?= base_url() ?>/#Contact'>disini</a> untuk informasi lebih lanjut.</p>
+<?= $this->endSection() ?>
+
+<?= $this->section('share') ?>
+    <ul class='socialMediaUl'>
+    <li><button  class='facebookButton' data-layout="button_count" data-size="large"><a target="_blank" class="fb-xfbml-parse-ignore"><img src='<?= base_url() ?>/assets/img/facebook.png' width='50' height='50' alt='Share Facebook icon'></a></button></li>
+        <li><button class='twitterButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/twitter.png' width='50' height='50' alt='Share Twitter icon'></a></button></li>
+        <li><button class='linkedInButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/linkedIn.png' width='50' height='50' alt='Share LinkedIn icon'></a></button></li>
+        <li><button class='clipboard'><img src='<?= base_url() ?>/assets/img/copyLink.png' width='50' height='50' alt='Copy to clipboard icon'></button></li>
+    </ul>
+<?= $this->endSection() ?>
+
+<?= $this->section('bottomShare') ?>
+<ul class='socialMediaUl'>
+    <li><button  class='facebookButton' data-layout="button_count" data-size="large"><a target="_blank" class="fb-xfbml-parse-ignore"><img src='<?= base_url() ?>/assets/img/facebook.png' width='50' height='50' alt='Share Facebook icon'></a></button></li>
+        <li><button class='twitterButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/twitter.png' width='50' height='50' alt='Share Twitter icon'></a></button></li>
+        <li><button class='linkedInButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/linkedIn.png' width='50' height='50' alt='Share LinkedIn icon'></a></button></li>
+        <li><button class='clipboard'><img src='<?= base_url() ?>/assets/img/copyLink.png' width='50' height='50' alt='Copy to clipboard icon'></button></li>
+    </ul>
+    <script>
+        $(".facebookButton").attr('data-href', `<?= base_url() ?>/Blogs/${"<?= $header['title'] ?>".toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'')}`);
+        $('.facebookButton > a').attr('href', `https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fxunny.id%2FBlogs%2F${"<?= $header['title'] ?>".toLocaleLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'')}&amp;src=sdkpreparse`)
+        $('.twitterButton > a').attr('href', `https://twitter.com/share?url="${encodeURIComponent(document.URL)}`);
+        $('.linkedInButton > a').attr('href', `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(document.URL)}`);
+        var $temp = $("<input>");
+        var $url = $(location).attr('href');
+            $('.clipboard').on('click', function() {
+            $("body").append($temp);
+            $temp.val($url).select();
+            document.execCommand("copy");
+            $temp.remove();
+        })
+    </script>
 <?= $this->endSection() ?>
