@@ -22,10 +22,11 @@
         <meta property="og:type"          content="website" />
         <meta property="og:title"         content="<?= $header['title'] ?>" />
         <meta property="og:description"   content="<?= $header['subtitle'] ?>" />
-        <meta property="og:image"         content="<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>" />
-        <meta property="og:type"          content="article" />
+        <meta property="og:image:secure_url"         itemprop="image"          content="<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>" />
+        <meta property="og:type"          content="website" />
         <meta property="og:image:width"   content="1920" />
         <meta property="og:image:height"  content="1080" />
+        <meta property="og:site_name"     content="San Roque 2014 Pollos">
 
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=393891865610&autoLogAppEvents=1" nonce="Va1bX2LS"></script>
         <script>
