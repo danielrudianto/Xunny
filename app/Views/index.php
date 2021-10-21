@@ -15,6 +15,19 @@
 	<link rel="stylesheet" href="assets/css/vlt-main.min.css">
 	<link rel="stylesheet" href="assets/css/custom.css">
 	<meta name="author" content="Xunny.id">
+
+	<meta property="og:url"           content="<?= current_url() ?>" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="Xunny | IT Developer Indonesia" />
+	<meta property="og:description"   content="Kami adalah perusahaan programmer yang memiliki spesialisasi dalam mobile, melingkupi android dan iOS, dan web development. Dengan satu visi, untuk membantu mengembangkan UMKM di Indonesia, kami akan senantiasa memberikan anda produk custom dengan kualitas terbaik." />
+	<meta property="og:image:secure_url"         itemprop="image"          content="assets/img/root/favicon.png" />
+	<meta property="og:image:url"     itemprop="image"          content="assets/img/root/favicon.png" />
+	<meta property="og:image"         itemprop="image"          content="assets/img/root/favicon.png" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:image:width"   content="512" />
+	<meta property="og:image:height"  content="512" />
+	<meta property="og:site_name"     content="Xunny.id">
+	<meta property="fb:app_id" content="393891865610" />
 	<script>var idArray = [];</script>
 	<style>
 		#snackbar {

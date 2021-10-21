@@ -26,8 +26,8 @@
         <meta property="og:image:url"     itemprop="image"          content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
         <meta property="og:image"         itemprop="image"          content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
         <meta property="og:type"          content="website" />
-        <meta property="og:image:width"   content="1920" />
-        <meta property="og:image:height"  content="1080" />
+        <meta property="og:image:width"   content="256" />
+        <meta property="og:image:height"  content="256" />
         <meta property="og:site_name"     content="Xunny.id">
         <meta property="fb:app_id" content="393891865610" />
 
