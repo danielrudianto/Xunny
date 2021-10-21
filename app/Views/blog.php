@@ -20,9 +20,12 @@
 
         <meta property="og:url"           content="<?= current_url() ?>" />
         <meta property="og:type"          content="website" />
-        <meta property="og:title"         content="Xunny Blog | <?= $header['title'] ?>" />
+        <meta property="og:title"         content="<?= $header['title'] ?>" />
         <meta property="og:description"   content="<?= $header['subtitle'] ?>" />
         <meta property="og:image"         content="<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>" />
+        <meta property="og:type"          content="article" />
+        <meta property="og:image:width"   content="1920" />
+        <meta property="og:image:height"  content="1080" />
 
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=393891865610&autoLogAppEvents=1" nonce="Va1bX2LS"></script>
         <script>
