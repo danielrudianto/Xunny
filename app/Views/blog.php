@@ -22,9 +22,9 @@
         <meta property="og:type"          content="website" />
         <meta property="og:title"         content="<?= $header['title'] ?>" />
         <meta property="og:description"   content="<?= $header['subtitle'] ?>" />
-        <meta property="og:image:secure_url"         itemprop="image"          content="<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>" />
-        <meta property="og:image:url"     itemprop="image"          content="<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>" />
-        <meta property="og:image"         itemprop="image"          content="<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>" />
+        <meta property="og:image:secure_url"         itemprop="image"          content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
+        <meta property="og:image:url"     itemprop="image"          content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
+        <meta property="og:image"         itemprop="image"          content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
         <meta property="og:type"          content="website" />
         <meta property="og:image:width"   content="1920" />
         <meta property="og:image:height"  content="1080" />
