@@ -29,6 +29,7 @@
         <meta property="og:image:width"   content="1920" />
         <meta property="og:image:height"  content="1080" />
         <meta property="og:site_name"     content="Xunny.id">
+        <meta property="fb:app_id" content="393891865610" />
 
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=393891865610&autoLogAppEvents=1" nonce="Va1bX2LS"></script>
         <script>
