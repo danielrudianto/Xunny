@@ -29,6 +29,11 @@
             var idArray = [];
         </script>
     </head>
+    <b:if cond='data:blog.metaDescription'>
+    <meta expr:content='data:blog.metaDescription' name='og:description'/>
+    <b:else/>
+    <meta expr:content='data:post.snippet' name='og:description'/>
+    </b:if>
     <body>
          <nav class='nav navbar-light navbar-expand-lg justify-content-center' id='navbar'>
             <a class='navbar-brand' style='text-decoration:none' href='<?= base_url('/Blogs') ?>'>

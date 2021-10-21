@@ -31,6 +31,9 @@
         </li>
     </ol>
     <h2 class='h5 mt-5'>Mengapa Harus Menggunakan Aplikasi Inventory Barang Berbasis Web?</h2>
+    <figure>
+        <img src='<?= base_url() ?>/assets/blogContent/WarehouseMobileApplication.png' class='w-100' alt='Aplikasi mobile gudang'>
+    </figure>
     <p>Penggunaan aplikasi satu ini sebagai salah satu pendukung pengembangan bisnis memang perlu diperhatikan. Bahkan terdapat beragam alasan mengapa harus menggunakan aplikasi inventory barang berbasis web ini untuk memajukan bisnis. Berikut inilah diantaranya, yaitu:</p>
     <ol>
         <li>
