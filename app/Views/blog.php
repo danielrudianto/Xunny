@@ -10,22 +10,59 @@
         <link rel='stylesheet' href='<?= base_url('assets/css/blog.main.css') ?>'>
 		<script src="<?= base_url('assets/vendors/jquery-3.5.1.min.js') ?>"></script>
 		<script src="<?= base_url('assets/vendors/bootstrap.min.js') ?>"></script>
+
         <meta name='keywords' content='<?= $header['keywords'] ?>'>
 		<meta name="author" content="xunny.id">
         <meta name='description' content='<?= $header['subtitle'] ?>'>
         <meta name='robots' content='follow, index'>
         <meta name="author" content="Xunny.id">
+        <meta name='image_src' href='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>'>
+
+        <meta property="og:url"           content="<?= current_url() ?>" />
+        <meta property="og:type"          content="website" />
+        <meta property="og:title"         content="<?= $header['title'] ?>" />
+        <meta property="og:description"   content="<?= $header['subtitle'] ?>" />
+        <meta property="og:image:secure_url"         itemprop="image"          content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
+        <meta property="og:image:url"     itemprop="image"          content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
+        <meta property="og:image"         itemprop="image"          content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
+        <meta property="og:type"          content="website" />
+        <meta property="og:image:width"   content="256" />
+        <meta property="og:image:height"  content="256" />
+        <meta property="og:site_name"     content="Xunny.id">
+        <meta property="fb:app_id" content="393891865610" />
+
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=393891865610&autoLogAppEvents=1" nonce="Va1bX2LS"></script>
         <script>
             var idArray = [];
         </script>
     </head>
+    <b:if cond='data:blog.metaDescription'>
+    <meta expr:content='data:blog.metaDescription' name='og:description'/>
+    <b:else/>
+    <meta expr:content='data:post.snippet' name='og:description'/>
+    </b:if>
     <body>
+         <nav class='nav navbar-light navbar-expand-lg justify-content-center' id='navbar'>
+            <a class='navbar-brand' style='text-decoration:none' href='<?= base_url('/Blogs') ?>'>
+                <img src='<?= base_url("assets/blog/Logo.webp") ?>' id='logoImage' alt='Xunny Blog Logo'>
+            </a>
+        </nav>
         <main>
             <div class='container'>
                 <div class='row justify-content-center'>
                     <div class='col-xl-8 col-lg-10 col-12'>
-                        <a style='text-decoration:none' href='<?= base_url('/Blogs') ?>'><img src='<?= base_url("assets/blog/Logo.webp") ?>' id='logoImage' alt='Xunny Blog Logo'></a>
-						<article><?= $this->renderSection('content') ?></article>
+						<article>
+                            <h1 class='text-center'><?= $header['title'] ?></h1>
+                            <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' class='w-100' />
+                            <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
+                            <p class='text-center h5'><?= date("d M Y", strtotime($header['created_date'])) ?></p>
+                            <?= $this->renderSection('share') ?>
+                            <br><br>
+                            <hr>
+                            <br>
+                            <?= $this->renderSection('content') ?>
+                            <?= $this->renderSection('bottomShare') ?>
+                        </article>
                     </div>
                     <div class='col-xl-8 col-lg-10 col-12'>
                         <br>
@@ -120,6 +157,8 @@
         </aside>
         <div id="snackbar">Terima kasih telah menghubungi kami. Kami akan segera kontak anda kembali.</div>
         <script>
+            var lastScrollTop;
+
             $(document).ready(function(){
                 idArray.forEach(blog => {
                     $('#blog-' + blog.id).click(function(){
@@ -204,6 +243,16 @@
                     document.body.style.overflow = 'auto';
                 }, 600)
             }
+
+            $(window).on('scroll', function(event){
+                var st = $(this).scrollTop();
+                if (st > lastScrollTop){
+                    $('#navbar').addClass('scaleDown');
+                } else {
+                    $('#navbar').removeClass('scaleDown');
+                }
+                lastScrollTop = st;
+            })
         </script>
     </body>
 </html>

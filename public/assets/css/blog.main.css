@@ -4,14 +4,31 @@
 }
 
 #logoImage{
-    width:100%;
-    max-width:250px;
+    width:250px;
     margin-bottom:1rem;
     margin-left:50%;
     position:relative;
     visibility:visible;
     display:block;
     transform:translateX(-50%);
+    transition:0.4s all ease;
+}
+
+#navbar{
+    z-index:10;
+    background-color:white;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+.scaleDown #logoImage{
+    width:100px;
+    transition:0.4s all ease;
+}
+
+main{
+    padding-top:100px;
 }
 
 .card{
@@ -62,6 +79,8 @@
     font-size:0.8rem;
     color:#aaa;
     margin-top:1rem;
+    position:absolute;
+    bottom:0;
 }
 
 .card-read{
@@ -284,4 +303,22 @@ figcaption{
   @keyframes fadeout {
     from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
+  }
+
+  .socialMediaUl{
+      list-style-type: none;
+      float:right;
+  }
+
+  .socialMediaUl li{
+      padding-left:0;
+      display:inline-block;
+      font-size:1.5rem;
+      color:#333;
+  }
+
+  .socialMediaUl button{
+      background-color:transparent;
+      border:none;
+      cursor:pointer;
   }

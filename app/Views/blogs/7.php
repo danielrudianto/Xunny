@@ -1,12 +1,6 @@
 <?= $this->extend('/blog') ?>
 
 <?= $this->section('content') ?>
-    <h1 class='text-center'><?= $header['title'] ?></h1>
-    <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' class='w-100' />
-    <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
-    <p class='text-center h5'><?= date("d M Y", strtotime($header['created_date'])) ?></p>
-    <hr>
-    <br>
     <p>IT <i>sourcing</i> merupakan penyedia tenaga kerja dalam bidang teknologi atau dalam bidang IT. Umumnya, hal ini dilakukan untuk mencari tenaga kerja yang ahli dalam bidang sistem informasi atau teknologi lainnya, yang digunakan untuk memperbaiki sistem informasi perusahaan. Sama seperti manfaat <i>outsourcing</i> pada umumnya, IT <i>outsourcing</i> juga membawa banyak manfaat seperti meningkatkan performa perusahaan, meningkatkan pelayanan konsumen, atau meningkatkan produktivitas karyawan.</p>
     <p>Berikut alasan - alasan mengapa anda harus memilih <i>outsourcing</i> untuk perusahaan IT anda:</p>
     <ol>
@@ -35,4 +29,34 @@
 
     <p>Xunny.id dapat menawarkan <i>outsourcing</i> kepada perusahaan kalian untuk menghemat waktu, mengurangi resiko, dan tentunya membantu perusahaan anda untuk melakukan komputerisasi dan digitalisasi. Semoga tulisan ini dapat bermanfaat bagi kalian.</p>
 
+<?= $this->endSection() ?>
+
+<?= $this->section('share') ?>
+    <ul class='socialMediaUl'>
+    <li><button  class='facebookButton' data-layout="button_count" data-size="large"><a target="_blank" class="fb-xfbml-parse-ignore"><img src='<?= base_url() ?>/assets/img/facebook.png' width='50' height='50' alt='Share Facebook icon'></a></button></li>
+        <li><button class='twitterButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/twitter.png' width='50' height='50' alt='Share Twitter icon'></a></button></li>
+        <li><button class='clipboard'><img src='<?= base_url() ?>/assets/img/copyLink.png' width='50' height='50' alt='Copy to clipboard icon'></button></li>
+    </ul>
+<?= $this->endSection() ?>
+
+<?= $this->section('bottomShare') ?>
+<ul class='socialMediaUl'>
+    <li><button  class='facebookButton' data-layout="button_count" data-size="large"><a target="_blank" class="fb-xfbml-parse-ignore"><img src='<?= base_url() ?>/assets/img/facebook.png' width='50' height='50' alt='Share Facebook icon'></a></button></li>
+        <li><button class='twitterButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/twitter.png' width='50' height='50' alt='Share Twitter icon'></a></button></li>
+        <li><button class='clipboard'><img src='<?= base_url() ?>/assets/img/copyLink.png' width='50' height='50' alt='Copy to clipboard icon'></button></li>
+    </ul>
+    <script>
+        $(".facebookButton").attr('data-href', `<?= base_url() ?>/Blogs/${"<?= $header['title'] ?>".toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'')}`);
+        $('.facebookButton > a').attr('href', `https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fxunny.id%2FBlogs%2F${"<?= $header['title'] ?>".toLocaleLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'')}&amp;src=sdkpreparse`)
+        $('.twitterButton > a').attr('href', `https://twitter.com/share?url="${encodeURIComponent(document.URL)}`);
+        $('.linkedInButton > a').attr('href', `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(document.URL)}`);
+        var $temp = $("<input>");
+        var $url = $(location).attr('href');
+            $('.clipboard').on('click', function() {
+            $("body").append($temp);
+            $temp.val($url).select();
+            document.execCommand("copy");
+            $temp.remove();
+        })
+    </script>
 <?= $this->endSection() ?>

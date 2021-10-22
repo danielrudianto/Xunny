@@ -14,19 +14,19 @@
         <meta name="author" content="Xunny.id">
     </head>
     <body>
+        <nav class='nav navbar-light navbar-expand-lg justify-content-center' id='navbar'>
+            <a class='navbar-brand' style='text-decoration:none' href='<?= base_url('/#Blogs') ?>'>
+                <img src='<?= base_url("assets/blog/Logo.webp") ?>' id='logoImage' alt='Xunny Blog Logo'>
+            </a>
+        </nav>
         <main>
             <div class='container'>
-                <div class='row'>
-                    <div class='col-12'>
-                    <a style='text-decoration:none' href='<?= base_url('/#Blogs') ?>'><img src='<?= base_url("assets/blog/Logo.webp") ?>' id='logoImage' alt='Xunny Blog Logo'></a>
-                        <h1 class='text-center d-none'>Blogs</h1>
-                    </div>
-                </div>
                 <div class='row justify-content-center' id='blogWrapper'></div>
             </div>
         </main>
         <script src="<?= base_url('assets/vendors/jquery-3.5.1.min.js') ?>"></script>
         <script type='text/javascript'>
+            var lastScrollTop;
             var pages = 1;
             var loading = false;
             const month = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"];
@@ -55,7 +55,7 @@
 
                                 var dateString = date.getDate() + " " + month[date.getMonth()] + " " + date.getFullYear();
                                 var minutes     = Math.ceil(blog.words/130);
-                                $('#blogWrapper').append(`<div class='col-xl-3 col-lg-4 col-md-6 col-sm-10 col-12 d-flex align-items-stretch mb-3' id='blog-${blog.id}'><div class='card w-100'><div class="card-img-top"><img class="card-image" src="<?= base_url() ?>/assets/blog/${blog.id}.webp" alt="${blog.title}"></div><div class='card-body'><h5 class='card-title'>${blog.title}</h5><h6 class='card-text'>${blog.subtitle}</h6><p class='card-date'>${dateString} | ${minutes} min read</p></div></div></div>`);
+                                $('#blogWrapper').append(`<div class='col-xl-3 col-lg-4 col-md-6 col-sm-10 col-12 d-flex align-items-stretch mb-3' id='blog-${blog.id}'><div class='card w-100'><div class="card-img-top"><img class="card-image" src="<?= base_url() ?>/assets/blog/${blog.id}.webp" alt="${blog.title}"></div><div class='card-body'><h5 class='card-title'>${blog.title}</h5><h6 class='card-text mb-5'>${blog.subtitle}</h6><p class='card-date'>${dateString} | ${minutes} min read</p></div></div></div>`);
 
                                 $(`#blog-${blog.id}`).click(function(){
                                     window.location.href='<?= base_url('Blogs') ?>/' + blog.title.toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'');
@@ -69,6 +69,16 @@
                     })
                 }
             }
+
+            $(window).on('scroll', function(event){
+                var st = $(this).scrollTop();
+                if (st > lastScrollTop){
+                    $('#navbar').addClass('scaleDown');
+                } else {
+                    $('#navbar').removeClass('scaleDown');
+                }
+                lastScrollTop = st;
+            })
         </script>
     </body>
 </html>
