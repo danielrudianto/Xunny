@@ -136,3 +136,9 @@ app/Config/Database.php
 app/Config/Email.php
 env
 *.zip
+spark
+README.md
+phpunit.xml.dist
+LICENSE
+env
+composer.json
