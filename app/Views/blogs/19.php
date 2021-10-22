@@ -5,6 +5,9 @@ $Subitle =
     <p>Kemajuan teknologi saat ini mendorong perusahaan untuk semakin kreatif dan inovatif. Salah satunya adalah dengan memanfaatkan beragam jenis aplikasi untuk kepentingan operasional. Contoh aplikasi yang biasa digunakan adalah aplikasi komputer akuntansi. Kali ini akan dibahas lebih lengkap mengenai manfaat aplikasi komputer akuntansi bagi sebuah perusahaan.</p>
     <h2 class='h4 mt-5'>Aplikasi Komputer Akuntansi</h2>
     <p>Pemakaian aplikasi komputer untuk kebutuhan akuntansi perubahan dianggap sangat bermanfaat saat ini. Seiring dengan kemajuan teknologi yang semakin canggih, perusahaan dituntut untuk mengikuti perkembangan tersebut. Hal ini dilakukan agar perusahaan bisa terus bersaing dengan perusahaan lainnya.</p>
+    <figure>
+        <img src='<?= base_url() ?>/assets/blogContent/DigitalAccounting.png' class='w-100' alt='Ilustrasi akuntasi digital'>
+    </figure>
     <p>Proses akuntansi untuk kepentingan operasional perusahaan memang  tidak mudah untuk dikelola. Dibutuhkan ketelitian dan kemampuan yang baik untuk menghasilkan laporan akuntansi yang tepat. Kehadiran aplikasi komputer dalam proses akuntansi pasti akan sangat membantu.</p>
     <p>Dalam aplikasi komputer sudah tersedia banyak pilihan fitur yang akan mempermudah proses akuntansi perusahaan. Mulai dari pencatatan uang masuk keluar sampai perhitungan laba dan rugi. Semua fitur akan mempermudah pengelolaan akuntansi dan pembuatan laporannya.</p>
     
@@ -14,10 +17,13 @@ $Subitle =
         <li>
             <h3 class='h5 mt-5'>Financial Forecasting</h3>
             <p>Pertama adalah fitur financial forecasting yang dianggap sebagai salah satu fitur terpenting dari sebuah aplikasi finansial. Fitur inilah yang akan menjadi kunci penting dalam pengelolaan finansial sebuah perusahaan. Di sini nantinya pengguna bisa membuat perencanaan pemakaian biaya bisnis secara tepat dan akurat.</p>
-            <p>Financial forecasting berguna untuk mengontrol keuangan secara bijak. Lewat fitur ini pihak perusahaan bisa mengendalikan pengeluaran dengan sangat baik. Dapat pula dilakukan perencanaan pemotongan anggaran yang tidak perlu agar nilai keuntungan yang diperoleh bisa lebih besar.</p>
+            <p><i>Financial forecasting</i> berguna untuk mengontrol keuangan secara bijak. Lewat fitur ini pihak perusahaan bisa mengendalikan pengeluaran dengan sangat baik. Dapat pula dilakukan perencanaan pemotongan anggaran yang tidak perlu agar nilai keuntungan yang diperoleh bisa lebih besar.</p>
         </li>
         <li>
             <h3 class='h5 mt-5'>Penagihan dan Faktur</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/InvoiceTemplate.png' class='w-100' alt='Ilustrasi invoice'>
+            </figure>
             <p>Selanjutnya ada fitur penagihan dan faktur yang juga penting dalam sebuah aplikasi akuntansi. Fitur ini memungkinkan penggunanya untuk mengirimkan beragam jenis penagihan serta faktur. Bagi perusahaan, fitur ini jelas akan sangat bermanfaat dan menghemat waktu. Data penagihan juga bisa masuk secara lengkap dan tepat waktu.</p>
             <p>Fitur pembuatan dan pengiriman faktur ini juga tergolong lengkap. Pengguna bisa membuat faktur dengan berbagai komponen. Tentunya komponen tersebut akan disesuaikan dengan kebutuhan serta preferensi dari perusahaan. Jadi sifatnya sangat fleksibel dan praktis untuk digunakan.</p>
         </li>
@@ -27,6 +33,9 @@ $Subitle =
         </li>
         <li>
             <h3 class='h5 mt-5'>Laporan Keuangan</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/FinanceReport.png' class='w-100' alt='Ilustrasi laporan keuangan'>
+            </figure>
             <p>Pengguna aplikasi komputer akuntansi juga bisa menemukan fitur laporan keuangan. Fitur ini jelas akan sangat dibutuhkan oleh sebuah perusahaan. Seperti diketahui bahwa laporan keuangan wajib dibuat oleh perusahaan secara berkala. Laporan ini juga yang nantinya akan menjadi acuan bagi perusahaan untuk menilai kondisi finansialnya apakah cukup stabil atau tidak.</p>
             <p>Pembuatan laporan keuangan tidaklah semudah yang dibayangkan. Ada banyak komponen yang akan terlibat dalam penyusunan laporan keuangan tersebut. Selain itu laporan keuangan juga membutuhkan ketelitian dalam pembuatannya. Dengan adanya aplikasi ini maka pembuatan laporan keuangan bisa lebih mudah sekaligus cepat.</p>
         </li>
@@ -63,7 +72,7 @@ $Subitle =
             <p>Data akuntansi punya banyak fungsi bagi sebuah perusahaan. Salah satunya adalah sebagai acuan untuk mengambil keputusan terkait pengelolaan perusahaan. Dengan memakai aplikasi komputer maka data yang dihasilkan bisa lebih akurat. Hal ini akan membuat pengambilan keputusan terkait perusahaan jauh lebih mudah untuk dilakukan.</p>
         </li>
     </ol>
-    <p>Itulah tadi pembahasan singkat mengenai manfaat aplikasi komputer akuntansi. Aplikasi ini merupakan bentuk kemajuan teknologi yang bisa memperlancar sebuah bisnis. Perusahaan dapat menikmati keuntungan optimal dengan menggunakan aplikasi tersebut dalam pelaksanaan bisnisnya.</p>
+    <p>Itulah tadi pembahasan singkat mengenai manfaat aplikasi komputer akuntansi. Aplikasi ini merupakan bentuk kemajuan teknologi yang bisa memperlancar sebuah bisnis. Perusahaan dapat menikmati keuntungan optimal dengan menggunakan aplikasi tersebut dalam pelaksanaan bisnisnya. Cek portfolio kami <a href='<?= base_url() ?>/#Portfolio'>disini</a> untuk aplikasi yang kami buat sebelumnya.</p>
 <?= $this->endSection() ?>
 
 <?= $this->section('share') ?>

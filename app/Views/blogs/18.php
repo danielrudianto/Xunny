@@ -12,6 +12,9 @@ $Subitle =
     <ol>
         <li>
             <h3 class='h5 mt-5'>Menjaga Aset Bisnis</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/Security.png' class='w-100' alt='Ilustrasi keamanan'>
+            </figure>
             <p>Perusahaan pasti memiliki aset bisnis yang harus dijaga dengan baik. Ternyata pemakaian aplikasi keuangan ikut berperan dalam menjaga aset bisnis tersebut. Mengapa hal ini bisa terjadi? Dalam sebuah aktivitas perusahaan, sudah pasti akan ada berbagai pengeluaran dan pemasukan. Semua jenis transaksi ini berhubungan erat dengan aset dari perusahaan. Aplikasi akan mencatat semuanya dengan sangat akurat.</p>
             <p>Aplikasi keuangan akan mencatat berbagai jenis transaksi bisnis yang berhubungan dengan keuangan perusahaan. Informasi terkait penggunaan aset dan transaksi apapun bisa langsung dilihat dan dipantau menggunakan aplikasi. Jadi akan jauh lebih mudah untuk mengetahui apakah aset bisnis masih terpantau aman atau tidak.</p>
         </li>
@@ -22,6 +25,9 @@ $Subitle =
         </li>
         <li>
             <h3 class='h5 mt-5'>Meminimalkan Kesalahan Perhitungan</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/Mistake.png' class='w-100' alt='Ilustrasi orang melakukan kesalahan'>
+            </figure>
             <p>Kemajuan teknologi memang diciptakan untuk melengkapi kelemahan manusia dalam melakukan sesuatu. Dalam hal ini, aplikasi keuangan akan membantu proses perhitungan keuangan perusahaan tepat dan minim kesalahan. Jika dilakukan perhitungan untung rugi secara manual, mungkin saja akan terjadi banyak kesalahan.</p>
             <p>Aplikasi didesain sebaik mungkin untuk melakukan perhitungan secara otomatis. Kesalahan-kesalahan kecil dalam proses perhitungan dan pembukuan tentu bisa dihindari dengan mudah. Hal ini akan membuat perusahaan bisa mendapatkan laporan keuangan yang akurat secara mudah.</p>
         </li>
@@ -31,6 +37,9 @@ $Subitle =
         </li>
         <li>
             <h3 class='h5 mt-5'>Mempercepat Penyusunan Laporan</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/Report.png' class='w-100' alt='Ilustrasi penyusunan laporan tahunan'>
+            </figure>
             <p>Perusahaan pasti membutuhkan laporan keuangan. Laporan ini merupakan acuan penting yang akan dijadikan modal untuk mengembangkan sebuah perusahaan. Penyusunan laporan keuangan mungkin tidaklah mudah karena banyak aspek yang harus terlibat. Aplikasi laporan keuangan <i>mobile</i> akan membuatnya terasa mudah dan sangat praktis.</p>
             <p>Perusahaan bisa mendapatkan laporan keuangan lebih cepat dari biasanya. Selain itu data yang tercantum dalam laporan juga akan lengkap dan minim kesalahan. SDM yang bertugas untuk menyusun laporan hanya perlu memeriksa ulang tanpa harus menyusun  laporan keuangan secara manual.</p>
         </li>
@@ -41,11 +50,17 @@ $Subitle =
     <ol>
         <li>
             <h3 class='h5 mt-5'>Perhitungan Laba Rugi</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/FinanceAnalyze.png' class='w-100' alt='Ilustrasi analisa data keuangan'>
+            </figure>
             <p>Dalam sebuah bisnis, penting sekali untuk memantau nilai laba dan rugi. Demi mendapatkan nilai laba dan rugi ini maka akan dibutuhkan data pemasukan serta pengeluaran. Aplikasi laporan keuangan biasanya menyediakan fitur yang bisa dengan cepat menghitung besar laba dan rugi sebuah perusahaan.</p>
             <p>Pengguna hanya perlu memasukkan data pemasukan dan pengeluaran lewat fitur yang tersedia. Data tersebut nantinya akan diolah dan dihitung oleh aplikasi sehingga didapatkan data laba dan rugi. Perhitungan dapat dilakukan dalam jangka waktu tertentu sesuai dengan kebutuhan perusahaan. Biasanya ada banyak error dalam perhitungan ini sehingga peran aplikasi pasti akan sangat membantu.</p>
         </li>
         <li>
             <h3 class='h5 mt-5'>Pencatatan Transaksi</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/OnlineTransaction.png' class='w-100' alt='Ilustrasi transaksi online'>
+            </figure>
             <p>Fitur selanjutnya yang juga biasanya tersedia di aplikasi laporan keuangan adalah pencatatan transaksi. Semua jenis transaksi perusahaan harus dicatat dengan tepat dan akurat. Data ini sangat penting untuk digunakan sebagai acuan dalam manajemen finansial perusahaan. Selain itu data ini juga penting untuk menjaga aset perusahaan digunakan sebagaimana mestinya.</p>
         </li>
         <li>
@@ -55,6 +70,7 @@ $Subitle =
         <li>
             <h3 class='h5 mt-5'>Data Aset Perusahaan</h3>
             <p>Aplikasi laporan keuangan umumnya juga memuat fitur pencantuman dan penyimpanan data aset perusahaan. Data ini juga tak kalah pentingnya dalam pembuatan laporan. Aset perusahaan tentu harus dikelola dan digunakan sebaik mungkin. Penyusunan data yang tepat mengenai aset ini tentu saja akan sangat dibutuhkan dan aplikasi bisa membuatnya jadi lebih mudah.</p>
+            <p>Untuk menjaga keutuhan data aset dan aktiva perusahaan, diperlukan manajemen asset yang baik. Bagi perusahaan dengan aktiva yang besar, seperti perusahaan perdagangan, salah satu faktor penting dalam memastikan data aktiva adalah operasional gudang. Gudang menjadi salah satu ujung tombak keberadaan aset perusahaan karena proporsi nya yang cukup signifikan terhadap aset perusahaan secara keseluruhan. Dengan menggunakan <a href='<?= base_url() ?>/Blogs/pentingnya-aplikasi-inventory-barang-berbasis-web-dalam-bisnis'>aplikasi gudang</a>, maka anda dapat menjaga data aset tersebut.</p>
         </li>
         <li>
             <h3 class='h5 mt-5'>Penyusunan Laporan Keuangan</h3>
