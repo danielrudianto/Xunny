@@ -1,0 +1,152 @@
+-- phpMyAdmin SQL Dump
+-- version 4.8.5
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Oct 23, 2021 at 09:27 AM
+-- Server version: 10.1.38-MariaDB
+-- PHP Version: 7.3.2
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `xunny`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `blog`
+--
+
+CREATE TABLE `blog` (
+  `id` int(255) NOT NULL,
+  `title` varchar(100) NOT NULL,
+  `subtitle` text NOT NULL,
+  `words` int(255) NOT NULL,
+  `created_by` varchar(50) NOT NULL,
+  `created_date` date DEFAULT NULL,
+  `keywords` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `blog`
+--
+
+INSERT INTO `blog` (`id`, `title`, `subtitle`, `words`, `created_by`, `created_date`, `keywords`) VALUES
+(1, 'Desain Web Responsif', 'Desain responsif merupakan suatu konsep yang dibangun dimana sebuah website / web application dapat terlihat proposional untuk beragam perangkat yang saat ini ada. Kita akan membagikan bagimana konsep ini akan berpengaruh pada pembuatan ataupun website anda sendiri.', 572, 'Daniel Tri', '2021-09-12', 'Responsive Web Design, Responsive, Responsif, Desain web, Web Developer Indonesia, Web Developer, Jasa Pembuatan Aplikasi'),
+(2, 'Hal Krusial Semua Programmer Perlu Ketahui', 'Kebiasaan yang baik merupakan salah satu komponen penting untuk menjadi seorang programmer yang baik. Hal ini dikarenakan programmer dituntut untuk selalu update dengan teknologi yang ada. Lalu apa saja kebiasaan yang tepat menjadi hal yang krusial untuk menjadi seorang programmer handal?', 1173, 'Daniel Tri', '2021-09-14', 'Programmer, Programming, Hal Krusial Semua Programmer Perlu Ketahui, Web Developer Indonesia, Web Developer, Jasa Pembuatan Aplikasi'),
+(3, 'Kesalahan Programmer Berujung Pada Masalah Keamanan Data', 'Tidak dapat dipungkiri bahwa keamanan data merupakan salah satu hal yang krusial dalam pembuatan aplikasi. Namun ada beberapa kesalahan yang dapat menyebabkan isu keamanan data yang mungkin kita lalaikan.', 664, 'Daniel Tri', '2021-09-15', 'Kesalahan Programmer, Programmer Pemula, Keamanan Data, Cybersecurity, Web Developer Indonesia, Web Developer, Jasa Pembuatan Aplikasi'),
+(4, '5 Framework CSS Terbaik Untuk Pengembangan Website', 'CSS merupakan bahasa yang digunakan untuk membantu mengatur tampilan dari website anda. Saat ini tersedia sejumlah library yang digunakan untuk membantu para developer untuk memastikan website anda tampil dengan baik, simak beberapa library CSS yang kami pilih.', 506, 'Daniel Tri', '2021-09-18', 'CSS, Bootstrap, Foundation, Materialize, Pure, Bulma, Web Developer Indonesia, Web Developer, Jasa Pembuatan Aplikasi'),
+(5, 'Tantangan Tanpa Akhir Cara Membuat Desain Website yang Mudah Digunakan', 'Desain website yang ramah bagi pengguna merupakan tujuan dari seluruh desainer web di dunia. Tantangan ini sangat sulit untuk dipenuhi menimbang dinamika manusia yang secara konstan berubah.', 780, 'Daniel Tri', '2021-09-22', 'Website Design, User Friendly Design, Web Developer Indonesia, Web Developer, Jasa Pembuatan Aplikasi'),
+(6, '5 Kepribadian Seorang Programmer Hebat', 'Seorang arsitek software merupakan posisi penting dalam setiap perusahaan. Arsitek diharapkan dapat berkolaborasi dengan para pemegang keputusan untuk memberikan solusi dan produk yang berguna bagi perusahaan tersebut. Apa saja kepribadian yang dibutuhkan?', 1025, 'Daniel Tri', '2021-09-23', 'Software architect, arsitek software, Kepribadian programmer, Keterpercayaan, Ketabahan, Percaya Diri, Persuasif, Cerdas secara emosional, Web Developer Indonesia, Web Developer, Jasa Pembuatan Aplikasi, IT Developer Indonesia'),
+(7, 'Mengapa Anda Perlu Memilih Outsourcing Untuk Kebutuhan IT Perusahaan Anda', 'Outsourcing merupakan aktivitas dimana perusahaan mempekerjakan pihak luar untuk\r\nmemberikan layanan, melakukan tugas, atau menangani operasi dalam perusahaan. Saat ini,\r\noutsourcing banyak dilakukan oleh perusahaan karena membawa banyak manfaat bagi\r\nperusahaan. Mari simak beberapa keuntungannya', 602, 'Daniel Tri', '2021-09-24', 'Outsourcing, IT Outsourcing, Kebutuhan IT, Hemat Biaya dan Waktu, Fleksibel, Ahli, Risiko, Web Developer Indonesia, Web Developer, Jasa Pembuatan Aplikasi'),
+(8, 'Buat Audiens Anda Terpukau Dengan Trik Ini', 'Branding dengan menggunakan internet? Mengapa tidak? Mulai dengan satu langkah kecil, buat audiens anda terpukau dengan beberapa trik yang akan kami bagikan untuk meningkatkan kehadiran merek anda.', 645, 'Daniel Tri', '2021-09-25', 'HTML, CSS, Javascript, Flutter, Angular, Vue, ReactJS, Framework, Branding using the Internet, Frontend Developer, Backend developer'),
+(9, '5 Framework PHP terbaik untuk pengembangan website', 'PHP merupakan salah satu bahasa pemrograman yang sangat populer di kalangan web developer. Saat ini tersedia banyak framework yang digunakan untuk mempermudah para developer membuat aplikasi atau website dengan menggunakan bahasa PHP. Apa saja framework tersebut, mari kita simak di artikel ini', 1255, 'Daniel Tri', '2021-10-01', 'PHP, PHP framework, Yii, Laravel, CodeIgniter, Web Developer Indonesia, Web Developer, Jasa Pembuatan Aplikasi'),
+(10, 'Aplikasi Real Time dengan WebSocket', 'Pernahkah anda terbesit bagaimana sebuah real-time application ( aplikasi yang dapat menerima dan mengirimkan data secara hampir spontan ) bekerja? WebSockets merupakan salah satu teknologi yang cukup umum digunakan hari ini bagi para developer untuk melakukan tugas tersebut. Simak artikel kami mengenai websocket disini.', 667, 'Daniel Tri', '2021-10-11', 'Socket.io, socket. websocket, real-time application, Sockette, WS, Realtime application'),
+(11, 'Inilah Manfaat Website Bagi Perusahaan Tak Perlu Ragu Untuk Membuatnya', 'Website perusahaan, apakah manfaatnya? Bukan hanya sebagai media informasi dan promosi, namun memiliki website profil perusahaan memiliki banyak kegunaan lainnya. Mari simak artikel ini untuk mengetahui apa saja kegunaannya.', 1029, 'Daniel Tri', '2021-10-16', 'Website, Manfaat website perusahaan, kepercayaan, pemasaran, market, profil, informasi, biaya layanan, riset, tipe customer, edukasi, kualitas layanan, partner bisnis'),
+(12, 'Mengenal Aplikasi Customer Relationship Management Apa Saja Manfaatnya', 'Pelanggan merupakan salah satu asset yang penting dalam sebuah perusahaan. Seiring berkembangnya teknologi, CRM telah mengambil alih pelayanan pelanggan untuk meningkatkan pengalaman konsumen dalam menjalankan kerja sama atau transaksi dengan perusahaan tersebut. Apa saja manfaat lain dari CRM? Mari simak manfaatnya disini', 1024, 'Daniel Tri', '2021-10-17', 'Customer Relation Management, CRM, Data Customer, Kinerja, Keuntungan, Pengambilan Keputusan, Keamanan, Keamanan Data, Operasional, Konsumen, Optimal, Otomatis '),
+(13, 'Manfaat Menggunakan Aplikasi Keuangan Perusahaan Untuk Bisnis Yang Dijalankan', 'Mengatur dan memantau keuangan bisnis kita dapat menjadi pekerjaan yang sangat memakan waktu dan tenaga. Sebagaimana penting kah peran teknologi dalam sebuah perusahaan? Dalam artikel ini, kami akan membahas mengenai 9 kegunaan aplikasi keuangan dan bagaimana hal tersebut dapat membantu anda untuk memantau dan mengatur keuangan bisnis anda.', 1081, 'Daniel Tri', '2021-10-19', 'Keuangan, Teknologi, Aplikasi, Hemat waktu, pantau keuangan, terkomputerisasi, terorganisir, inventaris, mobile, bisnis'),
+(14, '7 Manfaat Menggunakan Aplikasi Absensi Online Berbasis Web Untuk Perusahaan', 'Absensi merupakan komponen penting baik bagi karyawan perusahaan ataupun perusahaan sendiri untuk menjaga performa sumber daya manusia perusahaan. Seiring waktu, sistem absensi telah berkembang untuk menjaga keutuhan data, mengurangi delay, dan mengoptimalisasi jumlah karyawan. Mari kita simak 7 manfaat penggunaan aplikasi absensi untuk bisnis anda.', 1022, 'Daniel Tri', '2021-10-20', 'Absensi, perusahaan, bisnis, web, sumber daya manusia'),
+(15, 'Pentingnya Aplikasi Inventory Barang Berbasis Web Dalam Bisnis', 'Gudang merupakan salah satu komponen penting dalam jalannya sebuah operasional perusahaan. Tanpa adanya sistem gudang yang baik, perusahaan sendiri dapat mengalami kerugian hingga puluhan atau ratusan juta Rupiah. Oleh karena itu, diperlukan sebuah sistem gudang yang baik untuk menopang potensi kebocoran perusahaan ini. Mari simak pentingnya aplikasi warehouse bagi pengusaha.', 1006, 'Daniel Tri', '2021-10-21', 'Gudang, aplikasi warehouse, operasional perusahaan, sistem gudang'),
+(16, 'Ketahui Pentingnya Aplikasi Penjualan Berbasis Web Untuk Bisnis', 'Saat ini, mungkin anda sering mendengar istilah POS (Point of Sales), sebuah sistem atau aplikasi yang diperjual belikan dengan tujuan membantu usaha anda seperti toko, laundry, ataupun bengkel dalam penjualannya. Kali ini, kita akan membahas mengenai pentingnya aplikasi penjualan (termasuk POS) untuk bisnis anda.', 1003, 'Daniel Tri', '2021-10-22', 'POS, penjualan, bisnis, point of sales, sistem penjualan'),
+(17, 'Keuntungan Penggunaan Aplikasi Manajemen Proyek Konstruksi bagi Perusahaan', 'Perusahaan konstruksi merupakan salah satu perusahaan yang memiliki operasional yang relatif komkpleks. Campuran antara sumber daya manusia, material, dan alat dalam kurun waktu yang terbatas menjadi beberapa tantangan yang dialami sebuah perusahaan kontraktor. Namun seiring berkembangnya teknologi, perusahaan dengan tingkat kompleksitias seperti ini pun mampu untuk mengutilisasi teknologi untuk pengembangan perusahaannya.', 1123, 'Daniel Tri', '2021-10-22', 'Aplikasi kontraktor, teknologi, konstruksi, aplikasi manajemen konstruksi, perencanaan proyek, tracking, perhitungan anggaran, laporan proyek, efisiensi, evaluasi'),
+(18, 'Pentingnya Aplikasi Laporan Keuangan Mobile bagi Sebuah Perusahaan', 'Dengan teknologi, anda dapat membaca berita, menonton video, ataupun mendengarkan musik lewat hp atau smartphone anda. Bagaimana dengan keuangan perusahaan anda? Apakah menjadi sangat nyaman apabila anda dapat memantau kondisi perusahaan anda di genggaman tangan anda? Mari simak pentingnya aplikasi laporan keuangan mobile.', 1000, 'Daniel Tri', '2021-10-23', 'Keuangan, Teknologi, Aplikasi, Hemat waktu, pantau keuangan, terkomputerisasi, terorganisir, inventaris, mobile, bisnis'),
+(19, 'Mengenal Manfaat Aplikasi Komputer Akuntansi bagi Perusahaan', 'Akuntansi merupakan salah satu bagian yang sangat krusial di perusahaan manapun. Seiring dengan waktu, teknologi untuk mempermudah pekerjaan pencatatan dan pelaporan ini semakin banyak. Mari kita coba kenali manfaat aplikasi komputer akuntansi bagi perusahaan', 1025, 'Daniel Tri', '2021-10-23', 'Akuntansi, financial, finance, keuangan, laporan, aplikasi akuntansi'),
+(20, 'Fungsi Aplikasi Pengolah Angka yang Menguntungkan Bagi Perusahaan', 'Dengan adanya teknologi yang membantu kita untuk melakukan kalkulasi kita tidak lagi perlu melakukan kalkulasi secara manual secara umum. Perusahaan dengan budaya untuk melakukan perhitungan secara manual perlahan mulai beralih ke sistem yang lebih canggih untuk memperoleh hasil yang sama atau lebih dengan sumber daya lebih rendah.', 1030, 'Daniel Tri', '2021-10-23', 'Pengola angka, aplikasi perusahaan, rumus, perhitungan skala besar, grafik, data, cepat, meminimalisir kesalahan, hemat biaya'),
+(21, 'Mengenal Aplikasi Penjualan dan Stok Barang dan Urgensinya', 'Pencatatan stok dan penjualan merupakan isu yang menantang dan umum bagi hampir seluruh pelaku usaha yang bergerak di bidang perdagangan. Pada artikel ini, kita akan membahas sebagaimana penting aplikasi tersebut dan bagaimana implementasinya.', 1000, 'Daniel Tri', '2021-10-23', 'Stok, penjualan, urgensi, pendataaan, harga jual, neraca keuangan, kondisi persediaan'),
+(22, 'Ketahui Apa Saja Manfaat Digital Marketing dalam Ulasan Berikut Ini', 'Dunia digital tidak lepas dari istilah digital marketing, sebuah metode marketing baru yang ditawarkan oleh teknologi untuk dapat menjangkau bahkan lebih banyak konsumen sekaligus. Apa saja manfaat melakukan digital marketing hari ini? Mari simak di artikel ini', 1200, 'Daniel Tri', '2021-10-24', 'Digital marketing, hemat biaya, komunikasi, pasar, jangkauan pasar, kompetisi bisnis, real-time, profesional');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `blog_tag`
+--
+
+CREATE TABLE `blog_tag` (
+  `id` int(255) NOT NULL,
+  `blog_id` int(11) NOT NULL,
+  `tags_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tags`
+--
+
+CREATE TABLE `tags` (
+  `id` int(11) NOT NULL,
+  `name` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `blog`
+--
+ALTER TABLE `blog`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `blog_tag`
+--
+ALTER TABLE `blog_tag`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `blog_id` (`blog_id`),
+  ADD KEY `tags_id` (`tags_id`);
+
+--
+-- Indexes for table `tags`
+--
+ALTER TABLE `tags`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `blog`
+--
+ALTER TABLE `blog`
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+
+--
+-- AUTO_INCREMENT for table `blog_tag`
+--
+ALTER TABLE `blog_tag`
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `tags`
+--
+ALTER TABLE `tags`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `blog_tag`
+--
+ALTER TABLE `blog_tag`
+  ADD CONSTRAINT `blog_tag_ibfk_1` FOREIGN KEY (`blog_id`) REFERENCES `blog` (`id`),
+  ADD CONSTRAINT `blog_tag_ibfk_2` FOREIGN KEY (`tags_id`) REFERENCES `tags` (`id`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -29,7 +29,7 @@
 }
 
 main{
-    padding-top:100px;
+    padding-top:120px;
 }
 
 .card{
@@ -338,4 +338,5 @@ figcaption{
       width:100%;
       right:0;
       top:0;
+      transition:0.2s all ease;
   }
