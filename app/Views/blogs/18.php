@@ -84,6 +84,7 @@ $Subitle =
     <ul class='socialMediaUl'>
     <li><button  class='facebookButton' data-layout="button_count" data-size="large"><a target="_blank" class="fb-xfbml-parse-ignore"><img src='<?= base_url() ?>/assets/img/facebook.png' width='50' height='50' alt='Share Facebook icon'></a></button></li>
         <li><button class='twitterButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/twitter.png' width='50' height='50' alt='Share Twitter icon'></a></button></li>
+        <li><button class='share'><img src='<?= base_url() ?>/assets/img/share.png' width='50' height='50' alt='Share icon'></button></li>
         <li><button class='clipboard'><img src='<?= base_url() ?>/assets/img/copyLink.png' width='50' height='50' alt='Copy to clipboard icon'></button></li>
     </ul>
 <?= $this->endSection() ?>
@@ -92,6 +93,7 @@ $Subitle =
 <ul class='socialMediaUl'>
     <li><button  class='facebookButton' data-layout="button_count" data-size="large"><a target="_blank" class="fb-xfbml-parse-ignore"><img src='<?= base_url() ?>/assets/img/facebook.png' width='50' height='50' alt='Share Facebook icon'></a></button></li>
         <li><button class='twitterButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/twitter.png' width='50' height='50' alt='Share Twitter icon'></a></button></li>
+        <li><button class='share'><img src='<?= base_url() ?>/assets/img/share.png' width='50' height='50' alt='Share icon'></button></li>
         <li><button class='clipboard'><img src='<?= base_url() ?>/assets/img/copyLink.png' width='50' height='50' alt='Copy to clipboard icon'></button></li>
     </ul>
     <script>
@@ -105,6 +107,20 @@ $Subitle =
             $temp.val($url).select();
             document.execCommand("copy");
             $temp.remove();
+        })
+
+        $('.share').click(function(){
+            if (navigator.share) {
+                navigator.share({
+                title: '<?= $header['title'] ?>',
+                text: `<?= $header['subtitle'] ?>`,
+                url: document.URL,
+            })
+            .then(() => console.log('Successful share'))
+            .catch((error) => console.log('Error sharing', error));
+            } else {
+                console.log('Share not supported on this browser, do it the old way.');
+            }
         })
     </script>
 <?= $this->endSection() ?>
