@@ -14,7 +14,7 @@
         <li>
             <h3 class='h5 mt-5'>Mempermudah Proses Transaksi</h3>
             <figure>
-                <img src='<?= base_url() ?>/assets/blogContent/OnlineTransaction.png' alt='Ilustrasi online transaction'>
+                <img src='<?= base_url() ?>/assets/blogContent/OnlineTransaction.png' class='w-100' alt='Ilustrasi online transaction'>
             </figure>
             <p>Hal pertama yang menjadi keuntungannya adalah mempermudah atau mempercepat segala proses transaksi. Misalnya saja pada supermarket ramai dan terdapat banyak antrean yang ingin membayar pesanan. Tentu saja dengan adanya aplikasi ini  membuat pelanggan tidak begitu kecewa karena harus mengantre lama, sehingga nantinya akan datang ke toko untuk pembelian berulang kali.</p>
             <p>Namun apabila proses transaksi menjadi rumit dan tidak cepat karena tidak adanya aplikasi jenis ini, maka memakan waktu dan tenaga lebih lama. Pelanggan pun merasa kecewa karena proses pelayanan yang lambat, baik pada saat pencatatan pesanan maupun menghitung bill pelanggan.</p>
@@ -28,7 +28,7 @@
         <li>
             <h3 class='h5 mt-5'>Pengelolaan Stok Produk Lebih Baik</h3>
             <figure>
-                <img src='<?= base_url() ?>/assets/blogContent/Warehouse.png' alt='Ilustrasi internal gudang'>
+                <img src='<?= base_url() ?>/assets/blogContent/Warehouse.png' class='w-100' alt='Ilustrasi internal gudang'>
             </figure>
             <p>Aplikasi penjualan berbasis web juga diperlukan untuk mengelola stok produk agar menjadi lebih baik daripada sebelumnya. Hal ini mempermudah pebisnis dalam mengetahui jumlah stok keluar masuk ataupun histori pesanan yang ada. Sehingga nantinya akan lebih mudah menentukan apakah produk perlu di restock atau tidak secara akurat.</p>
             <p>Pekerjaan pun menjadi lebih efektif karena tanpa perlu pengecekan ke gudang penyimpanan, jumlah persediaan barang bisa diketahui secara mudah. Pebisnis jadi tidak ribet memikirkan manajemen stok dan hanya perlu melihat melalui aplikasi penjualan saja.</p>
@@ -42,7 +42,7 @@
         <li>
             <h3 class='h5 mt-5'>Pelayanan Terbaik untuk Pelanggan</h3>
             <figure>
-                <img src='<?= base_url() ?>/assets/blogContent/Customer.png' alt='Ilustrasi marketing menawarkan customer'>
+                <img src='<?= base_url() ?>/assets/blogContent/Customer.png' class='w-100' alt='Ilustrasi marketing menawarkan customer'>
             </figure>
             <p>Hal lainnya yang menjadi keuntungan menggunakan aplikasi penjualan berbasis web adalah karena menawarkan pelayanan terbaik untuk para pelanggan. Misalnya saja seperti pelayanan saat transaksi secara cepat dan juga ramah. Maka dari itu peningkatan produktivitas bisnis bisa dilakukan dengan menggunakan aplikasi satu ini.</p>
             <p>Misalnya saja mulai dari pencatatan transaksi, pemesanan barang, hingga perhitungan total uang yang harus dibayar dan berbagai metode pembayaran bisa dilakukan secara mudah. Sehingga penggunaan aplikasi berbasis web ini patut dipertimbangkan lagi demi kelancaran bisnis yang dijalankan.</p>
@@ -55,7 +55,7 @@
         <li>
             <h3 class='h5 mt-5'>Keuntungan Semakin Meningkat</h3>
             <figure>
-                <img src='<?= base_url() ?>/assets/blogContent/BusinessmanProfit.png' alt='Ilustrasi pembisnis dengan keuntungan meningkat'>
+                <img src='<?= base_url() ?>/assets/blogContent/BusinessmanProfit.png' class='w-100' alt='Ilustrasi pembisnis dengan keuntungan meningkat'>
             </figure>
             <p>Hal lainnya yang mengharuskan para pebisnis untuk menggunakan aplikasi penjualan yang berbasiskan web satu ini adalah untuk meningkatkan penjualan dan sekaligus keuntungan. Aplikasi ini akan memberikan laporan penjualan atau transaksi yang memiliki data-data akurat, misalnya saja seperti produk apa saja yang terjual setiap harinya.</p>
             <p>Dengan mengerti bagaimana kondisi dan transaksi apa saja yang ada, maka pebisnis dapat secara mudah mengatur strategi pemasaran apa yang sesuai untuk meningkatkan keuntungan. Tidak hanya itu, pengambilan keputusan pun bisa dilakukan secara tepat setelah melihat data-data yang terekam di sistem.</p>

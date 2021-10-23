@@ -42,10 +42,13 @@
     <meta expr:content='data:post.snippet' name='og:description'/>
     </b:if>
     <body>
-         <nav class='nav navbar-light navbar-expand-lg justify-content-center' id='navbar'>
-            <a class='navbar-brand' style='text-decoration:none' href='<?= base_url('/Blogs') ?>'>
-                <img src='<?= base_url("assets/blog/Logo.webp") ?>' id='logoImage' alt='Xunny Blog Logo'>
+         <nav id='navbar'>
+            <a href='<?= base_url('/Blogs') ?>' id='logoImage'>
+                <img src='<?= base_url("assets/blog/Logo.webp") ?>' class='w-100' alt='Xunny Blog Logo'>
             </a>
+            <div id='progressBar'>
+                <div id='progressBarContent'></div>
+            </div>
         </nav>
         <main>
             <div class='container'>
@@ -60,7 +63,9 @@
                             <br><br>
                             <hr>
                             <br>
-                            <?= $this->renderSection('content') ?>
+                            <div id='content'>
+                                <?= $this->renderSection('content') ?>
+                            </div>
                             <?= $this->renderSection('bottomShare') ?>
                         </article>
                     </div>
@@ -182,6 +187,16 @@
                         }
                     }
                 })
+
+                var scroll = $(window).scrollTop();
+                var height = $('#content').height();
+                var percentage = scroll / height;
+
+                if(scroll <= height){
+                    $('#progressBarContent').css('width', `${100 - percentage * 100}%`);
+                } else {
+                    $('#progressBarContent').css('width', "0%");
+                }
             })
 
             function isEmail(email) {
@@ -252,6 +267,16 @@
                     $('#navbar').removeClass('scaleDown');
                 }
                 lastScrollTop = st;
+
+                var scroll = $(window).scrollTop();
+                var height = $('#content').height();
+                var percentage = scroll / height;
+
+                if(scroll <= height){
+                    $('#progressBarContent').css('width', `${100 - percentage * 100}%`);
+                } else {
+                    $('#progressBarContent').css('width', "0%");
+                }
             })
         </script>
     </body>
