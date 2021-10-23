@@ -59,14 +59,14 @@
                             <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' class='w-100' />
                             <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
                             <p class='text-center h5'><?= date("d M Y", strtotime($header['created_date'])) ?></p>
-                            <?= $this->renderSection('share') ?>
+                            <?= $this->include('/share'); ?>
                             <br><br>
                             <hr>
                             <br>
                             <div id='content'>
                                 <?= $this->renderSection('content') ?>
                             </div>
-                            <?= $this->renderSection('bottomShare') ?>
+                            <?= $this->include('/share'); ?>
                         </article>
                     </div>
                     <div class='col-xl-8 col-lg-10 col-12'>
@@ -276,6 +276,32 @@
                     $('#progressBarContent').css('width', `${100 - percentage * 100}%`);
                 } else {
                     $('#progressBarContent').css('width', "0%");
+                }
+            })
+            
+            $(".facebookButton").attr('data-href', `<?= base_url() ?>/Blogs/${"<?= $header['title'] ?>".toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'')}`);
+            $('.facebookButton > a').attr('href', `https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fxunny.id%2FBlogs%2F${"<?= $header['title'] ?>".toLocaleLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'')}&amp;src=sdkpreparse`)
+            $('.twitterButton > a').attr('href', `https://twitter.com/share?url="${encodeURIComponent(document.URL)}`);
+            var $temp = $("<input>");
+            var $url = $(location).attr('href');
+                $('.clipboard').on('click', function() {
+                $("body").append($temp);
+                $temp.val($url).select();
+                document.execCommand("copy");
+                $temp.remove();
+            })
+
+            $('.share').click(function(){
+                if (navigator.share) {
+                    navigator.share({
+                    title: '<?= $header['title'] ?>',
+                    text: `<?= $header['subtitle'] ?>`,
+                    url: document.URL,
+                })
+                .then(() => console.log('Successful share'))
+                .catch((error) => console.log('Error sharing', error));
+                } else {
+                    console.log('Share not supported on this browser, do it the old way.');
                 }
             })
         </script>

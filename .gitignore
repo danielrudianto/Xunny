@@ -142,3 +142,4 @@ phpunit.xml.dist
 LICENSE
 env
 composer.json
+composer.lock

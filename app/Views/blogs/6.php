@@ -53,33 +53,3 @@
     <h2 class='h3 mt-5'>Penutup</h2>
     <p>Apabila anda seorang arsitek <i>software</i> atau hendak menjadi seorang arsitek dalam karir anda, anda disarankan untuk memiliki kelima kepribadian yang sudah disebutkan sebelumnya untuk menjadi layak dalam posisi tersebut. Pastikan anda paham dengan ekspektasi dan mengaplikasikannya pada kehidupan bekerja anda sehari - hari. Mungkin hal ini akan menjadi sangat menantang, namun hal ini tidak dapat dinegosiasi untuk seorang arsitek yang hebat. Terima kasih telah membaca salah satu artikel kami.</p>
 <?= $this->endSection() ?>
-
-<?= $this->section('share') ?>
-    <ul class='socialMediaUl'>
-    <li><button  class='facebookButton' data-layout="button_count" data-size="large"><a target="_blank" class="fb-xfbml-parse-ignore"><img src='<?= base_url() ?>/assets/img/facebook.png' width='50' height='50' alt='Share Facebook icon'></a></button></li>
-        <li><button class='twitterButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/twitter.png' width='50' height='50' alt='Share Twitter icon'></a></button></li>
-        <li><button class='clipboard'><img src='<?= base_url() ?>/assets/img/copyLink.png' width='50' height='50' alt='Copy to clipboard icon'></button></li>
-    </ul>
-<?= $this->endSection() ?>
-
-<?= $this->section('bottomShare') ?>
-<ul class='socialMediaUl'>
-    <li><button  class='facebookButton' data-layout="button_count" data-size="large"><a target="_blank" class="fb-xfbml-parse-ignore"><img src='<?= base_url() ?>/assets/img/facebook.png' width='50' height='50' alt='Share Facebook icon'></a></button></li>
-        <li><button class='twitterButton'><a target='_blank'><img src='<?= base_url() ?>/assets/img/twitter.png' width='50' height='50' alt='Share Twitter icon'></a></button></li>
-        <li><button class='clipboard'><img src='<?= base_url() ?>/assets/img/copyLink.png' width='50' height='50' alt='Copy to clipboard icon'></button></li>
-    </ul>
-    <script>
-        $(".facebookButton").attr('data-href', `<?= base_url() ?>/Blogs/${"<?= $header['title'] ?>".toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'')}`);
-        $('.facebookButton > a').attr('href', `https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fxunny.id%2FBlogs%2F${"<?= $header['title'] ?>".toLocaleLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'')}&amp;src=sdkpreparse`)
-        $('.twitterButton > a').attr('href', `https://twitter.com/share?url="${encodeURIComponent(document.URL)}`);
-        $('.linkedInButton > a').attr('href', `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(document.URL)}`);
-        var $temp = $("<input>");
-        var $url = $(location).attr('href');
-            $('.clipboard').on('click', function() {
-            $("body").append($temp);
-            $temp.val($url).select();
-            document.execCommand("copy");
-            $temp.remove();
-        })
-    </script>
-<?= $this->endSection() ?>
