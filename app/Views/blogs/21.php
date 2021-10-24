@@ -1,11 +1,9 @@
 <?= $this->extend('/blog') ?>
-$Title = Mengenal Manfaat Aplikasi Komputer Akuntansi bagi Perusahaan
-$Subitle = 
 <?= $this->section('content') ?>
     <p>Bingung untuk mencatat semua detail penjualan yang terdapat dalam perusahaan? Kini aplikasi penjualan dan stok barang sudah dirancang khusus untuk mempermudah pekerjaan. Penerapan teknologi yang terdapat di dalamnya-lah yang membuat perencanaan serta detail laporan barang menjadi tersusun rapi. Berikut pembahasan terkait lebih lanjutnya.</p>
     <h2 class='h4 mt-5'>Apa Itu Aplikasi Penjualan dan Stok Barang?</h2>
     <p>Software atau perangkat lunak yang telah hadir saat ini telah dirancang untuk menyelesaikan berbagai aktivitas perusahaan. Pengertian aplikasi penjualan merupakan software yang banyak dipakai oleh berbagai perusahaan. Memungkinkan berbagai persoalan terkait transaksi jual dan beli dapat terselesaikan dengan mudah.</p>
-    <p>Berbeda penggunaanya dengan aplikasi stok barang yang lebih fokus terhadap ketersediaan jumlah barang. Aplikasi tersebut penting untuk dapat menjalankan bisnis yang tengah dijalankan. Hal penting yang terdapat pada sebuah perusahaan yaitu pengaturan terhadap barang yang masuk dan keluar.</p>
+    <p>Berbeda penggunaanya dengan <a href='<?= base_url() ?>/Blogs/pentingnya-aplikasi-inventory-barang-berbasis-web-dalam-bisnis'>aplikasi stok barang</a> yang lebih fokus terhadap ketersediaan jumlah barang. Aplikasi tersebut penting untuk dapat menjalankan bisnis yang tengah dijalankan. Hal penting yang terdapat pada sebuah perusahaan yaitu pengaturan terhadap barang yang masuk dan keluar.</p>
     <p>Sebenarnya penggunaan aplikasi penjualan dan stok barang tidak bisa dipisahkan dalam kegiatan perusahaan. Keduanya mempunyai fungsi dan peran berbeda, tetapi penting untuk mempertahankan eksistensi sebuah perusahaan. Selain itu juga mampu menunjang berbagai aktivitas menjadi lebih efektif dan efisien.</p>
 
     <h2 class='h4 mt-5'>Mengapa Aplikasi penjualan dan stok barang Penting?</h2>
@@ -18,11 +16,17 @@ $Subitle =
         </li>
         <li>
             <h3 class='h5 mt-5'>Pencatatan Harga Jual yang Efisien</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/BusinessCalculation.png' class='w-100' alt='Ilustrasi perhitungan bisnis'>
+            </figure>
             <p>Memasuki era digitalisasi, membuat penggunaan barcode pun telah dikenal luas masyarakat. Hal tersebut bertujuan untuk memberikan kemudahan pengenalan terhadap barang tanpa ribet mencatat nomor seri di dalamnya. Efektivitas pencatatan tersebut dirasa sangat efektif, bagaimana tidak?</p>
             <p>Kini aplikasi komputer dapat melacak harga jual yang tertera pada barang lewat sensor yang ada pada barcode reader. Memungkinkannya semakin sangat efisien dan efektif untuk membantu pekerjaan yang ada dalam sebuah perusahaan.</p>
         </li>
         <li>
             <h3 class='h5 mt-5'>Menghasilkan Neraca Keuangan dalam Waktu Tertentu</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/FinanceReport.png' class='w-100' alt='Ilustrasi laporan keuangan perusahaan'>
+            </figure>
             <p>Singkat Laporan yang dihadirkan dalam satu periode akuntansi biasanya akan memperlihatkan kondisi keuangan terkini yang disebut neraca keuangan. Tujuan dari adanya laporan tersebut untuk memberitahukan laporan terkait detail keuangan perusahaan tersebut.</p>
             <p>Berbagai keterangan seperti aset, ekuitas serta liabilitas juga ada terdapat di dalamnya. Hal ini disebabkan perkembangan aplikasi yang sudah semakin kompleks, sehingga dapat mengeluarkan rincian laporan dalam bentuk yang terstruktur dan rapi.</p>
         </li>
@@ -33,6 +37,9 @@ $Subitle =
         </li>
         <li>
             <h3 class='h5 mt-5'>Mudah Menentukan Kebijakan</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/Policy.png' class='w-100' alt='Ilustrasi penyetujuan kebijakan'>
+            </figure>
             <p>Usaha Semua kegiatan pembukuan serta akuntansi dilakukan secara manual, maka kondisi keuangan pun kan dipastikan lambat informasinya. Kehadiran aplikasi penjualan dan stok barang dapat menjadi alternatif terbaik untuk menentukan kebijakan perusahaan. Mengapa hal tersebut bisa dijadikan landasan?</p>
             <p>Sistem informasi dan teknologi modern saat ini dapat digunakan dengan cepat, sehingga hasil dari setiap laporan pun bisa di dapat dalam waktu singkat. Hal inilah yang membuat perusahaan dapat dengan sikap menentukan kebijakan, karena sudah mengetahui langkah apa yang harus diambil dari hasil laporan tersebut.</p>
         </li>

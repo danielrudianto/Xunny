@@ -1,9 +1,10 @@
 <?= $this->extend('/blog') ?>
-$Title = Mengenal Manfaat Aplikasi Komputer Akuntansi bagi Perusahaan
-$Subitle = 
 <?= $this->section('content') ?>
     <p>Memulai usaha untuk pertama kalinya memang bukanlah hal yang mudah dan diperlukan sebuah persiapan yang matang demi mendapatkan keuntungan besar. Kemudian ketika bisnis sudah dijalankan selama beberapa hari, diperlukan strategi tepat termasuk seperti digital marketing agar setiap rencana dapat terealisasikan. Hanya saja, manfaat digital marketing masih diketahui oleh sedikit orang.</p>
     <p>Salah satu kunci utama yang dapat membuat sebuah usaha dapat bertahan lama baik usaha produk ataupun jasa adalah proses pemasarannya. Oleh karena itu, walaupun merupakan seorang pemula, setiap perusahaan wajib mempelajari secara detail terkait proses pemasaran yang memang sesuai. Selain itu, strategi dan proses pemasaran tidak dapat dilakukan dengan sembarangan.</p>
+    <figure>
+        <img src='<?= base_url() ?>/assets/blogContent/Strategy.png' class='w-100' alt='Ilustrasi pembuatan strategi'>
+    </figure>
     <p>Untuk menentukan strategi pemasaran baik untuk barang ataupun jasa yang tepat dan bisa menguntungkan, diperlukan sebuah analisis pasar secara menyeluruh. Selain itu, setiap perusahaan juga perlu untuk memperhatikan tren seperti apa yang marak digunakan oleh masyarakat Indonesia saat ini. Apalagi ternyata pada masa sekarang, hampir semua hal bersifat online.</p>
     <p>Berkaitan dengan perkembangan internet yang semakin pesat dan sulitnya masyarakat untuk hidup tanpa internet, digital marketing bisa menjadi pilihan tepat. Apalagi ternyata jenis strategi pemasaran ini juga semakin marak dicoba baik oleh bisnis yang sudah didirikan sejak lama maupun baru. Berikut beberapa manfaat digital marketing yang dapat dinikmati oleh perusahaan:</p>
     <ol>
@@ -13,6 +14,9 @@ $Subitle =
         </li>
         <li>
             <h2 class='h5 mt-5'>Mencapai Sasaran dengan Tepat</h2>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/MarketTargeting.png' class='w-100' alt='Ilustrasi penargetan iklan'>
+            </figure>
             <p>Kemudian ada juga keuntungan yang dapat dinikmati oleh setiap perusahaan jika memutuskan untuk menggunakan bantuan dari pemasaran produk secara digital. Hal ini dikarenakan keberadaan internet pada masa sekarang mampu membantu untuk menentukan kebutuhan apa yang sedang dicari dan kemudian disesuaikan. Bahkan sasaran bisnis pun dapat dicapai dengan jauh lebih mudah.</p>
         </li>
         <li>
@@ -21,6 +25,9 @@ $Subitle =
         </li>
         <li>
             <h2 class='h5 mt-5'>Memperluas Jangkauan Pasar</h2>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/BitcoinDistribution.png' class='w-100' alt='Ilustrasi mengingkatkan jangkauan pasar'>
+            </figure>
             <p>Melalui bantuan pemasaran secara digital yang dilakukan melalui berbagai aplikasi atau situs yang ada, pasar juga lebih mudah untuk dijangkau. Setiap perusahan bahkan dapat menghemat waktu yang dimiliki tanpa harus bersusah payah untuk mencapai sasaran di pasar melalui metode langsung. Pemasaran digital juga membantu perusahaan untuk menentukan langkah yang selanjutnya.</p>
         </li>
         <li>
@@ -29,6 +36,9 @@ $Subitle =
         </li>
         <li>
             <h2 class='h5 mt-5'>Melakukan Analisis dengan Mudah</h2>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/FinanceAnalyze.png' class='w-100' alt='Ilustrasi menganalisa dengan mudah'>
+            </figure>
             <p>Terdapat manfaat digital marketing lainnya yang wajib dipahami sejak awal oleh setiap pebisnis sejak awal sebelum mencoba secara langsung. Hal ini dikarenakan jenis pemasaran secara digital ini dapat membantu setiap pebisnis untuk melakukan analisis terkait bisnis yang sedang dijalankan. Bahkan analisis tersebut dapat bermanfaat terutama ketika perancangan rencana berikutnya.</p>
         </li>
         <li>
@@ -37,15 +47,21 @@ $Subitle =
         </li>
         <li>
             <h2 class='h5 mt-5'>Mempertahankan Kompetisi Bisnis</h2>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/BusinessCompetition.png' class='w-100' alt='Ilustrasi kompetisi bisnis'>
+            </figure>
             <p>Selain beberapa keuntungan dan manfaat yang sudah dijelaskan secara detail sebelumnya, ternyata ada juga manfaat yang lebih menarik untuk dinikmati. Jika menggunakan jenis pemasaran secara digital, maka setiap perusahaan terutama yang baru saja mencoba dapat mempertahankan usaha yang sudah dimulai. Apalagi usaha juga dapat lebih bertahan dalam kompetisi yang besar.</p>
         </li>
         <li>
             <h2 class='h5 mt-5'>Memudahkan Transaksi Jual Beli</h2>
-            <p>Masih berkaitan erat dengan persoalan komunikasi dengan pelanggan yang jauh lebih mudah dilakukan, manfaat digital marketing ini juga memudahkan transaksi. Setelah melakukan komunikasi secara tidak langsung baik melalui aplikasi ataupun situs, biasanya pembeli akan menentukan pilihan dalam waktu singkat. Oleh karena itu, transaksi juga harus bisa dilakukan dengan sesegera mungkin.</p>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/OnlineTransaction.png' class='w-100' alt='Ilustrasi transaksi online'>
+            </figure>
+            <p>Masih berkaitan erat dengan persoalan komunikasi dengan pelanggan yang jauh lebih mudah dilakukan, manfaat digital marketing ini juga memudahkan transaksi. Setelah melakukan komunikasi secara tidak langsung baik melalui aplikasi ataupun situs, biasanya pembeli akan menentukan pilihan dalam waktu singkat. Oleh karena itu, <a href='<?= base_url() ?>/Blogs/mengenal-manfaat-aplikasi-komputer-akuntansi-bagi-perusahaan'>proses transaksi</a> juga harus bisa dilakukan dengan sesegera mungkin.</p>
         </li>
         <li>
             <h2 class='h5 mt-5'>Mengaktifkan Layanan Real-Time</h2>
-            <p>Ada manfaat lainnya yang ditawarkan oleh pemasaran produk baik barang ataupun jasa secara digital yang tentunya tidak lupa untuk dicoba. Ditambah lagi, dengan memanfaatkan situs khusus penjualan produk yang dimiliki, maka secara tidak langsung layanan akan tersedia dalam bentuk real-time. Sistem layanan tersebut tentu saja semakin menarik dipakai saat ini.</p>
+            <p>Ada manfaat lainnya yang ditawarkan oleh pemasaran produk baik barang ataupun jasa secara digital yang tentunya tidak lupa untuk dicoba. Ditambah lagi, dengan memanfaatkan situs khusus penjualan produk yang dimiliki, maka secara tidak langsung layanan akan tersedia dalam bentuk <a href='<?= base_url() ?>/Blogs/aplikasi-real-time-dengan-websocket'>real-time</a>. Sistem layanan tersebut tentu saja semakin menarik dipakai saat ini.</p>
         </li>
         <li>
             <h2 class='h5 mt-5'>Membuat Keuntungan Lebih Stabil</h2>
@@ -53,8 +69,11 @@ $Subitle =
         </li>
         <li>
             <h2 class='h5 mt-5'>Memberikan Kesan Lebih Profesional</h2>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/OfficeReceptionist.png' class='w-100' alt='Ilustrasi kesan profesionalisme perusahaan'>
+            </figure>
             <p>Selanjutnya ada manfaat digital marketing yang jangan sampai tidak diketahui terlebih dahulu apalagi jika baru pertama kali mencoba sebuah bisnis. Ditambah lagi, setiap bisnis yang baru dibuka tentu saja memiliki perjuangan yang lebih besar terutama untuk menunjukkan kesan dalam masyarakat.</p>
-            <p>Keberadaan situs resmi sebagai bagian dari pelaksanaan metode pemasaran secara digital akan membuat kesan profesional. Selain itu, situs tersebut juga dapat mendatangkan pelanggan dalam jumlah yang banyak.</p>
+            <p>Keberadaan <a href='<?= base_url() ?>/Blogs/inilah-manfaat-website-bagi-perusahaan-tak-perlu-ragu-untuk-membuatnya'>situs resmi</a> sebagai bagian dari pelaksanaan metode pemasaran secara digital akan membuat kesan profesional. Selain itu, <a href='<?= base_url() ?>/Blogs/inilah-manfaat-website-bagi-perusahaan-tak-perlu-ragu-untuk-membuatnya'>situs tersebut</a> juga dapat mendatangkan pelanggan dalam jumlah yang banyak apabila anda berhasil membuat <a href='<?= base_url() ?>/Blogs/buat-audiens-anda-terpukau-dengan-trik-ini'>audiens anda terpukau</a> pada saat impresi pertama.</p>
         </li>
         <li>
             <h2 class='h5 mt-5'>Mencatat Evaluasi dengan Baik</h2>

@@ -1,18 +1,25 @@
 <?= $this->extend('/blog') ?>
-$Title = Mengenal Manfaat Aplikasi Komputer Akuntansi bagi Perusahaan
-$Subitle = 
 <?= $this->section('content') ?>
     <p>Sekarang ini menghitung tidak lagi harus dilakukan secara manual, melainkan bisa dengan bantuan aplikasi pengolah angka. Tidak hanya menghitung saja yang bisa dilakukan sebenarnya, tapi juga kegiatan lain karena memang fungsi aplikasi pengolah angka ini sangatlah banyak. Karena itu kalau pengguna masih terbiasa dengan cara manual, ada baiknya untuk mulai beralih.</p>
     <h2 class='h4 mt-5'>Mengenal Aplikasi Pengolah Angka</h2>
     <p>Seperti yang dikatakan tadi kalau fungsi aplikasi pengolah angka ini sangatlah banyak. Namun sebelum itu mungkin banyak yang tidak mengetahui apa itu aplikasi pengolah angka sebenarnya. Banyak yang hanya berpikir kalau aplikasi ini hanya untuk menaruh angka-angka saja. Padahal tidak seperti itu, jadi aplikasi ini dapat membantu penggunanya dalam mengolah angka.</p>
+    <figure>
+        <img src='<?= base_url() ?>/assets/blogContent/Transposter.gif' class='w-100' alt='Ilustrasi profesi perhitungan angka'>
+    </figure>
     <p>Dalam hal ini adalah membantu penggunanya untuk menyelesaikan pekerjaan, terutama dalam hal yang berkaitan dengan angka maupun grafik. Jadi perhitungan dapat dilakukan dengan cepat, dan juga efektif dengan memasukan rumus yang ada.</p>
     <p>Nantinya aplikasi ini memproses semuanya menggunakan formula yang memang sudah ditentukan, dan menyajikannya bisa dalam bentuk data, dokumen, grafik, dll. Aplikasi ini juga dapat digunakan untuk merumuskan data-data yang melibatkan angka, menyelesaikan berbagai hitungan, membantu administratif keuangan, dan sebagainya.</p>
+    <figure>
+        <img src='<?= base_url() ?>/assets/blogContent/BusinessPlan.png' class='w-100' alt='Ilustrasi perencanaan bisnis'>
+    </figure>
     <p>Hal ini dapat dilakukan karena memang aplikasi ini dapat dilengkapi dengan berbagai fitur. Jadi pengguna dapat memanfaatkan semuanya dengan mudah, dan tentunya sangat membantu dirinya untuk melakukan kegiatan terutama pekerjaan yang dimilikinya.</p>
     <h2 class='h5 mt-5'>Fungsi Aplikasi Pengolah Angka</h2>
     <p>Setelah mengetahui pengertiannya, maka sekarang saatnya untuk mengetahui fungsi aplikasi pengolah angka. Tentunya setelah membaca pengertiannya, sekilas bisa mengetahui apa saja fungsi yang dimiliki oleh aplikasi ini. Seperti yang disinggung sedikit sebelumnya, kalau fungsinya sangat banyak. Jadi memang aplikasi ini hadir untuk membantu penggunanya dalam hal pengolahan angka.</p>
     <ol>
         <li>
             <h3 class='h5 mt-5'>Menghitung Menggunakan Rumus</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/BusinessCalculation.png' class='w-100' alt='Ilustrasi perhitungan dalam bisnis'>
+            </figure>
             <p>Mungkin banyak yang berpikir kalau fungsi ini sama sekali tidak terlalu membantu. Padahal rumus hitungan yang digunakan di aplikasi hitungan ini sangatlah beragam. Dari mulai perhitungan dasar, sampai perhitungan rumit semuanya ada. Tidak hanya itu saja, perhitungan ini juga dapat digabung. Jadi tentu sangat memudahkan pengguna dalam menghitung, dan mengolah angka.</p>
         </li>
         <li>
@@ -21,10 +28,16 @@ $Subitle =
         </li>
         <li>
             <h3 class='h5 mt-5'>Pembuatan Laporan Keuangan Lebih Cepat</h3>
-            <p>Mungkin banyak yang tidak terpikirkan hal ini, tapi memang fungsi dari aplikasi ini adalah dapat membuat laporan keuangan dengan lebih cepat. Karena memang semua perhitungan dilakukan oleh aplikasi dan bukannya secara manual. Selain itu, fungsi aplikasi ini juga membantu pengguna untuk menghitung dengan lebih cepat dan dalam skala besar.</p>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/FinanceReport.png' class='w-100' alt='Ilustrasi laporan keuangan'>
+            </figure>
+            <p>Mungkin banyak yang tidak terpikirkan hal ini, tapi memang fungsi dari aplikasi ini adalah dapat <a href='<?= base_url() ?>/Blogs/manfaat-menggunakan-aplikasi-keuangan-perusahaan-untuk-bisnis-yang-dijalankan'>membuat laporan keuangan dengan lebih cepat</a>. Karena memang semua perhitungan dilakukan oleh aplikasi dan bukannya secara manual. Selain itu, fungsi aplikasi ini juga membantu pengguna untuk menghitung dengan lebih cepat dan dalam skala besar.</p>
         </li>
         <li>
             <h3 class='h5 mt-5'>Pembuatan Grafik</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/StockGraph.png' class='w-100' alt='Ilustrasi grafik nilai saham'>
+            </figure>
             <p>Ini juga salah satu fungsi aplikasi pengolah angka yang bisa dimanfaatkan. Jadi aplikasi ini mampu mengolah sebuah angka, dan kemudian menghasilkannya dalam bentuk grafik. Dengan begitu, pengguna tidak perlu lagi membuat grafik ini secara manual. Grafik yang disajikan di aplikasi ini juga sangat beragam, dan dapat dipilih yang sesuai dengan pengguna.</p>
         </li>
         <li>

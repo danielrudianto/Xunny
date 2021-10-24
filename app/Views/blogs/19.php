@@ -1,6 +1,4 @@
 <?= $this->extend('/blog') ?>
-$Title = Mengenal Manfaat Aplikasi Komputer Akuntansi bagi Perusahaan
-$Subitle = 
 <?= $this->section('content') ?>
     <p>Kemajuan teknologi saat ini mendorong perusahaan untuk semakin kreatif dan inovatif. Salah satunya adalah dengan memanfaatkan beragam jenis aplikasi untuk kepentingan operasional. Contoh aplikasi yang biasa digunakan adalah aplikasi komputer akuntansi. Kali ini akan dibahas lebih lengkap mengenai manfaat aplikasi komputer akuntansi bagi sebuah perusahaan.</p>
     <h2 class='h4 mt-5'>Aplikasi Komputer Akuntansi</h2>
@@ -36,7 +34,7 @@ $Subitle =
             <figure>
                 <img src='<?= base_url() ?>/assets/blogContent/FinanceReport.png' class='w-100' alt='Ilustrasi laporan keuangan'>
             </figure>
-            <p>Pengguna aplikasi komputer akuntansi juga bisa menemukan fitur laporan keuangan. Fitur ini jelas akan sangat dibutuhkan oleh sebuah perusahaan. Seperti diketahui bahwa laporan keuangan wajib dibuat oleh perusahaan secara berkala. Laporan ini juga yang nantinya akan menjadi acuan bagi perusahaan untuk menilai kondisi finansialnya apakah cukup stabil atau tidak.</p>
+            <p>Pengguna aplikasi komputer akuntansi juga bisa menemukan fitur <a href='<?= base_url() ?>/Blogs/pentingnya-aplikasi-laporan-keuangan-mobile-bagi-sebuah-perusahaan'>laporan keuangan</a>. Fitur ini jelas akan sangat dibutuhkan oleh sebuah perusahaan. Seperti diketahui bahwa laporan keuangan wajib dibuat oleh perusahaan secara berkala. Laporan ini juga yang nantinya akan menjadi acuan bagi perusahaan untuk menilai kondisi finansialnya apakah cukup stabil atau tidak.</p>
             <p>Pembuatan laporan keuangan tidaklah semudah yang dibayangkan. Ada banyak komponen yang akan terlibat dalam penyusunan laporan keuangan tersebut. Selain itu laporan keuangan juga membutuhkan ketelitian dalam pembuatannya. Dengan adanya aplikasi ini maka pembuatan laporan keuangan bisa lebih mudah sekaligus cepat.</p>
         </li>
         <li>
@@ -60,11 +58,14 @@ $Subitle =
         </li>
         <li>
             <h3 class='h5 mt-5'>Mempermudah Kontrol Finansial</h3>
-            <p>Manfaat berikutnya yang diberikan oleh aplikasi ini adalah mempermudah kontrol finansial. Semua fitur yang ada di aplikasi komputer akuntansi akan membantu perusahaan memperoleh data-data yang dibutuhkan untuk mengawasi keuangan perusahaan. Kontrol finansial bisa lebih terarah dan akurat sehingga pengembangan perusahaan juga bisa berjalan secara efektif.</p>
+            <p>Manfaat berikutnya yang diberikan oleh aplikasi ini adalah mempermudah <a href='<?= base_url() ?>/Blogs/manfaat-menggunakan-aplikasi-keuangan-perusahaan-untuk-bisnis-yang-dijalankan'>kontrol finansial</a>. Semua fitur yang ada di aplikasi komputer akuntansi akan membantu perusahaan memperoleh data-data yang dibutuhkan untuk mengawasi keuangan perusahaan. Kontrol finansial bisa lebih terarah dan akurat sehingga pengembangan perusahaan juga bisa berjalan secara efektif.</p>
             <p>Dalam perjalanannya, sebuah bisnis dapat berkembang lancar jika pengelolaan finansialnya tepat. Jadi secara tidak langsung pemakaian aplikasi akuntansi akan mempercepat pertumbuhan sebuah bisnis. Bagi bisnis yang masih merintis tentunya aplikasi ini akan memberi manfaat yang sangat besar dan menguntungkan.</p>
         </li>
         <li>
             <h3 class='h5 mt-5'>Meningkatkan Efektivitas Kerja</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/Automatic.png' class='w-100' alt='Ilustrasi automasi pekerjaan'>
+            </figure>
             <p>Pada dasarnya semua teknologi yang dimanfaatkan di sebuah perusahaan akan membantu meningkatkan efektivitas kerja. Begitu juga dengan aplikasi akuntansi yang dapat membuat kerja SDM dalam sebuah perusahaan berjalan lebih efektif dan hemat waktu. Semakin tinggi efektivitas kerja maka semakin produktif pula sebuah perusahaan. Hal ini juga akan berpengaruh besar ada pengembangan bisnis yang dijalankan.</p>
         </li>
         <li>

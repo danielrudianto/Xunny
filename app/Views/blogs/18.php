@@ -1,6 +1,4 @@
 <?= $this->extend('/blog') ?>
-$Title = Pentingnya Aplikasi Laporan Keuangan Mobile bagi Sebuah Perusahaan
-$Subitle = 
 <?= $this->section('content') ?>
     <p>Seiring dengan berkembangnya teknologi, kini bisa ditemui dengan mudah layanan aplikasi untuk mengatur keuangan sebuah perusahaan. Seperti yang sebelumnya di bahas pada <a href='<?= base_url() ?>/Blogs/manfaat-menggunakan-aplikasi-keuangan-perusahaan-untuk-bisnis-yang-dijalankan'>blog tentang manfaat aplikasi keuangan perusahaan</a>, saat ini kami hendak membahas mengenai implementasi topik tersebut pada aplikasi <i>mobile</i>. Aplikasi laporan keuangan dengan Android ataupun iOS semakin banyak digunakan dan perusahaan sangat direkomendasikan untuk memakainya. Kali ini akan dibahas lebih lengkap mengenai pentingnya penggunaan aplikasi ini bagi pengelolaan sebuah perusahaan.</p>
     <h2 class='h4 mt-5'>Pengertian Aplikasi Laporan Keuangan </h2>
