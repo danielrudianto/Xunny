@@ -7,7 +7,10 @@
     <p>Berbeda dengan promosi yang bisa diterjemahkan ke berbagai bentuk komunikasi marketing. Memasuki era digital dengan teknologi yang sudah sangat mumpuni saat ini tentu banyak dimanfaatkan oleh banyak perusahaan untuk melakukan berbagai promosi online. Hal tersebut pun terbukti paling efektif untuk digunakan.</p>
 
     <h2 class='h4 mt-5'>Mengapa Media Promosi Online Paling Efektif?</h2>
-    <p>Menjadi media yang paling efektif saat ini dikarenakan semua kegiatan di dalamnya memanfaatkan kemajuan teknologi, terutama internet. Penggunaan internet yang sudah mendunia sangat berpengaruh terhadap segala bentuk jenis promosi online. Jadi wajar saja jika banyak perusahaan yang memaksimalkan website resmi atau pun aplikasi yang menawarkan profil perusahaannya.</p>
+    <figure>
+        <img src='<?= base_url() ?>/assets/blogContent/PromoLine.png' alt='Ilustrasi promosi online' class='w-100'>
+    </figure>
+    <p>Menjadi media yang paling efektif saat ini dikarenakan semua kegiatan di dalamnya memanfaatkan kemajuan teknologi, terutama internet. Penggunaan internet yang sudah mendunia sangat berpengaruh terhadap segala bentuk jenis promosi online. Jadi wajar saja jika banyak perusahaan yang <a href='<?= base_url() ?>/Blogs/inilah-manfaat-website-bagi-perusahaan-tak-perlu-ragu-untuk-membuatnya'>memaksimalkan website resmi</a> atau pun aplikasi yang menawarkan profil perusahaannya.</p>
     <p>Mengapa sebuah perusahaan perlu untuk menggunakan media promosi online mempunyai tujuan untuk dapat melakukan marketing secara global. Pemasaran melalui internet akan sangat efektif dari berbagai hal, contohnya waktu, biaya, hingga tenaga.</p>
 
     <h2 class='h4 mt-5'>Alasan Menggunakan Media Promosi Online</h2>
@@ -20,15 +23,24 @@
         </li>
         <li>
             <h3 class='h5 mt-5'>Memberikan Peningkatan Pada Brand Awareness</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/BrandingDesign.png' alt='Ilustrasi branding' class='w-100'>
+            </figure>
             <p>Bagi pelaku usaha yang dilakukan secara online sangat penting untuk membangun brand awareness, mengapa? Penggunaanya dapat menguatkan hubungan antara produk yang ditawarkan dengan masa waktu. Ketika promosi yang dilakukan sukses menguatkan branding, maka produk apa pun yang dikeluarkan akan selalu mempunyai tepat di hati konsumen.</p>
             <p>Hal tersebut dapat terjadi karena konsumen telah percaya dan menyukai branding yang dilakukan oleh perusahaan tersebut. Intensitas terukurlah yang bisa dilakukan ketika melakukan promosi online. Memungkinkan peningkatan yang terjadi pada brand awareness dapat bertahan dengan baik.</p>
         </li>
         <li>
             <h3 class='h5 mt-5'>Memungkinkan Potensi Penjualan Menjadi Meningkat</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/IncreaseSales.png' alt='Ilustrasi peningkatan penjualan' class='w-100'>
+            </figure>
             <p>Faktanya media promosi online paling efektif dalam memberikan peluang agar suatu produk dapat terjual habis. Marketing yang dilakukan dengan maksimal dapat memberikan dampak pada profit perusahaan, sehingga membuatnya semakin meningkat. Peningkatan tersebut terjadi karena adanya pendekatan promosi yang berbeda dari para kompetitor lainnya.</p>
         </li>
         <li>
             <h3 class='h5 mt-5'>Menjaga Loyalitas Konsumen</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/MaintainCustomer.png' alt='Ilustrasi menjaga loyalitas konsumen' class='w-100'>
+            </figure>
             <p>Setiap perusahaan akan berlomba-lomba untuk mencuri perhatian konsumen, bahkan tak jarang berbagai hal menarik pun dilakukan. Jika produk dari perusahaan sudah mempunyai konsumen tetap yang loyal, maka jagalah kepercayaan tersebut. Selalu tingkatkan produk atau jasa yang ditawarkan dan jangan sampai membuat konsumen kecewa.</p>
             <p>Loyalitas yang konsumen dalam menggunakan produk adalah suatu kehormatan yang harusnya bisa dijaga dengan baik. Akan ada banyak pesaing yang terus mencoba untuk merebut hati konsumen, sehingga perhatian khusus pun harus diberikan. Lakukan umpan balik dengan memberikan promosi online yang tidak kalah menarik dari yang lain.</p>
         </li>
@@ -48,6 +60,9 @@
         </li>
         <li>
             <h3 class='h5 mt-5'>Hemat Waktu, Tenaga, dan Biaya</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/SaveTime.png' alt='Ilustrasi hemat waktu' class='w-100'>
+            </figure>
             <p>Kemajuan teknologi saat ini membuat media promosi online paling efektif dalam menghemat waktu, tenaga dan biaya. Hal tersebut sangat menguntungkan bagi para pelaku usaha, terlebih lagi yang tengah merintis. Media promosi online membuat pekerjaan jauh lebih efektif dan menghasilkan.</p>
         </li>
         <li>
@@ -57,6 +72,9 @@
         </li>
         <li>
             <h3 class='h5 mt-5'>Pemantauan yang Mudah Dilakukan</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/ServerMonitoring.png' alt='Ilustrasi pantauan promosi' class='w-100'>
+            </figure>
             <p>Memanfaatkan media online sebagai ajang tempat promosi, membuatnya mudah untuk dipantau. Pelaku usaha hanya perlu memeriksa website atau sosial media perusahaan yang membuat postingan terkait pemasaran. Lihat sejauh mana konsumen menanggapi setiap promosi yang dilakukan secara online tersebut.</p>
         </li>
     </ol>

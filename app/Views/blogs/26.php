@@ -2,6 +2,9 @@
 <?php $this->section('content'); ?>
     <p>Operating System (OS) Linux telah hadir sejak awal 1990 oleh seorang programmer Finlandia, Linus Torvalds dan <i>Free Software Foundation</i>. OS ini telah dikembangkan sejak beliau masih berada di bangku mahasiswa di Universitas Helsinki. Salah satu yang paling terlihat adalah kemudahan Linux untuk dikembangkan. Bukan hanya untuk kebutuhan desktop, tapi mumpuni untuk smartphone, server, hingga TV.</p>
     <p>Linux telah lama dikenal untuk penggunaannya di server, dan didukung perusahaan-perusahaan komputer terkenal seperti Intel, Dell, Hewlett-Packard, IBM, Novell, Oracle Corporation, Red Hat, dan Sun Microsystem.</p>
+    <figure>
+        <img src='<?= base_url() ?>/assets/blogContent/PlayStation.png' class='w-100' alt='Playstation with skin'>
+    </figure>
     <p>Linux sendiri digunakan sebagai sistem operasi untuk berbagai jenis perangkat keras komputer termasuk komputer desktop, supercomputer, dan embedded sistem seperti buku pembaca elektronik, sistem permainan video (PlayStation 2, PlayStation 3, dan Xbox), telepon genggam dan router.</p>
     <h2 class='h4 mt-5'>Kelebihan Linux</h2>
     <ol>
@@ -34,6 +37,9 @@
         </li>
         <li>
             <h3 class='h5 mt-5'>Tidak Cocok untuk Gaming</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/Bored.png' alt='Ilustrasi membosankan' class='w-100'>
+            </figure>
             <p>Derivatif dari poin sebelumnya, dikarenakan masih sedikit game developer yang melirik Linux, maka sedikit pula game yang dapat dimainkan di Linux. Selain hal tersebut, support driver pada graphic card (VGA) untuk mendukung game pun terbatas.</p>
         </li>
     </ol>
