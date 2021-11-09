@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js vlt-is--custom-cursor" lang="en">
+<html class="no-js vlt-is--custom-cursor" lang="id">
 
 <head>
 	<meta charset="utf-8">
@@ -20,9 +20,9 @@
 	<meta property="og:type"          content="website" />
 	<meta property="og:title"         content="Xunny | IT Developer Indonesia" />
 	<meta property="og:description"   content="Kami adalah perusahaan programmer yang memiliki spesialisasi dalam mobile, melingkupi android dan iOS, dan web development. Dengan satu visi, untuk membantu mengembangkan UMKM di Indonesia, kami akan senantiasa memberikan anda produk custom dengan kualitas terbaik." />
-	<meta property="og:image:secure_url"         itemprop="image"          content="<?= base_url() ?>/assets/img/root/favicon.png" />
-	<meta property="og:image:url"     itemprop="image"          content="<?= base_url() ?>/assets/img/root/favicon.png" />
-	<meta property="og:image"         itemprop="image"          content="<?= base_url() ?>/assets/img/root/favicon.png" />
+	<meta property="og:image:secure_url"         content="<?= base_url() ?>/assets/img/root/favicon.png" />
+	<meta property="og:image:url"     content="<?= base_url() ?>/assets/img/root/favicon.png" />
+	<meta property="og:image"         content="<?= base_url() ?>/assets/img/root/favicon.png" />
 	<meta property="og:type"          content="website" />
 	<meta property="og:image:width"   content="512" />
 	<meta property="og:image:height"  content="512" />

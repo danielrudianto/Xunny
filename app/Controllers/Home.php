@@ -22,18 +22,22 @@ class Home extends BaseController
         $mail       = $_POST['email'];
         $text       = $_POST['message'];
 
-        $email = \Config\Services::email();
-        $email->setFrom('system@xunny.id', 'Xunny System');
-        $email->setTo('hello@xunny.id');
-        $email->setReplyTo($mail);
-
-        $email->setSubject('New contact from ' . $name);
-        $email->setMessage($text);
-
-        if($email->send()){
-            echo 1;
-        } else {
+        if($name == "" || $mail == "" || $text == ""){
             echo 0;
+        } else {
+            $email = \Config\Services::email();
+            $email->setFrom('system@xunny.id', 'Xunny System');
+            $email->setTo('hello@xunny.id');
+            $email->setReplyTo($mail);
+
+            $email->setSubject('New contact from ' . $name);
+            $email->setMessage($text);
+
+            if($email->send()){
+                echo 1;
+            } else {
+                echo 0;
+            }
         }
     }
 }

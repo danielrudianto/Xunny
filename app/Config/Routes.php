@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get("/Blogs", "Blogs::index");
 $routes->get("/Blogs/getBlogs/(:num)", "Blogs::getBlogs/$1");
+$routes->get("/Blogs/Comment/(:num)/(:num)", "Blogs::Comment/$1/$2");
 $routes->get("/Blogs/(:any)", "Blogs::index/$1");
 
 $routes->set404Override(function(){
