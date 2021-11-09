@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='id'>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,31 +16,31 @@
         <meta name='description' content='<?= $header['subtitle'] ?>'>
         <meta name='robots' content='follow, index'>
         <meta name="author" content="Xunny.id">
-        <meta name='image_src' href='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>'>
+        <meta name='image_src' content='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>'>
 
         <meta property="og:url"           content="<?= current_url() ?>" />
         <meta property="og:type"          content="website" />
         <meta property="og:title"         content="<?= $header['title'] ?>" />
         <meta property="og:description"   content="<?= $header['subtitle'] ?>" />
-        <meta property="og:image:secure_url"         itemprop="image"          content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
-        <meta property="og:image:url"     itemprop="image"          content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
-        <meta property="og:image"         itemprop="image"          content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
+        <meta property="og:image:secure_url"         content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
+        <meta property="og:image:url"     content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
+        <meta property="og:image"         content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
         <meta property="og:type"          content="website" />
         <meta property="og:image:width"   content="256" />
         <meta property="og:image:height"  content="256" />
         <meta property="og:site_name"     content="Xunny.id">
         <meta property="fb:app_id" content="393891865610" />
+        <b:if cond='data:blog.metaDescription'>
+            <meta expr:content='data:blog.metaDescription' name='og:description'/>
+        <b:else>
+            <meta expr:content='data:post.snippet' name='og:description'/>
+        </b:if>
 
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=393891865610&autoLogAppEvents=1" nonce="Va1bX2LS"></script>
         <script>
             var idArray = [];
         </script>
     </head>
-    <b:if cond='data:blog.metaDescription'>
-    <meta expr:content='data:blog.metaDescription' name='og:description'/>
-    <b:else/>
-    <meta expr:content='data:post.snippet' name='og:description'/>
-    </b:if>
     <body>
          <nav id='navbar'>
             <a href='<?= base_url('/Blogs') ?>' id='logoImage'>
@@ -69,9 +69,9 @@
                             <?= $this->include('/share'); ?>
                         </article>
                     </div>
-                    <!-- <section id='comment' class='col-xl-8 col-lg-10 col-12'>
-                        <?php //echo $this->include('/comment')// ?>
-                    </section> -->
+                    <section id='comment' class='col-xl-8 col-lg-10 col-12'>
+                        <?php echo $this->include('/comment') ?>
+                    </section>
                     <div class='col-xl-8 col-lg-10 col-12'>
                         <br>
                         <?php if(count($featured) > 0){ ?>
