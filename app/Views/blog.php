@@ -70,7 +70,7 @@
                         </article>
                     </div>
                     <section id='comment' class='col-xl-8 col-lg-10 col-12'>
-                        <?php echo $this->include('/comment') ?>
+                        <!-- <?php echo $this->include('/comment') ?> -->
                     </section>
                     <div class='col-xl-8 col-lg-10 col-12'>
                         <br>
