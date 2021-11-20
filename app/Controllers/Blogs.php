@@ -30,8 +30,8 @@ class Blogs extends BaseController
                 } else {
                     $data['header']     = $blogHeader;
                     $data['featured']   = $blogModel->orderBy('RAND()')->whereNotIn('id', array($blogHeader['id']))->paginate(2);
-                    $data['comments']   = $commentModel->where("blog_id", $blogHeader['id'])->orderBy('created_on', 'desc')->paginate(10);
-                    $data['commentsCount']  = $commentModel->where('blog_id', $blogHeader['id'])->countAllResults();
+                    // $data['comments']   = $commentModel->where("blog_id", $blogHeader['id'])->orderBy('created_on', 'desc')->paginate(10);
+                    // $data['commentsCount']  = $commentModel->where('blog_id', $blogHeader['id'])->countAllResults();
                     echo view("blogs/" . $blogHeader['id'], $data);
                 }
                 
