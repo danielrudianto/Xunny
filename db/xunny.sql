@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 06, 2021 at 07:45 AM
+-- Generation Time: Nov 20, 2021 at 09:10 AM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.2
 
@@ -68,7 +68,11 @@ INSERT INTO `blog` (`id`, `title`, `subtitle`, `words`, `created_by`, `created_d
 (23, 'Mengenal Pentingnya Aplikasi Antrian Berbasis Web yang Memudahkan Pekerjaan', 'Aplikasi antrian berbasis web bisa dibilang merupakan suatu aplikasi yang dirancang oleh suatu pihak untuk mempermudah kegiatan dalam masyarakat. Kegiatan ini biasanya akan menyangkut dalam kegiatan yang mengarah dalam keramaian. Hal inilah yang kemudian membuat suatu lembaga atau perusahaan memberlakukan sistem antrian. Menjaga ketertiban dan memberikan pelayanan lebih maksimal tentu adalah alasannya.', 1100, 'Daniel Tri', '2021-10-25', 'antrian online, aplikasi antrian, fitur suara, data penyimpanan'),
 (24, 'Benarkah Media Promosi Online Paling Efektif Bisa Meningkatkan Penjualan', 'Media promosi online paling efektif merupakan cara yang dilakukan atau dipakai seorang pebisnis untuk meningkatkan pendapatan. Berbagai bentuk aktivitasnya seperti menginformasikan, membagikan, dan menawarkan produk atau jasa di perusahaan. Hal tersebut dilakukan untuk menarik perhatian public terhadap barang atau jasa yang ditawarkan. Dalam artikel ini, kita akan membahas mengenai media promosi paling efektif untuk meningkatkan penjualan', 1100, 'Daniel Tri', '2021-10-25', 'Promosi online, meningkatkan penjualan, efektif, menawarkan produk, menarik perhatian, brand awareness, loyalitas, jangkauan'),
 (25, 'OS Linux Terbaik 2021 Penggunaan Sehari hari', 'Operating system Linux merupakan OS yang bersifat open-source dan gratis. Sebagian orang mencoba menghindari Linux dikarenakan ketenarannya terhadap kesulitan pemakaian. Namun pada 2021 ini, Linux telah berubah dan menyajikan beragam pilihan OS yang lebih user friendly. Mari kita simak OS Linux terbaik pada tahun 2021 untuk penggunaan sehari hari', 765, 'Daniel Tri', '2021-11-06', 'Linux, OS Linux\r\n'),
-(26, 'Kelebihan dan Kekurangan Linux yang Anda Perlu Ketahui', 'Operating System Linux telah hadir sejak awal 1990 dan hingga saat ini, OS Linux sangat umum ditemukan di server dikarenakan keamanan dan performanya. Mari kita bahas apa saja kekurangan dan kelebihdan dari OS ini?', 449, 'Daniel Tri', '2021-11-04', 'OS Linux, Performa, OS Gratis, Kelebihan Linux, Kekurangan Linux');
+(26, 'Kelebihan dan Kekurangan Linux yang Anda Perlu Ketahui', 'Operating System Linux telah hadir sejak awal 1990 dan hingga saat ini, OS Linux sangat umum ditemukan di server dikarenakan keamanan dan performanya. Mari kita bahas apa saja kekurangan dan kelebihdan dari OS ini?', 449, 'Daniel Tri', '2021-11-04', 'OS Linux, Performa, OS Gratis, Kelebihan Linux, Kekurangan Linux'),
+(27, '9 Manfaat Penulisan Artikel Pada Web Pribadi', 'mengunggah konten artikel pada website pada dasarnya sangat penting. Ada banyak sekali manfaat yang bisa Anda dapatkan dengan melakukan hal tersebut.Pada artikel ini kami akan membahas 9 manfaat penulisan artikel pada website pribadi', 1003, 'Daniel Tri', '2021-11-09', 'penulisan artikel, website pribadi, visitor website, traffic, social media, SEO'),
+(28, 'Cara Promosi Online Yang Menarik dan Efektif', 'Berkembangnya dunia digital juga mempengaruhi cara melakukan promosi. Ada banyak cara yang bisa dilakukan, mari kita simak satu per satu metode yang dapat digunakan untuk melakukan promosi online pada artikel ini.', 1068, 'Daniel Tri', '2021-11-12', 'cara promosi online yang menarik, digital marketing, promosi online'),
+(29, 'Daftar Aplikasi Customer Service yang Mudah Digunakan', 'Aplikasi customer service merupakan sebuah perangkat lunak yang dipakai untuk memudahkan proses dalam pengaduan layanan dari pelanggan atau customer. Aplikasi ini dapat secara signifikan meningkatkan kualitas customer service itu sendiri serta meningkatkan branding pada perusahaan anda. Mari simak Aplikasi customer service yang dapat utilisasi saat ini.', 1065, 'Daniel Tri', '2021-11-18', 'Aplikasi Customer Service'),
+(30, '11 Aplikasi Meeting Online yang Memiliki Fitur Lengkap', 'Aplikasi meeting online saat ini telah berkembang dengan pesat. Seiring kemajuan teknologi dan kebutuhan atas dasar pandemi COVID-19, banyak developer yang mengembangkan aplikasi meeting online, mari simak 11 Aplikasi meeting online yang memiliki fitur terlengkap saat ini.', 1066, 'Daniel Tri', '2021-11-20', 'Online meeting, Zoom, Whatsapp, Google Meet, Skype, Slack, Cisco Webex, Jitsi Meet, Go To Meeting, Zoho Meeting, Bluejeans Video Converencing, Online Meeting Webinars');
 
 -- --------------------------------------------------------
 
@@ -125,7 +129,7 @@ ALTER TABLE `tags`
 -- AUTO_INCREMENT for table `blog`
 --
 ALTER TABLE `blog`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
 -- AUTO_INCREMENT for table `blog_tag`
