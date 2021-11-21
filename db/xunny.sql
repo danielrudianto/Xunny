@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 20, 2021 at 09:10 AM
--- Server version: 10.1.38-MariaDB
--- PHP Version: 7.3.2
+-- Generation Time: Nov 21, 2021 at 04:42 PM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 7.3.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -72,7 +71,9 @@ INSERT INTO `blog` (`id`, `title`, `subtitle`, `words`, `created_by`, `created_d
 (27, '9 Manfaat Penulisan Artikel Pada Web Pribadi', 'mengunggah konten artikel pada website pada dasarnya sangat penting. Ada banyak sekali manfaat yang bisa Anda dapatkan dengan melakukan hal tersebut.Pada artikel ini kami akan membahas 9 manfaat penulisan artikel pada website pribadi', 1003, 'Daniel Tri', '2021-11-09', 'penulisan artikel, website pribadi, visitor website, traffic, social media, SEO'),
 (28, 'Cara Promosi Online Yang Menarik dan Efektif', 'Berkembangnya dunia digital juga mempengaruhi cara melakukan promosi. Ada banyak cara yang bisa dilakukan, mari kita simak satu per satu metode yang dapat digunakan untuk melakukan promosi online pada artikel ini.', 1068, 'Daniel Tri', '2021-11-12', 'cara promosi online yang menarik, digital marketing, promosi online'),
 (29, 'Daftar Aplikasi Customer Service yang Mudah Digunakan', 'Aplikasi customer service merupakan sebuah perangkat lunak yang dipakai untuk memudahkan proses dalam pengaduan layanan dari pelanggan atau customer. Aplikasi ini dapat secara signifikan meningkatkan kualitas customer service itu sendiri serta meningkatkan branding pada perusahaan anda. Mari simak Aplikasi customer service yang dapat utilisasi saat ini.', 1065, 'Daniel Tri', '2021-11-18', 'Aplikasi Customer Service'),
-(30, '11 Aplikasi Meeting Online yang Memiliki Fitur Lengkap', 'Aplikasi meeting online saat ini telah berkembang dengan pesat. Seiring kemajuan teknologi dan kebutuhan atas dasar pandemi COVID-19, banyak developer yang mengembangkan aplikasi meeting online, mari simak 11 Aplikasi meeting online yang memiliki fitur terlengkap saat ini.', 1066, 'Daniel Tri', '2021-11-20', 'Online meeting, Zoom, Whatsapp, Google Meet, Skype, Slack, Cisco Webex, Jitsi Meet, Go To Meeting, Zoho Meeting, Bluejeans Video Converencing, Online Meeting Webinars');
+(30, '11 Aplikasi Meeting Online yang Memiliki Fitur Lengkap', 'Aplikasi meeting online saat ini telah berkembang dengan pesat. Seiring kemajuan teknologi dan kebutuhan atas dasar pandemi COVID-19, banyak developer yang mengembangkan aplikasi meeting online, mari simak 11 Aplikasi meeting online yang memiliki fitur terlengkap saat ini.', 1066, 'Daniel Tri', '2021-11-20', 'Online meeting, Zoom, Whatsapp, Google Meet, Skype, Slack, Cisco Webex, Jitsi Meet, Go To Meeting, Zoho Meeting, Bluejeans Video Converencing, Online Meeting Webinars'),
+(31, 'Apa Manfaat Website dalam Bisnis Online Secara Menyeluruh', 'Seiring perkembangan jaman, teknik marketing dan branding pun telah bergeser ke digital. Perusahaan berlomba - lomba untuk membuat website perusahaan mereka. Namun apa manfaat website dalam bisnis online yang bisa menjadi salah satu pertimbangan untuk dilakukan? Mari simak pembahasannya disini.', 801, 'Daniel Tri', '2021-11-22', 'Manfaat website dalam bisnis online, hemat waktu dan biaya, SEO'),
+(32, 'Kenapa Website Saya Sepi Pengunjung', 'Penyebab website sepi pengunjung bisa terjadi akibat berbagai macam hal, seperti pemilihan topik yang kurang sesuai, pemilihan audiens yang tidak tepat, ataupun kualitas SEO yang minim.', 833, 'Daniel Tri', '2021-11-26', 'penyebab website sepi pengunjung, SEO');
 
 -- --------------------------------------------------------
 
@@ -129,7 +130,7 @@ ALTER TABLE `tags`
 -- AUTO_INCREMENT for table `blog`
 --
 ALTER TABLE `blog`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT for table `blog_tag`
