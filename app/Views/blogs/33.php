@@ -6,7 +6,7 @@
 
     <h2 class='h4 mt-5'>Apa itu Aplikasi Manajemen Perusahaan</h2>
     <p>Aplikasi merupakan perangkat lunak yang dapat dipasang pada setiap smartphone juga dapat diakses oleh seluruh pengguna android maupun iOs. Memiliki banyak kegunaan yaitu dalam bidang ilmu pengetahui software ini dapat digunakan untuk mendapatkan ilmu pengetahuan berguna.</p>
-    <p>Memiliki fungsi secara umum untuk memudahkan pekerjaan seseorang. Banyak app telah diciptakan untuk memudahkan seseorang seperti jika ingin mencari alamat seseorang, telah diciptakan google maps.</p>
+    <p>Memiliki fungsi secara umum untuk memudahkan pekerjaan seseorang. Banyak app telah diciptakan untuk memudahkan seseorang seperti jika ingin mencari alamat seseorang, telah diciptakan <a href='https://maps.google.com' target='_blank'>Google maps</a>.</p>
     <p>Saat seseorang ingin mengedit foto, di play store maupun apps store sudah banyak sofware yang dapat digunakan untuk mengedit dengan efek-efek serta kelebihan beragam.</p>
     <p>Selain bidang tersebut, app juga memiliki kegunaan dalam manajemen kantor. Aplikasi penting manajemen perusahaan digunakan untuk memudahkan setiap kegiatan manajemen pada kantor.</p>
     <p>Kemudahan-kemudahan tersebut juga dapat membuat pekerjaan para karyawan juga staff menjadi lebih efisien dan dapat mamangkas waktu pengerjaan daripada harus dilakukan secara manual.</p>
@@ -23,6 +23,10 @@
             <h3 class='h5 mt-5'>Aplikasi Absensi</h3>
             <p>Seperti namanya app ini digunakan untuk absensi setiap karyawan masuk pada hari kerja. Dengan adanya software ini HRD atau manajemen SDM dalam perusahaan mudah dalam mengelola data absensi.</p>
             <p>Selain itu, data tersebut akan lebih akurat serta akan otomatis tersimpan. Sehingga kinerjanya akan lebih efektif serta menghemat waktu daripada dikerjakan secara manual.</p>
+
+            <aside>
+                <p>Baca juga <a href='<?= base_url() ?>/Blogs/7-manfaat-menggunakan-aplikasi-absensi-online-berbasis-web-untuk-perusahaan'>7 Manfaat menggunakan aplikasi absensi online berbasis web untuk perusahaan anda.</a></p>
+            </aside>
         </li>
         <li>
             <h3 class='h5 mt-5'>Aplikasi payroll</h3>
@@ -38,6 +42,10 @@
             <h3 class='h5 mt-5'>Aplikasi Accounting</h3>
             <p>Aplikasi ini berfungsi untuk memudahkan karyawan untuk melakukan pencatatan serta perhitungan keuangan akuntansi mengenai pemasukan dan pengeluaran. Selain itu app ini juga membantu dalam membuat laporan keuangan, monitoring kondisi keuangan perusahaan.</p>
             <p>Pekerjaan akuntan akan lebih efisien serta cepat karena dengan app bantuan ini dapat menyajikan data keuangan milik kantor dengan detail dan akurat.</p>
+
+            <aside>
+                <p>Baca juga <a href='<?= base_url() ?>/Blogs/mengenal-manfaat-aplikasi-komputer-akuntansi-bagi-perusahaan'>Manfaat aplikasi komputer akuntansi bagi perusahaan.</a></p>
+            </aside>
         </li>
     </ol>
     <blockquote class='blockquote card p-3'>
@@ -45,7 +53,7 @@
         <p><strong>Penyakit semua orang</strong> hanya orang tersebut yang mengetahui, tidak ada satupun orang di luar sana yang dapat mengetaui penyakit anda. Dokter ataupun peneliti hanya dapat mengacu pada hasil pengujian, namun yang anda rasakan hanya anda yang dapat mengetahui.</p>
         <p>Begitu juga dengan <strong>aplikasi manajemen</strong>, seluruh perusahaan memiliki "penyakit" nya masing - masing dan tidak ada satupun program yang bersifat komersial dapat menjawab obat penyakit anda, hanya anda yang dapat mengidentifikasi penyakitnya</p>
     </blockquote>
-    <p>Xunny menyediakan jasa Website Development, App Development, UI/UX Design, serta Quality Insurance. Xunny akan memberikan konsultasi pada langkah pertama kerja sama untuk mencari tau masalah dan meriset secara mendalam tentang masalah terjadi pada bisnis.</p>
+    <p><a href='<?= base_url() ?>'>Xunny.id</a> menyediakan jasa Website Development, App Development, UI/UX Design, serta Quality Insurance. Xunny akan memberikan konsultasi pada langkah pertama kerja sama untuk mencari tau masalah dan meriset secara mendalam tentang masalah terjadi pada bisnis.</p>
     <p>Langkah selanjutnya adalah melakukan problem solving terbaik pada langkah ini kami akan memberikan solusi terbaik telah dirumuskan oleh tim ahli. Solusi tersebut dirumuskan khusus untuk setiap pelanggan. Langkah terakhir adalah pengimplementasian dari solusi serta software berjalan dengan baik.</p>
-    <p>Xunny menyediakan layanan app development dapat Anda gunakan untuk menciptakan aplikasi sesuai dengan yang diinginkan dan membantu meningkatkan kinerja bisnis Anda. Termasuk menciptakan aplikasi penting manajemen perusahaan berguna meningkatkan kinerja para karyawan kantor./p>
+    <p><a href='<?= base_url() ?>'>Xunny.id</a> menyediakan layanan app development dapat Anda gunakan untuk menciptakan aplikasi sesuai dengan yang diinginkan dan membantu meningkatkan kinerja bisnis Anda. Termasuk menciptakan aplikasi penting manajemen perusahaan berguna meningkatkan kinerja para karyawan kantor./p>
 <?php $this->endSection() ?>

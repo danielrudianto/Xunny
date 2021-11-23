@@ -1,51 +1,49 @@
 <?php $this->extend('/blog'); ?>
 <?php $this->section('content'); ?>
-    <p>Kegiatan operasional perusahaan dapat dilakukan dengan mudah serta efektif jika memanfaatkan aplikasi penting manajemen perusahaan. App ini nantinya akan membantu pekerja dalam melakukan setiap kegiatan operasional dilakukan oleh perusahaan.</p>
-    <p>Dengan menggunakan aplikasi manajemen seperti ini, semua pekerjaan menjadi lebih efisien dan data didapatkan pun menjadi lebih akurat. Banyak perusahaan-perusahaan besar maupun menengah belum menerapkan penggunaan app manajemen ini.</p>
-    <p>Padahal banyak manfaat serta keuntungan akan didapatkan setelah menggunakannya pada setiap kegiatan manajemen maupun administrasi. Karena pada dasarnya aplikasi memiliki fungsi secara umut untuk memudahkan pekerjaan setiap orang.</p>
+    <p>Media interaktif berbasis web tergolong sebagai multimedia yang sering dipakai oleh tenaga pengajar. Terutama menjelaskan tentang informasi dari sang guru ke siswa. Bisa dibilang sebagai cara komunikasi 2 arah.</p>
+    <p>Tentu tergolong bermanfaat karena bisa mempermudah pekerjaan pengajar. Tidak heran cukup banyak dipelajari dan diburu oleh orang yang membutuhkan. Tidak ada salahnya juga memakai tenaga profesional.</p>
+    <p>Bagi Anda yang tertarik memakai teknologi ini, maka akan diberkahi dengan manfaat dan kelebihan. Pastinya soal kemudahan yang akan dirasakan betul. Tentu berbeda jauh dengan sistem lain yang berbasis konvensional.</p>
+    <p>Disini Anda juga dapat menemukan beberapa jenis atau tipe terbaik. Bisa disesuaikan dengan kebutuhan karena terdapat developer sudah menyediakan lengkap. Pilihannya lebih bebas sehingga dapat memuaskan kebutuhan klien.</p>
 
-    <h2 class='h4 mt-5'>Apa itu Aplikasi Manajemen Perusahaan</h2>
-    <p>Aplikasi merupakan perangkat lunak yang dapat dipasang pada setiap smartphone juga dapat diakses oleh seluruh pengguna android maupun iOs. Memiliki banyak kegunaan yaitu dalam bidang ilmu pengetahui software ini dapat digunakan untuk mendapatkan ilmu pengetahuan berguna.</p>
-    <p>Memiliki fungsi secara umum untuk memudahkan pekerjaan seseorang. Banyak app telah diciptakan untuk memudahkan seseorang seperti jika ingin mencari alamat seseorang, telah diciptakan google maps.</p>
-    <p>Saat seseorang ingin mengedit foto, di play store maupun apps store sudah banyak sofware yang dapat digunakan untuk mengedit dengan efek-efek serta kelebihan beragam.</p>
-    <p>Selain bidang tersebut, app juga memiliki kegunaan dalam manajemen kantor. Aplikasi penting manajemen perusahaan digunakan untuk memudahkan setiap kegiatan manajemen pada kantor.</p>
-    <p>Kemudahan-kemudahan tersebut juga dapat membuat pekerjaan para karyawan juga staff menjadi lebih efisien dan dapat mamangkas waktu pengerjaan daripada harus dilakukan secara manual.</p>
+    <h2 class='h4 mt-5'>Mengenal Media Interaktif Berbasis Web</h2>
+    <p>Jika Anda memanfaatkan teknologi ini, maka bisa memperoleh manfaat seperti kegiatan belajar mengajar menarik. Karena sifatnya interaktif, tidak heran semua murid tau audience bisa mendengarkan secara seksama.</p>
+    <p>Selain itu semua hal yang akan diajarkan sebelumnya telah dirancang dalam media interaktif berbasis web. Hasilnya bisa langsung Anda jabarkan dengan baik. Bisa menghemat waktu tapi pembelajaran terasa sangat efisien.</p>
+    <p>Tingkat efisiensi ini dinilai lebih baik dibanding memperpanjang kegiatan belajar mengajar. Terlebih karena dapat Anda lakukan kapanpun dan di manapun. Hal ini juga dinilai membuka sikap audience membaik.</p>
+    <p>Saat ini terdapat contoh yang sering disajikan untuk murid. Misalnya teks yang tergolong menjadi medium visual dan bisa menjelaskan bahasa lisan dengan baik. Biasanya ada warna, ukuran dan bentuk menarik.</p>
+    <p>Begitu juga jika Anda akan menambahkan grafik yang tidak kalah pentingnya bagi tampilan. Masih tergolong sebagai medium dengan basis utamanya bagi visual. Umumnya hanya tersaji dalam tampilan berupa 2 dimensi.</p>
+    <p>Meski begitu, tidak jarang juga ada media interaktif berbasis web memakai tampilan 3 dimensi. Tapi nantinya harus melewati proses rendering. Setelah proses rendering tersebut selesai, maka tetap 2 dimensi.</p>
+    <p>Semua tampilan pada layar atau grafik tetap tercipta secara real. Penyajian akan dibuat sebaik mungkin sesuai dengan data yang dimasukkan. Jadi, proses penyampaian bagi murid atau pelajar terasa maksimal.</p>
+    <p>Tapi dengan perkembangan teknologi dan zaman, mungkin contoh bisa bertambah banyak. Bisa saja ditambahkan dengan tren kekinian. Tentu tujuannya masih sama, demi menarik perhatian audience Anda.</p>
 
-    <h2 class='h4 mt-5'>Rekomendasi Aplikasi Penting Manajemen Perusahaan</h2>
-    <p>Terdapat beberapa aplikasi atau software diciptakan untuk memudahkan aktivitas manusia. Berikut ini adalah daftar app yang dapat digunakan untuk memudahkan kegiatan manajemen kantor agar lebih sistematis.</p>
+    <h2 class='h4 mt-5'>Kelebihan Developer Media Berbasis Web</h2>
+    <p>Kalau berbicara mengenai keuntungan, mungkin lebih soal pemberian informasi. Tapi sebenarnya tampilan atau visual di dalamnya jauh lebih penting. Terutama agar pesan tersampaikan dengan baik pada audience.</p>
     <ol>
         <li>
-            <h3 class='h5 mt-5'>Aplikasi ERP (Enterprise Resouce Planning)</h3>
-            <p>Aplikasi penting manajemen perusahaan pertama adalah ERP (Enterprise Resource Planning) digunakan oleh kantor untuk dapat mengelola kegiatan bisnis berkaitan dengan operasional, produksi, proyek, pengadaan stok, dan lain-lainya. Keuntungan akan didapatkan dari software ini pun cukup banyak.</p>
-            <p>Keuntungannya adalah dapat mengurangi biaya operasional, dapat meningkatkan produktivitasnya, dapat meningkatkan keamanan data serta pertukaran informasi dapat dilakukan lebih baik daripada tanpa software tersebut.</p>
+            <h3 class='h5 mt-5'>Memperbesar dan Memperkecil Objek</h3>
+            <p>Keuntungan bila memakai teknologi ini pastinya dapat memperbesar dan memperkecil objek. Pada poin memperbesar, pastinya tampilan berupa komponen, makhluk hidup maupun hal lainnya yang ukurannya kecil.</p>
+            <p>Contohnya kuman, bakteri, virus sampai berbagai macam elektron. Pastinya memberi tampilan secara langsung tidak bisa. Inilah yang membuat media interaktif berbasis web dapat menampilkan visual kecil seperti itu.</p>
+            <p>Sementara itu untuk hal besar seperti gedung, hewan besar, sampai tempat wisata dapat dilakukan. Bahkan dalam satu layar, bisa menampilkan puluhan. Tergantung dengan tentang apa penjelasan pada halaman tersebut.</p>
         </li>
+
         <li>
-            <h3 class='h5 mt-5'>Aplikasi Absensi</h3>
-            <p>Seperti namanya app ini digunakan untuk absensi setiap karyawan masuk pada hari kerja. Dengan adanya software ini HRD atau manajemen SDM dalam perusahaan mudah dalam mengelola data absensi.</p>
-            <p>Selain itu, data tersebut akan lebih akurat serta akan otomatis tersimpan. Sehingga kinerjanya akan lebih efektif serta menghemat waktu daripada dikerjakan secara manual.</p>
+            <h3 class='h5 mt-5'>Menampilkan Benda dan Peristiwa Kompleks</h3>
+            <p>Saat menjelaskan mengenai benda dan peristiwa kompleks, kadang sulit diberikan secara lisan. Zaman sekarang tampilan secara langsung lebih disukai. Contohnya saat menjelaskan tentang planet atau anatomi tubuh.</p>
+            <p>Begitu juga jika Anda ingin mencoba menjelaskan mengenai bagaimana cara kerja suatu mesin. Bila mau mencoba menceritakan sejarah bangunan atau seseorang juga bisa. Bukan hanya tulisan, tapi terdapat gambarnya.</p>
         </li>
+
         <li>
-            <h3 class='h5 mt-5'>Aplikasi payroll</h3>
-            <p>Payroll adalah sistem administrasi digunakan untuk penggajian karyawan serta staff. Tentu saja payroll merupakan software yang sangat dibutuhkan oleh kantor untuk memudahkan dalam memberikan gaji sesuai dan adil kepada setiap karyawan serta staff.</p>
-            <p>Manfaat lain dengan penggunaan software ini adalah memudahkan dalam menyajikan data, data tersebut dapat disimpan secara otomatis dan tidak akan hilang, meminimalisir kebutuhan SDM serta juga meminimalisir risiko ketidak akuratan dilakukan oleh tenaga manusia.</p>
-        </li>
-        <li>
-            <h3 class='h5 mt-5'>Aplikasi HRIS</h3>
-            <p>Human Resources Information System (HRIS) adalah app manajemen penting perusahaan lainnya harus dipergunakan dalam kantor Anda. App ini berfungsi untuk mengatur manajemen sumber daya manusia.</p>
-            <p>Keuntungan yang akan didapatkan oleh perusahaan dengan menggunakan app ini adalah saat akan melakukan perekrutan karyawan baru menjadi lebih mudah, dapat menjalin hubungan lebih dekat dengan karyawan dan juga perencanaan karir.</p>
-        </li>
-        <li>
-            <h3 class='h5 mt-5'>Aplikasi Accounting</h3>
-            <p>Aplikasi ini berfungsi untuk memudahkan karyawan untuk melakukan pencatatan serta perhitungan keuangan akuntansi mengenai pemasukan dan pengeluaran. Selain itu app ini juga membantu dalam membuat laporan keuangan, monitoring kondisi keuangan perusahaan.</p>
-            <p>Pekerjaan akuntan akan lebih efisien serta cepat karena dengan app bantuan ini dapat menyajikan data keuangan milik kantor dengan detail dan akurat.</p>
+            <h3 class='h5 mt-5'>Daya Tarik Besar</h3>
+            <p>Poin seperti daya tarik besar telah menjadi hal paling diperhatikan. Terlebih meski bahasan kita lengkap, mungkin kurang sampai pada otak audience. Jadi, perlu ditambahkan visual yang membangkitkan rasa ingin tahu. </p>
+            <p>Rasa ingin tahu tersebut tercipta dengan desain yang dibuat mirip seperti media presentasi. Selain berupa foto, masih dapat menambah video atau audio. Tidak heran kelengkapannya jauh lebih baik dibanding presentasi.</p>
         </li>
     </ol>
-    <blockquote class='blockquote card p-3'>
-        <p>Kami selalu memiliki prinsip bahwa</p>
-        <p><strong>Penyakit semua orang</strong> hanya orang tersebut yang mengetahui, tidak ada satupun orang di luar sana yang dapat mengetaui penyakit anda. Dokter ataupun peneliti hanya dapat mengacu pada hasil pengujian, namun yang anda rasakan hanya anda yang dapat mengetahui.</p>
-        <p>Begitu juga dengan <strong>aplikasi manajemen</strong>, seluruh perusahaan memiliki "penyakit" nya masing - masing dan tidak ada satupun program yang bersifat komersial dapat menjawab obat penyakit anda, hanya anda yang dapat mengidentifikasi penyakitnya</p>
-    </blockquote>
-    <p>Xunny menyediakan jasa Website Development, App Development, UI/UX Design, serta Quality Insurance. Xunny akan memberikan konsultasi pada langkah pertama kerja sama untuk mencari tau masalah dan meriset secara mendalam tentang masalah terjadi pada bisnis.</p>
-    <p>Langkah selanjutnya adalah melakukan problem solving terbaik pada langkah ini kami akan memberikan solusi terbaik telah dirumuskan oleh tim ahli. Solusi tersebut dirumuskan khusus untuk setiap pelanggan. Langkah terakhir adalah pengimplementasian dari solusi serta software berjalan dengan baik.</p>
-    <p>Xunny menyediakan layanan app development dapat Anda gunakan untuk menciptakan aplikasi sesuai dengan yang diinginkan dan membantu meningkatkan kinerja bisnis Anda. Termasuk menciptakan aplikasi penting manajemen perusahaan berguna meningkatkan kinerja para karyawan kantor./p>
+
+    <h2 class='h4 mt-5'>Jenis Multimedia Versi Interaktif Pilihan User</h2>
+    <p>Harus Anda pahami sebelumnya kalau media ini tidak hanya dipakai pada program pengajaran. Melainkan sering ditemukan juga pada tutorial atau promosi produk atau jasa. Begitu juga sebagai hiburan atau game.</p>
+    <p>Sementara itu untuk jenisnya, ada yang dipakai berbasis e-learning seperti sekolah. Tapi yang disarankan untuk Anda disini berupa website. Pasti sudah pernah Anda temukan dan dengar karena tergolong terkenal.</p>
+    <p>Contohnya seperti media interaktif berbasis web berupa Wikipedia. Kita sudah mengenalnya sebagai website pendidikan yang skalanya besar. Terdapat pembahasan mengenai sejarah, ilmu pengetahuan dan sebagainya.</p>
+    <p>Selain itu sekarang masih ada juga Zenius Education, Kelas Kita, Wolfram Alpha, Music Theory dan sebagainya. Tentu saja tergolong sebagai website besar. Meski begitu ternyata Anda masih dapat membuatnya sendiri.</p>
+    <p>Anda bisa membuat perencanaan untuk membuat website sama seperti situs besar tersebut. Mungkin dengan ide dan penanganan matang, hasilnya lebih baik. Tidak menutup kemungkinan menyamai atau mengalahkan situs tersebut.</p>
+    <p>Terlebih sekarang terdapat <a href='<?= base_url() ?>'>perusahaan IT Developer Indonesia</a> yang bisa membantu Anda membangun website impian. Pastinya sesuai dengan syarat dan ketentuan. Kurang lebih sama dengan pesaing tapi punya kelebihan sendiri.</p>
+    <p>Selain itu kami bisa membuat situs sesuai kebutuhan klien dengan karakteristik wajib. Meski memiliki plan, tapi karakteristik wajib tidak ditinggalkan. Di mana akhirnya dianggap maksimal bagi audience. Sekian pembahasan kita mengenai Media interaktif berbasis web, kami harap dapat membantu anda.</p>
 <?php $this->endSection() ?>
