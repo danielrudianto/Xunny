@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 23, 2021 at 02:07 AM
--- Server version: 10.4.19-MariaDB
--- PHP Version: 7.4.20
+-- Generation Time: Nov 23, 2021 at 10:41 AM
+-- Server version: 10.1.38-MariaDB
+-- PHP Version: 7.3.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -73,7 +74,9 @@ INSERT INTO `blog` (`id`, `title`, `subtitle`, `words`, `created_by`, `created_d
 (29, 'Daftar Aplikasi Customer Service yang Mudah Digunakan', 'Aplikasi customer service merupakan sebuah perangkat lunak yang dipakai untuk memudahkan proses dalam pengaduan layanan dari pelanggan atau customer. Aplikasi ini dapat secara signifikan meningkatkan kualitas customer service itu sendiri serta meningkatkan branding pada perusahaan anda. Mari simak Aplikasi customer service yang dapat utilisasi saat ini.', 1065, 'Daniel Tri', '2021-11-18', 'Aplikasi Customer Service'),
 (30, '11 Aplikasi Meeting Online yang Memiliki Fitur Lengkap', 'Aplikasi meeting online saat ini telah berkembang dengan pesat. Seiring kemajuan teknologi dan kebutuhan atas dasar pandemi COVID-19, banyak developer yang mengembangkan aplikasi meeting online, mari simak 11 Aplikasi meeting online yang memiliki fitur terlengkap saat ini.', 1066, 'Daniel Tri', '2021-11-20', 'Online meeting, Zoom, Whatsapp, Google Meet, Skype, Slack, Cisco Webex, Jitsi Meet, Go To Meeting, Zoho Meeting, Bluejeans Video Converencing, Online Meeting Webinars'),
 (31, 'Apa Manfaat Website dalam Bisnis Online Secara Menyeluruh', 'Seiring perkembangan jaman, teknik marketing dan branding pun telah bergeser ke digital. Perusahaan berlomba - lomba untuk membuat website perusahaan mereka. Namun apa manfaat website dalam bisnis online yang bisa menjadi salah satu pertimbangan untuk dilakukan? Mari simak pembahasannya disini.', 801, 'Daniel Tri', '2021-11-22', 'Manfaat website dalam bisnis online, hemat waktu dan biaya, SEO'),
-(32, 'Kenapa Website Saya Sepi Pengunjung', 'Penyebab website sepi pengunjung bisa terjadi akibat berbagai macam hal, seperti pemilihan topik yang kurang sesuai, pemilihan audiens yang tidak tepat, ataupun kualitas SEO yang minim.', 833, 'Daniel Tri', '2021-11-26', 'penyebab website sepi pengunjung, SEO');
+(32, 'Kenapa Website Saya Sepi Pengunjung', 'Penyebab website sepi pengunjung bisa terjadi akibat berbagai macam hal, seperti pemilihan topik yang kurang sesuai, pemilihan audiens yang tidak tepat, ataupun kualitas SEO yang minim.', 833, 'Daniel Tri', '2021-11-26', 'penyebab website sepi pengunjung, SEO'),
+(33, 'Inilah Rekomendasi Aplikasi Penting Manajemen Perusahaan', 'Secara fundamental, teknologi dibuat dan dikembangkan untuk mempermudah manusia dan perusahaan. Pada artikel ini, kami akan membahas sejumlah aplikasi penting untuk manajemen perusahaan.', 731, 'Daniel Tri', '2021-11-24', 'aplikasi penting manajemen perusahaan, aplikasi, ERP, absensi, payroll, hris, accounting'),
+(34, 'Media Interaktif Berbasis Web Terbaik', 'Penggunaan media interaktif berbasis web ternyata begitu bermanfaat bagi klien. Dengan masa pandemi COVID-19 menyerang, salah satu opsi untuk menurunkan tingkan penyebarannya adalah untuk belajar secara digital. Media interaktif dapat membantu kita untuk melakukan hal tersebut dengan pengalaman semirip mungkin dengan pembelajaran tatap muka.', 857, 'Daniel Tri', '2021-11-27', 'media interaktif berbasis web');
 
 -- --------------------------------------------------------
 
@@ -127,7 +130,9 @@ INSERT INTO `blog_tag` (`id`, `blog_id`, `tags_id`) VALUES
 (33, 29, 3),
 (34, 30, 3),
 (35, 31, 4),
-(36, 32, 1);
+(36, 32, 1),
+(38, 33, 3),
+(39, 34, 3);
 
 -- --------------------------------------------------------
 
@@ -226,13 +231,13 @@ ALTER TABLE `tags`
 -- AUTO_INCREMENT for table `blog`
 --
 ALTER TABLE `blog`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- AUTO_INCREMENT for table `blog_tag`
 --
 ALTER TABLE `blog_tag`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
 
 --
 -- AUTO_INCREMENT for table `comment`
