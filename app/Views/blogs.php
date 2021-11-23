@@ -55,11 +55,18 @@
 
                                 var dateString = date.getDate() + " " + month[date.getMonth()] + " " + date.getFullYear();
                                 var minutes     = Math.ceil(blog.words/130);
-                                $('#blogWrapper').append(`<div class='col-xl-3 col-lg-4 col-md-6 col-sm-10 col-12 d-flex align-items-stretch mb-3' id='blog-${blog.id}'><div class='card w-100'><div class="card-img-top"><img class="card-image" src="<?= base_url() ?>/assets/blog/${blog.id}.webp" alt="${blog.title}"></div><div class='card-body'><h5 class='card-title'>${blog.title}</h5><h6 class='card-text mb-5'>${blog.subtitle}</h6><p class='card-date'>${dateString} | ${minutes} min read</p></div></div></div>`);
+                                $('#blogWrapper').append(`<div class='col-xl-3 col-lg-4 col-md-6 col-sm-10 col-12 d-flex align-items-stretch mb-3' id='blog-${blog.id}'><div class='card w-100'><div class="card-img-top"><img class="card-image" src="<?= base_url() ?>/assets/blog/${blog.id}.webp" alt="${blog.title}"></div><div class='card-body'><div id='blog-tag-${blog.id}' class='mb-3'></div><h5 class='card-title'>${blog.title}</h5><h6 class='card-text mb-5'>${blog.subtitle}</h6><p class='card-date'>${dateString} | ${minutes} min read</p></div></div></div>`);
 
                                 $(`#blog-${blog.id}`).click(function(){
                                     window.location.href='<?= base_url('Blogs') ?>/' + blog.title.toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'');
+                                });
+
+                                var tags = blog.tags.split(',');
+
+                                tags.forEach(tag => {
+                                    $(`#blog-tag-${blog.id}`).append(`<span class='badge badge-pill badge-dark px-3 mr-2'>#&nbsp;${tag}</span>`);
                                 })
+                                
                             });
                         },
                         complete:function(){

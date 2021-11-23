@@ -42,7 +42,7 @@ class Blogs extends BaseController
             $blogModel = new BlogModel();
             $data = array();
             $blogsCount = $blogModel->countAllResults();
-            $blogs      = $blogModel->orderBy('created_date', "DESC")->findAll(12, ($page - 1) * 12);
+            $blogs      = $blogModel->getPaginatedBlogs(($page - 1) * 12);
             
             $data['blogs']  = $blogs;
             $data['count']  = $blogsCount;

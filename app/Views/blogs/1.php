@@ -56,4 +56,5 @@
         </li>
     </ul>
     <p>Sekian pembahasan kita kali ini untuk desain responsif. Walaupun memiliki kekurangan , namun sangat disarankan untuk menerapkan konsep ini saat pembuatan website / web apps. Semoga artikel ini dapat membantu, ikuti artikel menarik lainnya dari kami.</p>
+    <?php print_r($header) ?>
 <?= $this->endSection() ?>
