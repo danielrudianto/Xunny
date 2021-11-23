@@ -733,6 +733,7 @@
 														<div class="vlt-post-content">
 															<header class="vlt-post-header">
 																<h3 class="vlt-post-title"><?= $blog['title'] ?></h3>
+																<div id='blog-tag-<?= $blog['id'] ?>'></div>
 																<h6 style='font-size:1rem;'><?= $blog['subtitle'] ?></h6>
 																<br><br>
 																<p style='position:absolute;bottom:0.8rem'><?= date_format(date_create($blog["created_date"]), "d M Y") ?> | <?= number_format($blog['words'] / 130, 0) ?> min. read</p>
@@ -747,6 +748,18 @@
 													id: <?= $blog['id'] ?>,
 													title: "<?= $blog['title'] ?>"
 												});
+
+												var tags = <?= json_encode(explode(",", $blog['tags'])) ?>;
+
+												tags.forEach(tag => {
+													let span = document.createElement("span");
+													span.classList.add("badge");
+													span.classList.add("badge-pill");
+													span.classList.add("badge-dark");
+
+													span.append("# " + tag);
+													document.getElementById('blog-tag-<?= $blog['id'] ?>').append(span);
+												})
 											</script>
 										<?php } ?>
 										<div class='col-12 mt-3'>

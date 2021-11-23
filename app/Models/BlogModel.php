@@ -7,7 +7,7 @@
         protected $table = 'blog';
         protected $useTimestamps = false;
 
-        public function getPaginatedBlogs($offset = 0){
+        public function getPaginatedBlogs($offset = 0, $limit = 12){
             $query      = $this->db->query("
                 SELECT * 
                 FROM blog
@@ -19,7 +19,7 @@
                 ) AS blogTag
                 ON blog.id = blogTag.blog_id
                 ORDER BY blog.created_date DESC
-                LIMIT 12 OFFSET $offset
+                LIMIT $limit OFFSET $offset
             ");
 
             $result         = $query->getResultArray();
