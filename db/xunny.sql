@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 21, 2021 at 04:42 PM
--- Server version: 10.4.21-MariaDB
--- PHP Version: 7.3.31
+-- Generation Time: Nov 23, 2021 at 02:07 AM
+-- Server version: 10.4.19-MariaDB
+-- PHP Version: 7.4.20
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -64,12 +64,12 @@ INSERT INTO `blog` (`id`, `title`, `subtitle`, `words`, `created_by`, `created_d
 (20, 'Fungsi Aplikasi Pengolah Angka yang Menguntungkan Bagi Perusahaan', 'Dengan adanya teknologi yang membantu kita untuk melakukan kalkulasi kita tidak lagi perlu melakukan kalkulasi secara manual secara umum. Perusahaan dengan budaya untuk melakukan perhitungan secara manual perlahan mulai beralih ke sistem yang lebih canggih untuk memperoleh hasil yang sama atau lebih dengan sumber daya lebih rendah.', 1030, 'Daniel Tri', '2021-10-23', 'Pengola angka, aplikasi perusahaan, rumus, perhitungan skala besar, grafik, data, cepat, meminimalisir kesalahan, hemat biaya'),
 (21, 'Mengenal Aplikasi Penjualan dan Stok Barang dan Urgensinya', 'Pencatatan stok dan penjualan merupakan isu yang menantang dan umum bagi hampir seluruh pelaku usaha yang bergerak di bidang perdagangan. Pada artikel ini, kita akan membahas sebagaimana penting aplikasi tersebut dan bagaimana implementasinya.', 1000, 'Daniel Tri', '2021-10-23', 'Stok, penjualan, urgensi, pendataaan, harga jual, neraca keuangan, kondisi persediaan'),
 (22, 'Ketahui Apa Saja Manfaat Digital Marketing dalam Ulasan Berikut Ini', 'Dunia digital tidak lepas dari istilah digital marketing, sebuah metode marketing baru yang ditawarkan oleh teknologi untuk dapat menjangkau bahkan lebih banyak konsumen sekaligus. Apa saja manfaat melakukan digital marketing hari ini? Mari simak di artikel ini', 1200, 'Daniel Tri', '2021-10-24', 'Digital marketing, hemat biaya, komunikasi, pasar, jangkauan pasar, kompetisi bisnis, real-time, profesional'),
-(23, 'Mengenal Pentingnya Aplikasi Antrian Berbasis Web yang Memudahkan Pekerjaan', 'Aplikasi antrian berbasis web bisa dibilang merupakan suatu aplikasi yang dirancang oleh suatu pihak untuk mempermudah kegiatan dalam masyarakat. Kegiatan ini biasanya akan menyangkut dalam kegiatan yang mengarah dalam keramaian. Hal inilah yang kemudian membuat suatu lembaga atau perusahaan memberlakukan sistem antrian. Menjaga ketertiban dan memberikan pelayanan lebih maksimal tentu adalah alasannya.', 1100, 'Daniel Tri', '2021-10-25', 'antrian online, aplikasi antrian, fitur suara, data penyimpanan'),
-(24, 'Benarkah Media Promosi Online Paling Efektif Bisa Meningkatkan Penjualan', 'Media promosi online paling efektif merupakan cara yang dilakukan atau dipakai seorang pebisnis untuk meningkatkan pendapatan. Berbagai bentuk aktivitasnya seperti menginformasikan, membagikan, dan menawarkan produk atau jasa di perusahaan. Hal tersebut dilakukan untuk menarik perhatian public terhadap barang atau jasa yang ditawarkan. Dalam artikel ini, kita akan membahas mengenai media promosi paling efektif untuk meningkatkan penjualan', 1100, 'Daniel Tri', '2021-10-25', 'Promosi online, meningkatkan penjualan, efektif, menawarkan produk, menarik perhatian, brand awareness, loyalitas, jangkauan'),
-(25, 'OS Linux Terbaik 2021 Penggunaan Sehari hari', 'Operating system Linux merupakan OS yang bersifat open-source dan gratis. Sebagian orang mencoba menghindari Linux dikarenakan ketenarannya terhadap kesulitan pemakaian. Namun pada 2021 ini, Linux telah berubah dan menyajikan beragam pilihan OS yang lebih user friendly. Mari kita simak OS Linux terbaik pada tahun 2021 untuk penggunaan sehari hari', 765, 'Daniel Tri', '2021-11-06', 'Linux, OS Linux\r\n'),
-(26, 'Kelebihan dan Kekurangan Linux yang Anda Perlu Ketahui', 'Operating System Linux telah hadir sejak awal 1990 dan hingga saat ini, OS Linux sangat umum ditemukan di server dikarenakan keamanan dan performanya. Mari kita bahas apa saja kekurangan dan kelebihdan dari OS ini?', 449, 'Daniel Tri', '2021-11-04', 'OS Linux, Performa, OS Gratis, Kelebihan Linux, Kekurangan Linux'),
+(23, 'Secure Shell dan manfaatnya bagi keamanan informasi', 'Semakin berkembang teknologi, semakin berkembang pula ilmu meretas atau hacking. Untuk itu kita memerlukan keamanan untuk informasi terutama untuk data yang disimpan pada server. Salah satu cara untuk berkomunikasi dengan server yang aman adalah menggunakan Secure Shell atau seringkali disebut SSH. Mari kita bahas pada artikel ini tentang SSH.', 845, 'Daniel Tri', '2021-11-01', 'Enkripsi, SSH, Secure Shell, Encryption, Asymmetric Encryption, Hashing, Symmetrical encryption, Keamanan, Server, Client'),
+(24, 'Benarkah Media Promosi Online Paling Efektif Bisa Meningkatkan Penjualan', 'Media promosi online paling efektif merupakan cara yang dilakukan atau dipakai seorang pebisnis untuk meningkatkan pendapatan. Berbagai bentuk aktivitasnya seperti menginformasikan, membagikan, dan menawarkan produk atau jasa di perusahaan. Hal tersebut dilakukan untuk menarik perhatian public terhadap barang atau jasa yang ditawarkan. Dalam artikel ini, kita akan membahas mengenai media promosi paling efektif untuk meningkatkan penjualan', 1054, 'Daniel Tri', '2021-10-25', 'Promosi online, meningkatkan penjualan, efektif, menawarkan produk, menarik perhatian, brand awareness, loyalitas, jangkauan'),
+(25, 'OS Linux Terbaik 2021 Penggunaan Sehari hari', 'Operating system Linux merupakan OS yang bersifat open-source dan gratis. Sebagian orang mencoba menghindari Linux dikarenakan ketenarannya terhadap kesulitan pemakaian. Namun pada 2021 ini, Linux telah berubah dan menyajikan beragam pilihan OS yang lebih user friendly. Mari kita simak OS Linux terbaik pada tahun 2021 untuk penggunaan sehari hari', 444, 'Daniel Tri', '2021-11-06', 'Linux, OS Linux\r\n'),
+(26, 'Kelebihan dan Kekurangan Linux yang Anda Perlu Ketahui', 'Operating System Linux telah hadir sejak awal 1990 dan hingga saat ini, OS Linux sangat umum ditemukan di server dikarenakan keamanan dan performanya. Mari kita bahas apa saja kekurangan dan kelebihdan dari OS ini?', 457, 'Daniel Tri', '2021-11-04', 'OS Linux, Performa, OS Gratis, Kelebihan Linux, Kekurangan Linux'),
 (27, '9 Manfaat Penulisan Artikel Pada Web Pribadi', 'mengunggah konten artikel pada website pada dasarnya sangat penting. Ada banyak sekali manfaat yang bisa Anda dapatkan dengan melakukan hal tersebut.Pada artikel ini kami akan membahas 9 manfaat penulisan artikel pada website pribadi', 1003, 'Daniel Tri', '2021-11-09', 'penulisan artikel, website pribadi, visitor website, traffic, social media, SEO'),
-(28, 'Cara Promosi Online Yang Menarik dan Efektif', 'Berkembangnya dunia digital juga mempengaruhi cara melakukan promosi. Ada banyak cara yang bisa dilakukan, mari kita simak satu per satu metode yang dapat digunakan untuk melakukan promosi online pada artikel ini.', 1068, 'Daniel Tri', '2021-11-12', 'cara promosi online yang menarik, digital marketing, promosi online'),
+(28, 'Cara Promosi Online yang Menarik dan Efektif', 'Berkembangnya dunia digital juga mempengaruhi cara melakukan promosi. Ada banyak cara yang bisa dilakukan, mari kita simak satu per satu metode yang dapat digunakan untuk melakukan promosi online pada artikel ini.', 1068, 'Daniel Tri', '2021-11-12', 'cara promosi online yang menarik, digital marketing, promosi online'),
 (29, 'Daftar Aplikasi Customer Service yang Mudah Digunakan', 'Aplikasi customer service merupakan sebuah perangkat lunak yang dipakai untuk memudahkan proses dalam pengaduan layanan dari pelanggan atau customer. Aplikasi ini dapat secara signifikan meningkatkan kualitas customer service itu sendiri serta meningkatkan branding pada perusahaan anda. Mari simak Aplikasi customer service yang dapat utilisasi saat ini.', 1065, 'Daniel Tri', '2021-11-18', 'Aplikasi Customer Service'),
 (30, '11 Aplikasi Meeting Online yang Memiliki Fitur Lengkap', 'Aplikasi meeting online saat ini telah berkembang dengan pesat. Seiring kemajuan teknologi dan kebutuhan atas dasar pandemi COVID-19, banyak developer yang mengembangkan aplikasi meeting online, mari simak 11 Aplikasi meeting online yang memiliki fitur terlengkap saat ini.', 1066, 'Daniel Tri', '2021-11-20', 'Online meeting, Zoom, Whatsapp, Google Meet, Skype, Slack, Cisco Webex, Jitsi Meet, Go To Meeting, Zoho Meeting, Bluejeans Video Converencing, Online Meeting Webinars'),
 (31, 'Apa Manfaat Website dalam Bisnis Online Secara Menyeluruh', 'Seiring perkembangan jaman, teknik marketing dan branding pun telah bergeser ke digital. Perusahaan berlomba - lomba untuk membuat website perusahaan mereka. Namun apa manfaat website dalam bisnis online yang bisa menjadi salah satu pertimbangan untuk dilakukan? Mari simak pembahasannya disini.', 801, 'Daniel Tri', '2021-11-22', 'Manfaat website dalam bisnis online, hemat waktu dan biaya, SEO'),
@@ -87,6 +87,85 @@ CREATE TABLE `blog_tag` (
   `tags_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `blog_tag`
+--
+
+INSERT INTO `blog_tag` (`id`, `blog_id`, `tags_id`) VALUES
+(1, 1, 2),
+(2, 2, 2),
+(3, 3, 2),
+(4, 4, 2),
+(5, 5, 2),
+(6, 6, 2),
+(7, 7, 3),
+(8, 8, 1),
+(9, 9, 2),
+(10, 10, 2),
+(11, 11, 1),
+(12, 11, 4),
+(13, 12, 3),
+(14, 13, 3),
+(15, 14, 3),
+(16, 15, 3),
+(17, 16, 3),
+(18, 17, 2),
+(19, 18, 3),
+(20, 19, 3),
+(21, 20, 3),
+(22, 21, 3),
+(23, 20, 3),
+(24, 23, 2),
+(25, 24, 4),
+(26, 25, 3),
+(27, 25, 2),
+(28, 26, 2),
+(29, 26, 3),
+(30, 27, 1),
+(31, 27, 4),
+(32, 28, 4),
+(33, 29, 3),
+(34, 30, 3),
+(35, 31, 4),
+(36, 32, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `comment`
+--
+
+CREATE TABLE `comment` (
+  `id` int(255) NOT NULL,
+  `blog_id` int(255) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `website` varchar(50) NOT NULL,
+  `comment` text NOT NULL,
+  `created_on` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `comment`
+--
+
+INSERT INTO `comment` (`id`, `blog_id`, `name`, `website`, `comment`, `created_on`) VALUES
+(1, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26'),
+(2, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26'),
+(3, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26'),
+(4, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26'),
+(5, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26'),
+(6, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26'),
+(7, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26'),
+(8, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26'),
+(9, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26'),
+(10, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26'),
+(11, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26'),
+(12, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26'),
+(13, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26'),
+(14, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26'),
+(15, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26'),
+(16, 25, 'Test', 'Test', 'Terima kasih atas ilmunya, saya percaya pembahasan ini dapat membantu banyak  orang untuk membuat website mereka lebih baik lagi.', '2021-11-08 15:43:26');
+
 -- --------------------------------------------------------
 
 --
@@ -95,8 +174,18 @@ CREATE TABLE `blog_tag` (
 
 CREATE TABLE `tags` (
   `id` int(11) NOT NULL,
-  `name` int(11) NOT NULL
+  `name` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tags`
+--
+
+INSERT INTO `tags` (`id`, `name`) VALUES
+(1, 'SEO'),
+(2, 'Programming'),
+(3, 'Aplikasi'),
+(4, 'Digital Marketing');
 
 --
 -- Indexes for dumped tables
@@ -115,6 +204,13 @@ ALTER TABLE `blog_tag`
   ADD PRIMARY KEY (`id`),
   ADD KEY `blog_id` (`blog_id`),
   ADD KEY `tags_id` (`tags_id`);
+
+--
+-- Indexes for table `comment`
+--
+ALTER TABLE `comment`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `blog_id` (`blog_id`);
 
 --
 -- Indexes for table `tags`
@@ -136,13 +232,19 @@ ALTER TABLE `blog`
 -- AUTO_INCREMENT for table `blog_tag`
 --
 ALTER TABLE `blog_tag`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+
+--
+-- AUTO_INCREMENT for table `comment`
+--
+ALTER TABLE `comment`
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `tags`
 --
 ALTER TABLE `tags`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- Constraints for dumped tables
@@ -154,6 +256,12 @@ ALTER TABLE `tags`
 ALTER TABLE `blog_tag`
   ADD CONSTRAINT `blog_tag_ibfk_1` FOREIGN KEY (`blog_id`) REFERENCES `blog` (`id`),
   ADD CONSTRAINT `blog_tag_ibfk_2` FOREIGN KEY (`tags_id`) REFERENCES `tags` (`id`);
+
+--
+-- Constraints for table `comment`
+--
+ALTER TABLE `comment`
+  ADD CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`blog_id`) REFERENCES `blog` (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
