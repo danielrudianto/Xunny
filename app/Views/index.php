@@ -723,7 +723,7 @@
 									<div class="vlt-gap-50"></div>
 									<div class="row">
 										<?php foreach($blogs as $blog){ ?>
-											<div class="col-md-4 d-flex align-items-stretch">
+											<div class="col-md-4 d-flex align-items-stretch mb-3">
 												<div class="vlt-animated-block card p-3"
 													style="animation-delay:100ms; animation-duration:700ms;"
 													id='blog-<?= $blog['id'] ?>'>

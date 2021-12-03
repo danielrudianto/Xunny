@@ -9,7 +9,7 @@
 
         public function getPaginatedBlogs($offset = 0, $limit = 12){
             $query      = $this->db->query("
-                SELECT * 
+                SELECT blog.*, blogTag.*, commentTable.count
                 FROM blog
                 JOIN (
                     SELECT blog_tag.blog_id, GROUP_CONCAT(tags.name) AS tags
@@ -18,6 +18,12 @@
                     GROUP BY blog_id
                 ) AS blogTag
                 ON blog.id = blogTag.blog_id
+                LEFT JOIN (
+                    SELECT COUNT(comment.id) AS count, comment.blog_id
+                    FROM comment
+                    GROUP BY comment.blog_id
+                ) AS commentTable
+                ON blog.id = commentTable.blog_id
                 ORDER BY blog.created_date DESC
                 LIMIT $limit OFFSET $offset
             ");

@@ -30,8 +30,8 @@ class Blogs extends BaseController
                 } else {
                     $data['header']     = $blogHeader;
                     $data['featured']   = $blogModel->orderBy('RAND()')->whereNotIn('id', array($blogHeader['id']))->paginate(2);
-                    // $data['comments']   = $commentModel->where("blog_id", $blogHeader['id'])->orderBy('created_on', 'desc')->paginate(10);
-                    // $data['commentsCount']  = $commentModel->where('blog_id', $blogHeader['id'])->countAllResults();
+                    $data['comments']   = $commentModel->where("blog_id", $blogHeader['id'])->orderBy('created_on', 'desc')->paginate(10);
+                    $data['commentsCount']  = $commentModel->where('blog_id', $blogHeader['id'])->countAllResults();
                     echo view("blogs/" . $blogHeader['id'], $data);
                 }
                 
@@ -50,8 +50,32 @@ class Blogs extends BaseController
         }
 
         public function Comment($id, $page){
-            echo $id;
-            echo $page;
+            $commentModel = new CommentModel();
+            $offset         = ($page - 1) * 10;
+            $comments       = $commentModel->getPaginatedResult($id, $offset);
+            echo json_encode($comments);
+        }
+
+        public function PostComment(){
+            $id         = (int) $this->request->getPost('blog');
+            if($id != 0 && $id != NULL){
+                $commentModel       = new CommentModel();
+                $name               = $this->request->getPost('name');
+                $website            = $this->request->getPost('website');
+                $comment            = $this->request->getPost('comment');
+
+                $result             = $commentModel->insert([
+                    "id" => "",
+                    "name" => mysqli_real_escape_string($name),
+                    "website" => mysqli_real_escape_string($website),
+                    "comment" => mysqli_real_escape_string($comment),
+                    "blog_id" => $id
+                ]);
+
+                echo 1;
+            } else {
+                echo 0;
+            }
         }
     }
 ?>

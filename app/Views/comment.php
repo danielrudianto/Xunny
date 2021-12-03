@@ -15,6 +15,8 @@
         padding-left:0;
         width:100%;
         list-style-type: none;
+        max-height:500px;
+        overflow-y:auto;
     }
 
     .commentList .name{
@@ -58,11 +60,13 @@
 
 <script>
     var page = 1;
+    const monthName     = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
     $(document).ready(function(){
         renderComments(<?= json_encode($comments) ?>);
+        
         for(i = 1; i <= <?= max(1, ceil($commentsCount/10)) ?>; i++){
-            $('.pagination').append(`<li class='page-item'><a class='page-link' onclick='getCommentsByPage(${i})'>${i}</a></li>`);
+            $('.pagination').append(`<li class='page-item' id='page-${i}'><a class='page-link' onclick='getCommentsByPage(${i})'>${i}</a></li>`);
         }
     })
 
@@ -71,12 +75,23 @@
         $('.commentList').html("");
         if(comments.length > 0){
             $('#noComment').hide();
+            $('.pagination').show();
             //This function is used to render comments obtained from database//
             $.each(comments, function(index, value){
-                $('.commentList').append(`<li><p class='name'>${value.name}</p><a class='website' href='${value.website}'>${value.website}</a><p class='commentText'>${value.comment}</p><hr></li>`);
+                var date        = new Date(value.created_on);
+                var day         = date.getDate();
+                var month       = date.getMonth();
+                var year        = date.getFullYear();
+                if(value.website != null){
+                    $('.commentList').append(`<li><p class='name'>${value.name}</p><a class='website' href='${value.website}' target='_blank' rel='noreferer'>${value.website}</a><p class='commentText'>${value.comment}</p><p class='text-right small'>${day} ${monthName[month]} ${year}</p><hr></li>`);
+                } else {
+                    $('.commentList').append(`<li><p class='name'>${value.name}</p><p class='commentText'>${value.comment}</p><hr></li>`);
+                }
+                
             })
         } else {
             $('#noComment').show();
+            $('.pagination').hide();
         }
     }
 
@@ -88,8 +103,17 @@
     function getComments(selectedPage = page){
         $.ajax({
             url:`<?= base_url() ?>/Blogs/Comment/<?= $header['id'] ?>/${page}`,
+            beforeSend:function(){
+                $('.page-item').attr('disabled', true);
+            },
             success:function(response){
-                console.log(response);
+                renderComments(JSON.parse(response));
+            },
+            complete:function(){
+                $('.page-item').attr('disabled', false);
+                $('#page-' + selectedPage).attr('disabled', true);
+
+                $('.pagination').scrollTop(0);
             }
         })
     }
@@ -98,13 +122,17 @@
         var data = $('#commentForm').serializeArray();
         data.push({name: 'blog', value:<?= $header['id'] ?>})
         $.ajax({
-            url:"<?= base_url() ?>/Blogs/Comment",
+            url:"<?= site_url('Blogs/PostComment') ?>",
             data: data,
+            type:"POST",
             beforeSend:function(){
                 $('input, textarea').attr('readonly', true);
             },
-            success:function(){
+            success:function(response){
                 $('input, textarea').attr('readonly', false);
+                if(response == 1){
+                    getComments();
+                }
             }
         })
 
