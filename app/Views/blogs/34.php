@@ -8,6 +8,9 @@
     <h2 class='h4 mt-5'>Mengenal Media Interaktif Berbasis Web</h2>
     <p>Jika Anda memanfaatkan teknologi ini, maka bisa memperoleh manfaat seperti kegiatan belajar mengajar menarik. Karena sifatnya interaktif, tidak heran semua murid tau audience bisa mendengarkan secara seksama.</p>
     <p>Selain itu semua hal yang akan diajarkan sebelumnya telah dirancang dalam media interaktif berbasis web. Hasilnya bisa langsung Anda jabarkan dengan baik. Bisa menghemat waktu tapi pembelajaran terasa sangat efisien.</p>
+    <figure>
+        <img src='<?= base_url() ?>/assets/blogContent/Webinar.png' class='w-100' title='Webinar Illustration' alt='Webinar Illustration'>
+    </figure>
     <p>Tingkat efisiensi ini dinilai lebih baik dibanding memperpanjang kegiatan belajar mengajar. Terlebih karena dapat Anda lakukan kapanpun dan di manapun. Hal ini juga dinilai membuka sikap audience membaik.</p>
     <p>Saat ini terdapat contoh yang sering disajikan untuk murid. Misalnya teks yang tergolong menjadi medium visual dan bisa menjelaskan bahasa lisan dengan baik. Biasanya ada warna, ukuran dan bentuk menarik.</p>
     <p>Begitu juga jika Anda akan menambahkan grafik yang tidak kalah pentingnya bagi tampilan. Masih tergolong sebagai medium dengan basis utamanya bagi visual. Umumnya hanya tersaji dalam tampilan berupa 2 dimensi.</p>
@@ -27,6 +30,9 @@
 
         <li>
             <h3 class='h5 mt-5'>Menampilkan Benda dan Peristiwa Kompleks</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/DNASequence.png' class='w-100' title='DNA Sequence' alt='Rendering Complex Image Illustration'>
+            </figure>
             <p>Saat menjelaskan mengenai benda dan peristiwa kompleks, kadang sulit diberikan secara lisan. Zaman sekarang tampilan secara langsung lebih disukai. Contohnya saat menjelaskan tentang planet atau anatomi tubuh.</p>
             <p>Begitu juga jika Anda ingin mencoba menjelaskan mengenai bagaimana cara kerja suatu mesin. Bila mau mencoba menceritakan sejarah bangunan atau seseorang juga bisa. Bukan hanya tulisan, tapi terdapat gambarnya.</p>
         </li>
@@ -41,6 +47,9 @@
     <h2 class='h4 mt-5'>Jenis Multimedia Versi Interaktif Pilihan User</h2>
     <p>Harus Anda pahami sebelumnya kalau media ini tidak hanya dipakai pada program pengajaran. Melainkan sering ditemukan juga pada tutorial atau promosi produk atau jasa. Begitu juga sebagai hiburan atau game.</p>
     <p>Sementara itu untuk jenisnya, ada yang dipakai berbasis e-learning seperti sekolah. Tapi yang disarankan untuk Anda disini berupa website. Pasti sudah pernah Anda temukan dan dengar karena tergolong terkenal.</p>
+    <figure>
+        <img src='<?= base_url() ?>/assets/blogContent/Wikipedia.png' class='w-100' title='Wikipedia Logo' alt='Wikipedia Logo'>
+    </figure>
     <p>Contohnya seperti media interaktif berbasis web berupa Wikipedia. Kita sudah mengenalnya sebagai website pendidikan yang skalanya besar. Terdapat pembahasan mengenai sejarah, ilmu pengetahuan dan sebagainya.</p>
     <p>Selain itu sekarang masih ada juga Zenius Education, Kelas Kita, Wolfram Alpha, Music Theory dan sebagainya. Tentu saja tergolong sebagai website besar. Meski begitu ternyata Anda masih dapat membuatnya sendiri.</p>
     <p>Anda bisa membuat perencanaan untuk membuat website sama seperti situs besar tersebut. Mungkin dengan ide dan penanganan matang, hasilnya lebih baik. Tidak menutup kemungkinan menyamai atau mengalahkan situs tersebut.</p>

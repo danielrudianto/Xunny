@@ -3,6 +3,9 @@
     
     <p>Tidak sedikit dari para pemula yang masih kebingungan mencari cara meningkatkan traffic web. Di era modern seperti saat ini website merupakan salah satu Tempat untuk mencari sebuah informasi.</p>
     <p>Dengan menggunakan website Anda juga bisa mendapatkan uang hingga puluhan juta rupiah setiap bulannya. Akan tetapi untuk mendapatkan uang dari website dengan jumlah yang besar tentunya dibutuhkan kerja keras dan juga konsistensi.</p>
+    <figure>
+        <img src='<?= base_url() ?>/assets/blogContent/WebAnalytics.png' class='w-100' title='Web Analytics Illustration' alt='Web Analytics Illustration'>
+    </figure>
     <p>Salah satu hal, untuk bisa mendapatkan uang yang banyak dari sebuah website itu adalah memiliki pengunjung yang banyak. Oleh karena itu sangat penting bagi Anda untuk mengetahui cara meningkatkan traffic web dengan cepat.</p>
 
     <p>Saat ini ada berbagai macam web di internet. Punya bagi sebuah website pemula mungkin akan Butuh Waktu sehingga bisa menempati urutan atas pada pencarian Google. Akan tetapi, jika Anda membangun website dengan cara yang benar bukan tidak mungkin nantinya akan ramai dengan pengunjung.</p>
@@ -16,7 +19,10 @@
     <ol>
         <li>
             <h3 class='h5 mt-5'>Meningkatkan Kredibilitas</h3>
-            <p>Dengan semakin banyaknya pengguna internet memiliki website dapat meningkatkan kredibilitas jadi perusahaan anda. Ini akan memudahkan para pengguna internet untuk menemukan Anda dan juga berinteraksi.</p>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/BrandCredibility.png' class='w-100' title='Increase Company credibility through branding' alt='Company credibility Illustration'>
+            </figure>
+            <p>Dengan semakin banyaknya pengguna internet memiliki website dapat<a href='<?= base_url() ?>/Blogs/inilah-manfaat-website-bagi-perusahaan-tak-perlu-ragu-untuk-membuatnya'> meningkatkan kredibilitas perusahaan anda</a>. Ini akan memudahkan para pengguna internet untuk menemukan Anda dan juga berinteraksi.</p>
             <p>Dengan menggunakan website Anda bisa memberikan berbagai macam informasi penting kepada calon customer.  Selain Itu calon customer juga akan mengetahui bagaimana kualitas dari perusahaan Anda dengan melihat portofolio pada website.</p>
         </li>
         <li>
@@ -26,7 +32,10 @@
         </li>
         <li>
             <h3 class='h5 mt-5'>Menjangkau Pasar yang Luas</h3>
-            <p>Dengan menggunakan sebuah cek merek dagang atau brand Anda bisa dikenal secara luas oleh masyarakat. Bahkan orang-orang di luar negeri mungkin juga bisa menemukan brand Anda melalui internet.</p>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/BrandingDesign.png' class='w-100' title='Designing brand' alt='Ilustrasi menjangkau pasar lebih luas'>
+            </figure>
+            <p>Dengan menggunakan sebuah cek merek dagang atau brand Anda bisa dikenal secara luas oleh masyarakat. Bahkan orang-orang di luar negeri mungkin juga bisa menemukan <a href='<?= base_url() ?>/Blogs/buat-audiens-anda-terpukau-dengan-trik-ini'>brand Anda melalui internet</a>.</p>
         </li>
     </ol>
 
@@ -36,6 +45,9 @@
     <ol>
         <li>
             <h3 class='h5 mt-5'>Melakukan optimasi website</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/Optimize.png' class='w-100' title='Optimize Website' alt='Ilustrasi optimasi website'>
+            </figure>
             <p>Langkah pertama yang harus dilakukan dan untuk meningkatkan traffic dari sebuah zat yaitu adalah melakukan optimasi. Pastikan jika website yang Anda buat memiliki desain yang responsif dan juga cepat.</p>
         </li>
         <li>
@@ -45,7 +57,10 @@
         </li>
         <li>
             <h3 class='h5 mt-5'>Membuat konten yang berkualitas</h3>
-            <p>Salah satu kunci untuk meningkatkan traffic dari sebuah website yaitu adalah membuat konten yang berkualitas. Usahakan untuk membuat konten yang berguna bagi banyak orang.</p>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/ContentCreator.png' class='w-100' title='Content Creator' alt='Ilustrasi pembuatan konten'>
+            </figure>
+            <p>Salah satu kunci untuk meningkatkan traffic dari sebuah website yaitu adalah membuat <a href='<?= base_url() ?>/Blogs/9-manfaat-penulisan-artikel-pada-web-pribadi'>konten yang berkualitas</a>. Usahakan untuk membuat konten yang berguna bagi banyak orang.</p>
         </li>
     </ol>
 
