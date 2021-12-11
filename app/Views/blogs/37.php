@@ -1,50 +1,60 @@
 <?php $this->extend('/blog'); ?>
 <?php $this->section('content'); ?>
-    <p>Saat ini teknologi AI dalam Web Development banyak diterapkan oleh banyak web developer. Hal ini dikarenakan teknologi kecerdasan buatan tersebut dapat memiliki fungsi membuat website menjadi lebih interaktif dan pengguna akan semakin betah berlama-lama di website.</p>
-    <p>AI memiliki peranan penting dalam web development guna meningkatkan UX (user Experience). Memberikan pengalaman berkesan dan baik akan berpengaruh pada kepuasan pengguna dan kepuasan pengguna tersebut akan berdampak pada banyaknya pengunjung yang datang ke situs.</p>
-    <p>UX ini merupakan hal perlu diperhatikan oleh para web developer, dalam membuat situs haruslah yang ramah terhadap pengguna atau user friendly dan memudahkan para pengguna untuk mendapatkan apa dicarinya.</p>
+    <p>Cara melihat traffic web orang lain bisa dikatakan sangat mudah dan bisa dilakukan oleh siapa saja. Saat ini sudah tersedia banyak layanan dari pihak ketiga yang memungkinkan Anda untuk melihat traffic dari website orang lain.</p>
+    <p>Ketika melihat website orang lain memiliki peringkat yang baik di sistem pencarian Google mungkin Anda akan penasaran berapa trafik yang didapatkan oleh web tersebut. Mungkin Anda tidak bisa mengetahui secara pasti dan lengkap mengenai data traffic dari website orang lain. </p>
+    <p>Hal ini karena berkaitan dengan beberapa data yang mungkin tidak bisa dibagikan terhadap sembarang orang. Akan tetapi, ada beberapa tools yang bisa digunakan untuk melihat traffic dari website orang lain.</p>
+    <p>Di sini kami akan memberikan cara untuk Melihat traffic dari website orang lain dengan menggunakan 3 tools berbeda. </p>
 
-    <h2 class='h4 mt-5'>Apa itu Artificial Intelligence dan Fungsinya</h2>
-    <p>Artificial intelligence sendiri adalah kecerdasan buatan memiliki fungsi memudahkan pekerjaan manusia pada setiap kegiatan sehari-hari. Sebenarnya AI sudah tidak asing lagi dengan masyarakat.</p>
-    <p>Contoh AI yang sudah sering digunakan oleh masyarakat umum adalah Google Assistant dan juga Siri. Perlu diketahui, AI tidak selalu berbentuk robot atau asisten virtual seperti sering dilihat.</p>
-    <p>AI memiliki bentuk lebih luas lagi, dan dapat diterapkan pada setiap hal menekankan kecerdasan mesin. Bahkan AI sudah banyak diterapkan pada mobil listrik akan membantu pengemudi dalam berkendara.</p>
-    <p>AI juga dapat diterapkan pada sebuah website guna memberikan pengalaman terbaik bagi penggunanya. Banyak web developer saat ini telah mengadopsi AI pada setiap laman yang dibuat untuk meningkatkan pengalaman pengguna. Adapun manfaat dari penggunaan AI sebagai berikut.</p>
+    <h2 class='h5 mt-5'>Cara Melihat Traffic Web dengan Menggunakan Statshow</h2>
+    <figure>
+        <img src='<?= base_url() ?>/assets/blogContent/StatShow.png' class='w-100' alt='StatShow logo' title='StatShow logo'>
+    </figure>
+    <p><a href='https://www.statshow.com'>Statshow</a> merupakan salah satu tools yang bisa digunakan untuk menganalisa beberapa data penting dari sebuah website dan juga pengunjung website.</p>
+    <p>Statshow memungkinkan Anda untuk mengetahui nilai jual sebuah website, pendapatan dari iklan, dan juga pengunjung dari website. Ini merupakan salah satu tool yang sangat berguna bagi para blogger.</p>
+    <p>Ini merupakan salah satu tools terbaik bagi Anda yang ingin menganalisa kinerja dari sebuah website. Berbagai macam fitur menarik dan canggih tersedia pada tulis atau ini yang akan membantu Anda untuk meningkatkan penghasilan adsense dan juga meningkatkan pengunjung.</p>
+    <p>Cara menggunakan tulis satu ini bisa dikatakan cukup mudah bagi semua kalangan. Berikut langkah-langkah cara melihat traffic web menggunakan Statshow.</p>
     <ol>
-        <li>
-            <h3 class='h5 mt-5'>Menghemat Sumber Daya Manusia</h3>
-            <p>Banyak isu yang berkembang bahwa robot AI akan segera menggantikan pekerjaan dilakukan oleh manusia pada segala bidang. Hal ini telah benar terjadi contohnya saja pada perusahaan telah mengganti peran customer service menjadi chat bot.</p>
-            <p>Penggunaan robot virtual ini dinilai lebih efektif dalam berinteraksi dengan konsumen. Namun, chat bot ini hanya digunakan menyelesaikan pertanyaan-pertanyaan umum yang terjadi pada pelanggan, sumber daya manusia tetap diperlukan guna membantu pelanggan jika perlu aksi tidak lanjut.</p>
-        </li>
-        <li>
-            <h3 class='h5 mt-5'>Meminimalisir kesalahan yang terjadi</h3>
-            <p>Karena AI adalah robot telah diprogram untuk melakukan sesuai. Tingkat akurasinya sangat tinggi dan juga konsisten. Hal ini bermanfaat meminimalisir kesalahan-kesalahan yang terjadi jika dilakukan oleh manusia.</p>
-        </li>
-        <li>
-            <h3 class='h5 mt-5'>Efisiensi waktu</h3>
-            <p>AI dapat melakukan pekerjaan dengan cepat hal ini dikarenakan pada AI terdapat 3 poin penting yaitu learning, reasoning dan self correction. Tiga poin tersebut akan membuat pengetahuan AI menjadi lebih luas dan dapat menyelesaikan pekerjaannya dalam waktu singkat.</p>
-        </li>
+        <li>Langkah pertama yang harus Anda lakukan yaitu adalah mengunjungi website resmi dari Statshow yaitu <a href='https://www.statshow.com' rel='noreferer' target='_blank'>statshow.com</a>.</li>
+        <li>Setelah itu langkah selanjutnya yaitu adalah mencari menu website report.</li>
+        <li>Jika sudah Anda akan diminta untuk memasukkan url website yang akan dianalisis. </li>
+        <li>Terakhir yang harus Anda lakukan yaitu adalah menekan tombol enter atau tombol search yang tersedia pada layar.</li>
+        <li>Setelah Hal tersebut dilakukan maka berbagai macam data akan ditampilkan pada layar.</li>
     </ol>
 
-    <h2 class='h4 mt-5'>Penggunaan Teknologi AI dalam Web Development</h2>
-    <p>Penggunakan teknologi kecerdasan buatan pada pengembangan situs memiliki peranan yang berbeda-beda tergantung dengan fungsi yang dibutuhkah. Berikut ini adalah penggunaan teknologi AI dalam Web development.</p>
+    <h2 class='h5 mt-5'>Cara Melihat Traffic Web dengan Menggunakan Similarweb</h2>
+    <figure>
+        <img src='<?= base_url() ?>/assets/blogContent/SimilarWeb.png' alt='Similar Web Banner' title='Similar Web Banner' class='w-100'>
+    </figure>
+    <p><a href='https://www.similarweb.com' rel='noreferer' target='_blank'>Similarweb</a> Juga merupakan salah satu tulus yang sangat kami rekomendasikan bagi Anda yang ingin mengecek traffic website Anda atau orang lain. Ini merupakan salah satu alat yang bisa digunakan untuk menganalisis kinerja sebuah website.</p>
+    <p>Ada berbagai macam fitur yang bisa Anda gunakan sehingga bisa mengetahui apa yang perlu dibutuhkan untuk meningkatkan kinerja sebuah website. Cara menggunakannya juga sangat sederhana dan mudah untuk semua kalangan.</p>
+    <p>Berikut langkah-langkah yang harus Anda lalui ketika ingin melihat traffic web dengan menggunakan Similarweb.</p>
     <ol>
-        <li>
-            <h3 class='h5 mt-5'>AI sebagai Chatbot</h3>
-            <p>Chatbot ini merupakan kecerdasan buatan memiliki tugas sepertu customer service. Menjawab pertanyaan-pertanyaan umum yang biasa ditanyakan ke pelanggan. Chatbot ini bisa didisain dan diprogram dengan detail sesuai keinginan untuk mengatasi masalah-masalah diselesaikan.</p>
-        </li>
-        <li>4
-            <h3 class='h5 mt-5'>AI dalam Personalized Content</h3>
-            <p>Personalized content memiliki arti konten-konten yang diciptakan sesuai dengan personalisasi diri sendiri. Contohnya diterapkan Youtube, kecerdasan buatan digunakan oleh youtube dianalisis.</p>
-            <p>Daya diperlukan yotubue untuk dianalisis adalah riwayat video yang telah ditonton. Data tersebut dianalisis memberikan rekomendasi musik, video dan konten-konten sesuai dengan minat pengguna. </p>
-        </li>
-        <li>
-            <h3 class='h5 mt-5'>AI untuk Asisten Virtual</h3>
-            <p>Kecerdasan virtual menjadi asisten virtual digunakan untuk menyederhanakan kerja dilakukan oleh web development. Pekerjaan tersebut juga berkaitan dengan layout, desain templat dan personalized content.</p>
-            <p>Beberapa perbankan telah menerapkan kecerdasan buatan dalam aplikasinya adalah Mandiri memberikan nama AI nya MITA (mandiri virual asisten) dan CINTA untuk bank BNI yang merupakan singkatan dari BNI Chat Virtual Asistant.</p>
-        </li>
+        <li>Langkah pertama yang harus dilakukan yaitu adalah mengunjungi website resmi dari similarweb yaitu similarweb.com.</li>
+        <li>Jika halaman web sudah terbuka nantinya Anda akan bisa langsung melihat kotak pencarian. Silakan langsung saja copykan alamat url dari website yang Anda ingin ketahui jumlah trafiknya.</li>
+        <li>Jika sudah maka tinggal klik enter. Setelah itu Anda akan melihat beberapa data dari website ditampilkan. </li>
+        <li>Untuk Mengetahui jumlah visitor sebuah website Anda dapat mengklik menu visitor overview. Disitu ada beberapa pilihan menu Salah satunya yaitu adalah melihat visitor sesuai dengan negara.</li>
     </ol>
-    <p>Salah satu web developer selalu mengembangkan teknologi pada situs laman adalah <a href='<?= base_url() ?>'>Xunny.id</a>. Xunny merupakan salah satu IT Development menyediakan website development.</p>
-    <p>Xunny dapat membantu Anda dalam mengatasi masalah dan mencarikan solusi mengenai dunia bisnis Anda.  Spesialisasi Xunny merupakan dibidang digital dan dapat menghasilkan produk digital seperti web development dan juga app development.</p>
-    <p>Langkah pertama yang akan dilakuakn adalah Xunny akan mendengarkan semua keluhan diceritakan oleh pelanggannya. Setelah itu, langkah selanjutnya adalah melakukan problem solving terbaik.</p>
-    <p><a href='<?= base_url() ?>/#Contact'>Kontak kami</a> untuk mempelajari lebih lanjut bagimana kami dapat mebantu bisnis anda. Kami harap artikel ini dapat membantu.</p>
+
+    <h2 class='h5 mt-5'>Cara Melihat Traffic Web dengan Menggunakan Ubersuggest</h2>
+    <figure>
+        <img src='<?= base_url() ?>/assets/blogContent/UberSuggest.png' alt='Uber Suggest Banner' title='Uber Suggest Banner' class='w-100'>
+    </figure>
+    <p>Salah satu tools untuk melihat trafik web yaitu adalah <a href='https://neilpatel.com/ubersuggest/'>Ubersuggest</a>. Dengan menggunakan aplikasi satu ini Anda juga dapat melihat keyboard apa saja yang paling banyak mendatangkan traffic dari sebuah website.</p>
+    <p>Ini merupakan salah satu tools yang sangat penting bagi para blogger untuk bisa mengembangkan sebuah website. Layanan satu ini bisa digunakan secara gratis, Akan tetapi jika Anda ingin menggunakan seluruh fitur yang ada maka harus menggunakan layanan berbayar.</p>
+    <p>Untuk menggunakan ubersuggest juga bisa dikatakan sangat mudah. Berikut cara melihat traffic web dengan menggunakan tools ubersuggest.</p>
+    <ol>
+        <li>Pertama yang harus Anda lakukan yaitu adalah mengunjungi URL <a href='https://neilpatel.com/ubersuggest/' target='_blank' rel='noreferer'>neilpatel.com/ubersuggest/</a>.</li>
+        <li>Bagian atas halaman nantinya Anda akan melihat sebuah kotak pencarian. Pastikan untuk menyetel bahasa dan juga negara sesuai tempat di mana Anda tinggal.</li>
+        <li>Jika sudah, Anda bisa langsung mengklik enter atau menekan tombol search.</li>
+        <li>Setelah itu nantinya akan langsung ditampilkan beberapa data terkait website yang Anda masukkan tadi. Anda dapat melihat berbagai macam data dari mulai halaman yang paling sering dikunjungi, jumlah pengunjung setiap bulan, hingga keyboard yang ada pada website tersebut.</li>
+    </ol>
+    <p>Selain digunakan untuk melihat traffic sebuah website, ubersuggest juga sangat sering digunakan oleh para pengguna website untuk melihat keyboard pada website orang lain.</p>
+    <p>Ini merupakan salah satu tools yang sangat bermanfaat karena bisa membuat Anda mengetahui Hewan apa saja yang banyak dicari oleh orang-orang pada website pesaing. Akan tetapi sayangnya, biaya untuk menikmati semua fitur yang ada cukup mahal.</p>
+    <aside>
+        <p>Baca juga <a href='<?= base_url() ?>/Blogs/cara-meningkatkan-traffic-web-dengan-cepat'>Cara meningkatkan traffic web dengan cepat</a>.</p>
+    </aside>
+
+    <p>Jika Anda tertarik untuk membuat sebuah website ataupun aplikasi mobile akan tetapi tidak ingin repot belajar coding dan lain sebagainya maka kami bisa memberikan solusi untuk anda. </p>
+    <p>Kami merupakan perusahaan IT Developer yang telah berpengalaman dalam menangani berbagai macam project. Anda dapat menghubungi kami <a href='<?= base_url() ?>/#Contact'>disini</a>.</p>
+    <p>Kami akan membuat website dengan SEO yang baik sehingga nantinya mudah mendapatkan banyak traffic. Anda bisa membuktikan sendiri dengan menggunakan beberapa tools cara melihat traffic web di atas.</p>
 <?php $this->endSection() ?>

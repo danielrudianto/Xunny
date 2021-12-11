@@ -16,6 +16,9 @@
     <h2 class='h4 mt-5'>Manfaat Sebuah Website Bagi Para Pelaku Bisnis</h2>
     <p>Sebelum membahas mengenai cara meningkatkan traffic web alangkah baiknya Anda mengetahui beberapa manfaat dari sebuah website lelaku bisnis. Sebenarnya manfaat website sendiri sangat banyak dan bisa digunakan untuk berbagai macam hal. </p>
     <p>Pada era modern seperti saat ini sepertinya jika ingin sukses membangun bisnis harus memiliki website. Berikut beberapa manfaat dari website untuk para pelaku bisnis.</p>
+
+    <aside><p>Baca juga <a href='<?= base_url() ?>/Blogs/inilah-manfaat-website-bagi-perusahaan-tak-perlu-ragu-untuk-membuatnya'>Inilah manfaat website bagi perusahaan, tidak perlu ragu lagi untuk membuatnya.</a></p></aside>
+    
     <ol>
         <li>
             <h3 class='h5 mt-5'>Meningkatkan Kredibilitas</h3>

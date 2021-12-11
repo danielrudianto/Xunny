@@ -5,6 +5,9 @@
     <p>UX ini merupakan hal perlu diperhatikan oleh para web developer, dalam membuat situs haruslah yang ramah terhadap pengguna atau user friendly dan memudahkan para pengguna untuk mendapatkan apa dicarinya.</p>
 
     <h2 class='h4 mt-5'>Apa itu Artificial Intelligence dan Fungsinya</h2>
+    <figure>
+        <img src='<?= base_url() ?>/assets/blogContent/ArtificialIntelligenceLogo.png' class='w-100' alt='Ariticial Intelligence Banner' title='Artificial Intelligence Banner'>
+    </figure>
     <p>Artificial intelligence sendiri adalah kecerdasan buatan memiliki fungsi memudahkan pekerjaan manusia pada setiap kegiatan sehari-hari. Sebenarnya AI sudah tidak asing lagi dengan masyarakat.</p>
     <p>Contoh AI yang sudah sering digunakan oleh masyarakat umum adalah Google Assistant dan juga Siri. Perlu diketahui, AI tidak selalu berbentuk robot atau asisten virtual seperti sering dilihat.</p>
     <p>AI memiliki bentuk lebih luas lagi, dan dapat diterapkan pada setiap hal menekankan kecerdasan mesin. Bahkan AI sudah banyak diterapkan pada mobil listrik akan membantu pengemudi dalam berkendara.</p>
@@ -17,6 +20,9 @@
         </li>
         <li>
             <h3 class='h5 mt-5'>Meminimalisir kesalahan yang terjadi</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/BusinessProcess.png' class='w-100' alt='Business process illustration' title='Business process'
+            </figure>
             <p>Karena AI adalah robot telah diprogram untuk melakukan sesuai. Tingkat akurasinya sangat tinggi dan juga konsisten. Hal ini bermanfaat meminimalisir kesalahan-kesalahan yang terjadi jika dilakukan oleh manusia.</p>
         </li>
         <li>
@@ -30,15 +36,21 @@
     <ol>
         <li>
             <h3 class='h5 mt-5'>AI sebagai Chatbot</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/ChatBot.png' alt='ChatBot Illustration' title='ChatBot Illustration' class='w-100'>
+            </figure>
             <p>Chatbot ini merupakan kecerdasan buatan memiliki tugas sepertu customer service. Menjawab pertanyaan-pertanyaan umum yang biasa ditanyakan ke pelanggan. Chatbot ini bisa didisain dan diprogram dengan detail sesuai keinginan untuk mengatasi masalah-masalah diselesaikan.</p>
         </li>
-        <li>4
+        <li>
             <h3 class='h5 mt-5'>AI dalam Personalized Content</h3>
             <p>Personalized content memiliki arti konten-konten yang diciptakan sesuai dengan personalisasi diri sendiri. Contohnya diterapkan Youtube, kecerdasan buatan digunakan oleh youtube dianalisis.</p>
             <p>Daya diperlukan yotubue untuk dianalisis adalah riwayat video yang telah ditonton. Data tersebut dianalisis memberikan rekomendasi musik, video dan konten-konten sesuai dengan minat pengguna. </p>
         </li>
         <li>
             <h3 class='h5 mt-5'>AI untuk Asisten Virtual</h3>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/VirtualAssitant.png' alt='Virtual Assitant Illustration' title='Virtual Assitant Illustration' class='w-100'>
+            </figure>
             <p>Kecerdasan virtual menjadi asisten virtual digunakan untuk menyederhanakan kerja dilakukan oleh web development. Pekerjaan tersebut juga berkaitan dengan layout, desain templat dan personalized content.</p>
             <p>Beberapa perbankan telah menerapkan kecerdasan buatan dalam aplikasinya adalah Mandiri memberikan nama AI nya MITA (mandiri virual asisten) dan CINTA untuk bank BNI yang merupakan singkatan dari BNI Chat Virtual Asistant.</p>
         </li>

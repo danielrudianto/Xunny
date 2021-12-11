@@ -55,5 +55,7 @@
             <p>Dengan menggunakan desain responsif, web developer perlu bekerja lebih agar sebuah website terlihat proposional di beragam perangkat. Proses ini memakan waktu dibandingkan apabila seorang web developer tidak diminta untuk melakukan proses ini, namun proses ini akan lebih memakan waktu apabila web developer diminta untuk merubah website yang sudah ada menjadi responsif.</p>
         </li>
     </ul>
+
+    <aside><p>Baca juga <a href='<?= base_url() ?>/Blogs/5-framework-css-terbaik-untuk-pengembangan-website'>5 Framework CSS terbaik untuk pengembangan website</a> untuk meningkatkan responsifitas website kalian.</p></aside>
     <p>Sekian pembahasan kita kali ini untuk desain responsif. Walaupun memiliki kekurangan , namun sangat disarankan untuk menerapkan konsep ini saat pembuatan website / web apps. Semoga artikel ini dapat membantu, ikuti artikel menarik lainnya dari kami.</p>
 <?= $this->endSection() ?>

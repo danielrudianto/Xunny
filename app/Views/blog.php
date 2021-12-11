@@ -20,7 +20,7 @@
 
         <meta property="og:url"           content="<?= current_url() ?>" />
         <meta property="og:type"          content="website" />
-        <meta property="og:title"         content="<?= $header['title'] ?>" />
+        <meta property="og:title"         content="<?= $header['displayTitle'] ?>" />
         <meta property="og:description"   content="<?= $header['subtitle'] ?>" />
         <meta property="og:image:secure_url"         content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
         <meta property="og:image:url"     content="<?= base_url('assets/blog') . '/' . $header['id'] . '.png' ?>" />
@@ -55,7 +55,7 @@
                 <div class='row justify-content-center'>
                     <div class='col-xl-8 col-lg-10 col-12'>
 						<article>
-                            <h1 class='text-center'><?= $header['title'] ?></h1>
+                            <h1 class='text-center'><?= $header['displayTitle'] ?></h1>
                             <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' class='w-100' />
                             <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
                             <p class='text-center h5'><?= date("d M Y", strtotime($header['created_date'])) ?></p>
@@ -93,7 +93,7 @@
                                     <div class='card w-100'>
                                         <img class="card-img-top" src="<?= base_url() ?>/assets/blog/<?= $feature['id'] ?>.webp" alt="<?= $feature['title'] ?>">
                                         <div class='card-body'>
-                                            <h5 class='card-title'><?= $feature['title'] ?></h5>
+                                            <h5 class='card-title'><?= $feature['displayTitle'] ?></h5>
                                             <h6 class='card-text'><?= $feature['subtitle'] ?></h6>
                                             <p class='card-date'><?= ceil($feature['words'] / 130) ?> min. read</p>
                                         </div>
