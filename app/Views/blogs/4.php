@@ -9,29 +9,13 @@
     <p><strong>Bootstrap</strong> merupakan framework CSS yang paling populer hingga hari ini dengan alasan yang baik. Bagi para <i>front-end developer</i>, Bootstrap merupakan pilihan pertama dalam framework CSS, menimbang beberapa keunggulan dibandingkan beberapa framework lain.</p>
     <h3 class='h5 mt-5'>Keunggulan:</h3>
     <ul style='padding-inline-start:20px'>
-        <li>
-            <p>
-                Framework ini memiliki isu yang relatif sedikit dengan beberapa browser lain. Anda dapat menggunakan framework ini di beberapa jenis browser sekaligus, termasuk browser Android, dan memiliki perbedaan yang relatif minor dibandingkan dengan yang anda buat.
-            </p>
-        </li>
-        <li>
-            <p>
-                Bootstrap mendokumentasikan pekerjaan anda, sehingga apabila anda lupa dan hendak mengganti sesuatu, pekerjaan anda masih ada di tempat yang logis, menghemat waktu anda untuk menelusuri ribuan atau bahkan jutaan baris kode.
-            </p>
-        </li>
-        <li>
-            <p>
-                Metode yang digunakan Bootstrap untuk mendesain, telah membuatnya sangat populer untuk menjadi pilihan utama para web desainer di pasar.
-            </p>
-        </li>
+        <li class='normal'>Framework ini memiliki isu yang relatif sedikit dengan beberapa browser lain. Anda dapat menggunakan framework ini di beberapa jenis browser sekaligus, termasuk browser Android, dan memiliki perbedaan yang relatif minor dibandingkan dengan yang anda buat.</li>
+        <li class='normal'>Bootstrap mendokumentasikan pekerjaan anda, sehingga apabila anda lupa dan hendak mengganti sesuatu, pekerjaan anda masih ada di tempat yang logis, menghemat waktu anda untuk menelusuri ribuan atau bahkan jutaan baris kode.</li>
+        <li class='normal'>Metode yang digunakan Bootstrap untuk mendesain, telah membuatnya sangat populer untuk menjadi pilihan utama para web desainer di pasar.</li>
     </ul>
     <h3 class='h5 mt-5'>Kekurangan:</h3>
     <ul style='padding-inline-start:20px'>
-        <li>
-            <p>
-                Pilihan untuk melakukan kustomisasi sangat terbatas, sehingga satu site dengan site lain akan tampak serupa. Membutuhkan usaha lebih untuk memasukan gaya desain anda ke dalamnya agar tidak mirip dengan layout default Bootstrap.
-            </p>
-        </li>
+        <li class='normal'>Pilihan untuk melakukan kustomisasi sangat terbatas, sehingga satu site dengan site lain akan tampak serupa. Membutuhkan usaha lebih untuk memasukan gaya desain anda ke dalamnya agar tidak mirip dengan layout default Bootstrap.</li>
     </ul>
 
     <h2 class='h3 mt-5'>2. Foundation</h2>
@@ -43,29 +27,13 @@
 
     <h3 class='h5 mt-5'>Keunggulan:</h3>
     <ul style='padding-inline-start:20px'>
-        <li>
-            <p>
-                Kemampuan untuk melakukan kustomisasi pada menu, mengijinkan para developer untuk menjadi lebih kreatif.
-            </p>
-        </li>
-        <li>
-            <p>
-                Sangat user friendly, sehingga klien dan developer dapat mendesain website dengan mudah, tanpa perlu mengalah dengan pada pilihan yang terbatas, sehinggan memiliki lebih banyak kontrol pada pembangunan yang ada.
-            </p>
-        </li>
+        <li>Kemampuan untuk melakukan kustomisasi pada menu, mengijinkan para developer untuk menjadi lebih kreatif.</li>
+        <li>Sangat user friendly, sehingga klien dan developer dapat mendesain website dengan mudah, tanpa perlu mengalah dengan pada pilihan yang terbatas, sehinggan memiliki lebih banyak kontrol pada pembangunan yang ada.</li>
     </ul>
     <h3 class='h5 mt-5'>Kekurangan:</h3>
     <ul style='padding-inline-start:20px'>
-        <li>
-            <p>
-                Kurva belajar yang cukup curam, sehinggan sangat menantang bagi web developer junior.
-            </p>
-        </li>
-        <li>
-            <p>
-                Dikarenakan tidak banyak yang menggunakan framework ini, akan lebih sulit apabila anda memiliki pertanyaan seputar framework ini.
-            </p>
-        </li>
+        <li>Kurva belajar yang cukup curam, sehinggan sangat menantang bagi web developer junior.</li>
+        <li>Dikarenakan tidak banyak yang menggunakan framework ini, akan lebih sulit apabila anda memiliki pertanyaan seputar framework ini.</li>
     </ul>
 
     <h2 class='h3'>3. Materialize</h2>
@@ -77,34 +45,14 @@
 
     <h3 class='h5 mt-5'>Keunggulan:</h3>
     <ul style='padding-inline-start:20px'>
-        <li>
-            <p>
-                Kemampuan untuk melakukan kustomisasi sesuai dengan idealisme desain anda dilengkapi dengan platform dengan banyak pilihan CSS.
-            </p>
-        </li>
-        <li>
-            <p>
-                Memiliki roda warna yang sangat banyak, membuat website anda sangat spesifik dan unik untuk anda. 
-            </p>
-        </li>
-        <li>
-            <p>
-                Dengan seluruh fitur yang disediakan, membuat waktu yang dibutuhkan untuk coding berkurang banyak.
-            </p>
-        </li>
+        <li>Kemampuan untuk melakukan kustomisasi sesuai dengan idealisme desain anda dilengkapi dengan platform dengan banyak pilihan CSS.</li>
+        <li>Memiliki roda warna yang sangat banyak, membuat website anda sangat spesifik dan unik untuk anda. </li>
+        <li>Dengan seluruh fitur yang disediakan, membuat waktu yang dibutuhkan untuk coding berkurang banyak.</li>
     </ul>
     <h3 class='h5 mt-5'>Kekurangan:</h3>
     <ul style='padding-inline-start:20px'>
-        <li>
-            <p>
-                Tidak berjalan baik untuk browser yang relatif tua.
-            </p>
-        </li>
-        <li>
-            <p>
-                Memiliki ukuran file yang cukup besar, membuatnya tidak efisien dalam aspek loading page.
-            </p>
-        </li>
+        <li>Tidak berjalan baik untuk browser yang relatif tua.</li>
+        <li>Memiliki ukuran file yang cukup besar, membuatnya tidak efisien dalam aspek loading page.</li>
     </ul>
 
     <h2 class='h3 mt-5'>4. Semantic UI</h2>
@@ -116,29 +64,13 @@
 
     <h3 class='h5 mt-5'>Keunggulan:</h3>
     <ul style='padding-inline-start:20px'>
-        <li>
-            <p>
-                Banyak pilihan warna dan desain.
-            </p>
-        </li>
-        <li>
-            <p>
-                Menu yang responsif.
-            </p>
-        </li>
+        <li>Banyak pilihan warna dan desain.</li>
+        <li>Menu yang responsif.</li>
     </ul>
     <h3 class='h5 mt-5'>Kekurangan:</h3>
     <ul style='padding-inline-start:20px'>
-        <li>
-            <p>
-                Tidak bekerja pada semua browser.
-            </p>
-        </li>
-        <li>
-            <p>
-                Lebih banyak pengujian pada browser dibandingkan framework lain karena isu kompatibilitas ini, sehingga dapat menunda peluncuran website anda.
-            </p>
-        </li>
+        <li>Tidak bekerja pada semua browser.</li>
+        <li>Lebih banyak pengujian pada browser dibandingkan framework lain karena isu kompatibilitas ini, sehingga dapat menunda peluncuran website anda.</li>
     </ul>
 
     <h2 class='h3 mt-5'>5. Bulma</h2>
@@ -150,29 +82,13 @@
 
     <h3 class='h5 mt-5'>Keunggulan:</h3>
     <ul style='padding-inline-start:20px'>
-        <li>
-            <p>
-                Desainnya menggabungkan inovasi dengan kemudahan penggunaan.
-            </p>
-        </li>
-        <li>
-            <p>
-                Bulma memiliki support system yang sangat baik, siap untuk membantu developer yang merasa kesulitan.
-            </p>
-        </li>
+        <li>Desainnya menggabungkan inovasi dengan kemudahan penggunaan.</li>
+        <li>Bulma memiliki support system yang sangat baik, siap untuk membantu developer yang merasa kesulitan.</li>
     </ul>
     <h3 class='h5 mt-5'>Kekurangan:</h3>
     <ul style='padding-inline-start:20px'>
-        <li>
-            <p>
-                Komunitasnya relatif berukuran kecil.
-            </p>
-        </li>
-        <li>
-            <p>
-                Hanya sekitar 10% developer menggunakan framework ini.
-            </p>
-        </li>
+        <li>Komunitasnya relatif berukuran kecil.</li>
+        <li>Hanya sekitar 10% developer menggunakan framework ini.</li>
     </ul>
     <p>Itulah kelima framework CSS yang populer saat ini, anda dapat memilih salah satu dari kelima framework tersebut, atau bahkan tanpa menggunakan framework sama sekali. Framework hanya kita gunakan untuk mempermudah pekerjaan kita, namun tidak berarti kita harus bergantung pada salah satu framework yang ada.</p>
 

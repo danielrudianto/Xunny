@@ -23,15 +23,15 @@
     <h2 class='h5 mt-5'>Kelebihan Desain Responsif</h2>
     <p>Seperti yang sebelumnya telah disebutkan, desain web responsive memiliki kelebihan untuk meningkatkan SEO. Namun di luar hal tersebut, ada beberapa kelebihan lain yang bisa kita peroleh, seperti:</p>
     <ul>
-        <li>
+        <li class='normal'>
             <p><strong>User Experience Friendly</strong></p>
             <p>Desain web yang responsif dapat menyediakan pengguna dengan tampilan antar muka yang bersahabat, karena dapat menyesuaikan dengan perangkat perangkat lain yang digunakan oleh pengguna.</p>
         </li>
-        <li>
+        <li class='normal'>
             <p><strong>Mengurangi Biaya Pembuatan Website</strong></p>
             <p>Dibandingkan anda menyewa beberap <i>web developer</i> untuk membuatkan website diperuntukan untuk desktop, tablet, iPhone, android, dan TV; dengan konsep desain responsif, anda tidak memerlukan orang sebanyak itu sehingga dapat mengurangi biaya pembuatan website anda.</p>
         </li>
-        <li>
+        <li class='normal'>
             <p><strong>SEO Friendly</strong></p>
             <p>Seperti yang telah disebutkan sebelumnya, dengan menggunakan konsepdesain web responsif, anda dapat meningkatkan SEO anda. Google menyarankan untuk memprioritaskan website dengan desain responsif, karena apapun versi yang anda pilih untuk ditampilkan, mudah bagi Google untuk mengurus konten dan struktur HTML yang sama.</p>
         </li>
@@ -39,18 +39,18 @@
     <h2 class='h5 mt-5'>Kekurangan Desain Responsif</h2>
     <p>Namun, di luar kelebihannya, desain web responsif pun memiliki beberapa kekurangan yang perlu dikonsiderasi bagi para <i>web developer</i>.</p>
     <ul>
-        <li>
+        <li class='normal'>
             <p><strong>Memperlambat <i>Loading</i></strong></p>
             <figure>
                 <img src='<?= base_url('assets/blogContent/5SecondsTest.png') ?>' class='w-100' alt='5 Second Test Icon' />
             </figure>
             <p>Dengan menggunakan konsep ini, maka anda perlu memasukan beberapa baris kode tambahan yang akan menjadi tidak berguna di beberapa perangkat. Dengan baris baris kode yang terpaksa harus dimuat tersebut, proses <i>loading page</i> menjadi lebih lambat.</p>
         </li>
-        <li>
+        <li class='normal'>
             <p><strong>Kompatibilitas</strong></p>
             <p>Desain web responsif umumnya memiliki kompatibilitas yang kurang baik untuk browser yang relatif sudah lama seperti IE (<i>Internet Explorer</i>).</p>
         </li>
-        <li>
+        <li class='normal'>
             <p><strong>Memperlambat Proses Development</strong></p>
             <p>Dengan menggunakan desain responsif, web developer perlu bekerja lebih agar sebuah website terlihat proposional di beragam perangkat. Proses ini memakan waktu dibandingkan apabila seorang web developer tidak diminta untuk melakukan proses ini, namun proses ini akan lebih memakan waktu apabila web developer diminta untuk merubah website yang sudah ada menjadi responsif.</p>
         </li>

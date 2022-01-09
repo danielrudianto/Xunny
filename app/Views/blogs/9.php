@@ -7,7 +7,7 @@
 
     <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2674_RC03/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"php","geo":"","time":"2020-10-01 2021-10-01"},{"keyword":"javascript","geo":"","time":"2020-10-01 2021-10-01"}],"category":0,"property":""}, {"exploreQuery":"q=php,javascript&date=today 12-m,today 12-m","guestPath":"https://trends.google.co.id:443/trends/embed/"}); </script>
 
-    <h2 class='mt-5'>1. Laravel</h2>
+    <h2 class='h4 mt-5'>1. Laravel</h2>
     <figure>
         <img src="<?= base_url('assets/blogContent/Laravel.png') ?>" class='w-100' alt='Laravel Banner'>
         <figcaption>Laravel logo</figcaption>
@@ -16,11 +16,11 @@
     <p><strong>Alasan penggunaan Laravel</strong></p>
     <ul>
         <li>
-            <h3 class='h5'>Open Source, Komunitas Besar, dan Dokumentasi Ekstensif</h3>
+            <h3 class='h5 mt-5'>Open Source, Komunitas Besar, dan Dokumentasi Ekstensif</h3>
             <p>Laravel adalah sebuah framework web development yang bersifat open source dan gratis. Laravel pun menerima support yang sangat baik dan inspiratif dari komunitas developer PHP, sehingga Laravel selalu bergerak secara kreatif dan inovatif. Sejak peluncurannya di tahun 2011 hingga sekarang, telah ada 20 rilis yang bersifat mayor, dengan Laravel 8 merupakan versi terbaru yang stabil. Komunitas Laravel pun menyedian versi - versi LTS. Laravel 6.0 LTS saat ini masih dalam support dan versi di bawah itu sudah tidak lagi menerima support dan <i>maintainance</i> ( <i>end of service</i> ).
         </li>
         <li>
-            <h3 class='h5'>Performa, Keamanan, dan Skalabilitas Tinggi</h3>
+            <h3 class='h5 mt-5'>Performa, Keamanan, dan Skalabilitas Tinggi</h3>
             <p>Anda dapat secara aman mengembangkan aplikasi dengan framework Laravel menggunakan aristektur MVC. Dengan menggunakan OOP ( Object oriented programming ) dan pendekatan functional programming, anda dapat mengembangkan basis-kode yang sangat modular untuk aplikasi anda. Aristektur yang modular dan tersegmentasi membuat Laravel menjadi sangat <i>extensible</i> yang berarti developer Laravel dapat memanfaatkan <i>first-party package</i> yang siap digunakan seperti Envoy, Passport, Horizon, Cashier, dan Fortify. Hal ini pun dapat mengiritkan waktu pengembangan dan produk baru dapat hadir dengan lebih cepat. Fitur autentikasi built-in pun dapat memanfaatkan penyimpanan data yang terenkripsi untuk keamanan lebih tinggi. Performa pun dapat ditingkatkan secara signifikan dengan menggunakan sesi dan <i>cached</i> memory, mengoptimalkan proses koleksi sampah yang berarti meningkatkan eksekusi task.</p>
         </li>
     </ul>
@@ -35,7 +35,7 @@
         <li>Lebih dari 3.000 perusahaan lain</li>
     </ul>
 
-    <h2 class='mt-5'>2. Codeigniter</h2>
+    <h2 class='h4 mt-5'>2. Codeigniter</h2>
     <figure>
         <img src="<?= base_url('assets/blogContent/CodeIgniter.png') ?>" class='w-100' alt='Codeigniter Banner'>
         <figcaption>Codeigniter logo</figcaption>
@@ -73,7 +73,7 @@
         <li>Lebih dari 1.700 perusahaan lain</li>
     </ul>
 
-    <h2 class='mt-5'>3. Yii</h2>
+    <h2 class='h4 mt-5'>3. Yii</h2>
     <figure>
         <img src="<?= base_url('assets/blogContent/Yii.png') ?>" class='w-100' alt='Yii Banner'>
         <figcaption>Yii logo</figcaption>
@@ -105,7 +105,7 @@
         <li>Utrip</li>
     </ul>
 
-    <h2 class='mt-5'>4. CakePHP</h2>
+    <h2 class='h4 mt-5'>4. CakePHP</h2>
     <figure>
         <img src="<?= base_url('assets/blogContent/CakePHP.png') ?>" class='w-100' alt='CakePHP Banner'>
         <figcaption>CakePHP logo</figcaption>
@@ -130,7 +130,7 @@
         <li>Citizens Inc</li>
     </ul>
 
-    <h2 class='mt-5'>5. Slim</h2>
+    <h2 class='h4 mt-5'>5. Slim</h2>
     <figure>
         <img src="<?= base_url('assets/blogContent/SlimPHP.png') ?>" class='w-100' alt='Slim Banner'>
         <figcaption>Slim logo</figcaption>
@@ -139,11 +139,11 @@
     <p><strong>Apa saja fitur dari Slim?</strong></p>
     <ul>
         <li>
-            <h3 class='h5'>Router yang efisien dan cepat</h3>
+            <h3 class='h5 mt-5'>Router yang efisien dan cepat</h3>
             <p>Slim dibuat dengan router yang sangat kuat. Slim memetakan rute ke metode <i>hadler</i> request HTTP dan Url. Rute secara dasar mendukung perbedaan tipe URL, termasuk dengan parameter dan pola tertentu. URL dengan dasar pola umumnya diemplementasikan pada aplikasi e-commerce.</p>
         </li>
         <li>
-            <h3 class='h5'>PSR-7 Support</h3>
+            <h3 class='h5 mt-5'>PSR-7 Support</h3>
             <p>Sangat penting untuk mengimplementasikan PSR-7 pada proyek Slim anda</p>
         </li>
     </ul>

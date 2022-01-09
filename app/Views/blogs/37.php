@@ -14,11 +14,11 @@
     <p>Ini merupakan salah satu tools terbaik bagi Anda yang ingin menganalisa kinerja dari sebuah website. Berbagai macam fitur menarik dan canggih tersedia pada tulis atau ini yang akan membantu Anda untuk meningkatkan penghasilan adsense dan juga meningkatkan pengunjung.</p>
     <p>Cara menggunakan tulis satu ini bisa dikatakan cukup mudah bagi semua kalangan. Berikut langkah-langkah cara melihat traffic web menggunakan Statshow.</p>
     <ol>
-        <li>Langkah pertama yang harus Anda lakukan yaitu adalah mengunjungi website resmi dari Statshow yaitu <a href='https://www.statshow.com' rel='noreferer' target='_blank'>statshow.com</a>.</li>
-        <li>Setelah itu langkah selanjutnya yaitu adalah mencari menu website report.</li>
-        <li>Jika sudah Anda akan diminta untuk memasukkan url website yang akan dianalisis. </li>
-        <li>Terakhir yang harus Anda lakukan yaitu adalah menekan tombol enter atau tombol search yang tersedia pada layar.</li>
-        <li>Setelah Hal tersebut dilakukan maka berbagai macam data akan ditampilkan pada layar.</li>
+        <li class='normal'>Langkah pertama yang harus Anda lakukan yaitu adalah mengunjungi website resmi dari Statshow yaitu <a href='https://www.statshow.com' rel='noreferer' target='_blank'>statshow.com</a>.</li>
+        <li class='normal'>Setelah itu langkah selanjutnya yaitu adalah mencari menu website report.</li>
+        <li class='normal'>Jika sudah Anda akan diminta untuk memasukkan url website yang akan dianalisis. </li>
+        <li class='normal'>Terakhir yang harus Anda lakukan yaitu adalah menekan tombol enter atau tombol search yang tersedia pada layar.</li>
+        <li class='normal'>Setelah Hal tersebut dilakukan maka berbagai macam data akan ditampilkan pada layar.</li>
     </ol>
 
     <h2 class='h5 mt-5'>Cara Melihat Traffic Web dengan Menggunakan Similarweb</h2>
@@ -29,10 +29,10 @@
     <p>Ada berbagai macam fitur yang bisa Anda gunakan sehingga bisa mengetahui apa yang perlu dibutuhkan untuk meningkatkan kinerja sebuah website. Cara menggunakannya juga sangat sederhana dan mudah untuk semua kalangan.</p>
     <p>Berikut langkah-langkah yang harus Anda lalui ketika ingin melihat traffic web dengan menggunakan Similarweb.</p>
     <ol>
-        <li>Langkah pertama yang harus dilakukan yaitu adalah mengunjungi website resmi dari similarweb yaitu similarweb.com.</li>
-        <li>Jika halaman web sudah terbuka nantinya Anda akan bisa langsung melihat kotak pencarian. Silakan langsung saja copykan alamat url dari website yang Anda ingin ketahui jumlah trafiknya.</li>
-        <li>Jika sudah maka tinggal klik enter. Setelah itu Anda akan melihat beberapa data dari website ditampilkan. </li>
-        <li>Untuk Mengetahui jumlah visitor sebuah website Anda dapat mengklik menu visitor overview. Disitu ada beberapa pilihan menu Salah satunya yaitu adalah melihat visitor sesuai dengan negara.</li>
+        <li class='normal'>Langkah pertama yang harus dilakukan yaitu adalah mengunjungi website resmi dari similarweb yaitu similarweb.com.</li>
+        <li class='normal'>Jika halaman web sudah terbuka nantinya Anda akan bisa langsung melihat kotak pencarian. Silakan langsung saja copykan alamat url dari website yang Anda ingin ketahui jumlah trafiknya.</li>
+        <li class='normal'>Jika sudah maka tinggal klik enter. Setelah itu Anda akan melihat beberapa data dari website ditampilkan. </li>
+        <li class='normal'>Untuk Mengetahui jumlah visitor sebuah website Anda dapat mengklik menu visitor overview. Disitu ada beberapa pilihan menu Salah satunya yaitu adalah melihat visitor sesuai dengan negara.</li>
     </ol>
 
     <h2 class='h5 mt-5'>Cara Melihat Traffic Web dengan Menggunakan Ubersuggest</h2>
@@ -43,10 +43,10 @@
     <p>Ini merupakan salah satu tools yang sangat penting bagi para blogger untuk bisa mengembangkan sebuah website. Layanan satu ini bisa digunakan secara gratis, Akan tetapi jika Anda ingin menggunakan seluruh fitur yang ada maka harus menggunakan layanan berbayar.</p>
     <p>Untuk menggunakan ubersuggest juga bisa dikatakan sangat mudah. Berikut cara melihat traffic web dengan menggunakan tools ubersuggest.</p>
     <ol>
-        <li>Pertama yang harus Anda lakukan yaitu adalah mengunjungi URL <a href='https://neilpatel.com/ubersuggest/' target='_blank' rel='noreferer'>neilpatel.com/ubersuggest/</a>.</li>
-        <li>Bagian atas halaman nantinya Anda akan melihat sebuah kotak pencarian. Pastikan untuk menyetel bahasa dan juga negara sesuai tempat di mana Anda tinggal.</li>
-        <li>Jika sudah, Anda bisa langsung mengklik enter atau menekan tombol search.</li>
-        <li>Setelah itu nantinya akan langsung ditampilkan beberapa data terkait website yang Anda masukkan tadi. Anda dapat melihat berbagai macam data dari mulai halaman yang paling sering dikunjungi, jumlah pengunjung setiap bulan, hingga keyboard yang ada pada website tersebut.</li>
+        <li class='normal'>Pertama yang harus Anda lakukan yaitu adalah mengunjungi URL <a href='https://neilpatel.com/ubersuggest/' target='_blank' rel='noreferer'>neilpatel.com/ubersuggest/</a>.</li>
+        <li class='normal'>Bagian atas halaman nantinya Anda akan melihat sebuah kotak pencarian. Pastikan untuk menyetel bahasa dan juga negara sesuai tempat di mana Anda tinggal.</li>
+        <li class='normal'>Jika sudah, Anda bisa langsung mengklik enter atau menekan tombol search.</li>
+        <li class='normal'>Setelah itu nantinya akan langsung ditampilkan beberapa data terkait website yang Anda masukkan tadi. Anda dapat melihat berbagai macam data dari mulai halaman yang paling sering dikunjungi, jumlah pengunjung setiap bulan, hingga keyboard yang ada pada website tersebut.</li>
     </ol>
     <p>Selain digunakan untuk melihat traffic sebuah website, ubersuggest juga sangat sering digunakan oleh para pengguna website untuk melihat keyboard pada website orang lain.</p>
     <p>Ini merupakan salah satu tools yang sangat bermanfaat karena bisa membuat Anda mengetahui Hewan apa saja yang banyak dicari oleh orang-orang pada website pesaing. Akan tetapi sayangnya, biaya untuk menikmati semua fitur yang ada cukup mahal.</p>

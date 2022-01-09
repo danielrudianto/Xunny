@@ -13,7 +13,7 @@
             <p><a href='https://flutter.dev' target='_blank' rel='noreferer'>Flutter</a> merupakan kerangka kerja lintas platform yang fokus pada web, desktop. iOS, dll dan menggunakan DART yang biasa dipakai untuk membuat semua jenis aplikasi yang bisa berfungsi dengan baik. Dengan menggunakan flutter, anda harus menggunakan tampilan yang cantik pada UI-nya dan aplikasi - aplikasi tersebut juga bisa jalan dengan 60 frame-per-second dan tampilan harus tetap responsif untuk digunakan oleh pengguna. Selain itu, dengan menggunakan flutter maka juga akan lebih adaptif pada mobile. Anda bisa menggunakan flutter untuk merubah aplikasi agar cocok dengan operating system yang anda gunakan. Kemudian, anda juga menggunakan flutter untuk membuat aplikasi anda juga bisa digunakan dalam versi desktop hanya dengan menambahkan beberapa baris kode saja dan anda juga bisa menambahkan input umum untuk pengguna desktop, seperti backspace.</p>
         </li>
         <li>
-            <h5>Angular</h5>
+            <h2 class='h5 mt-5'>Angular</h2>
             <figure>
                 <img src='<?= base_url() ?>/assets/blogContent/Angular.png' class='w-100' title="Angular Logo" alt='Angular Logo'>
             </figure>

@@ -31,17 +31,18 @@
     </figure>
     <p>Pertimbangan selanjutnya yang cukup penting untuk diperhatikan adalah bahwa kapasitas pola pencarian informasi menjadi lebih mudah dengan penggunaan website. Lalu Apa manfaat website dalam bisnis online yang bisa digunakan untuk memudahkan pencarian. Berikut ini adalah sistem yang biasa digunakan.</p>
     <ol>
-        <li>
+        <li class='normal'>
             <p>Sistem informasi menjadi lebih mudah untuk diketahui jika pemiliki website mampu memberikan pengaturan berupa SEO. Seperti yang telah diketahui sebelumnya bahwa kapasitas SEO sangat menunjang optimasi website tersebut bisa diakses pengguna.</p>
             <figure>
                 <img src='<?= base_url() ?>/assets/blogContent/SEO.png' class='w-100' alt='Ilustrasi SEO'>
             </figure>
             <p>Sistem informasi menjadi lebih mudah untuk diketahui jika pemiliki website mampu memberikan pengaturan berupa SEO. Seperti yang telah diketahui sebelumnya bahwa kapasitas SEO sangat menunjang optimasi website tersebut bisa diakses pengguna.</p>
         </li>
-        <li>
+        <li class='normal'>
             <p>Selain adanya SEO pertimbangan lain yang secara praktik mampu memberikan kemudahan dalam mendapatkan informasi adalah kemudahan website untuk diakses. Hal tersebut tentu berlaku pada smartphone yang bisa diakses dengan mudah.</p>
             <figure>
-                <img src='<?= base_url() ?>/assets/blogContent/Accessibility.png' class='w-100' alt='Ilustrasi Aksesibilitas
+                <img src='<?= base_url() ?>/assets/blogContent/Accessibility.png' class='w-100' alt='Ilustrasi Aksesibilitas'>
+            </figure>
             <p>Dengan adanya smartphone maka secara tidak langsung penting bagi beberapa pihak untuk lebih mudah mengakses informasi secara menyeluruh. Hal ini juga yang menjamin kapasitas bisnis Anda lebih mudah untuk ditemukan secara lebih fleksibel.</p>
         </li>
     </ol>

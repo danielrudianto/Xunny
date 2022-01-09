@@ -3,6 +3,83 @@
     src: url("../fonts/Giga-Sans.otf") format("opentype");
 }
 
+
+@font-face {
+    font-family: Brinnan;
+    font-weight:400;
+    src: url("../fonts/Brinnan/Brinnan =.otf") format("opentype");
+}
+
+p, h1, h2, h3, h4, h5, h6, li, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family:Brinnan, sans-serif;
+}
+
+p, li{
+    font-family:Brinnan, sans-serif;
+    font-size:1.6rem;
+    line-height:200%!important;
+    font-weight:400;
+}
+
+ol {
+    list-style: none;
+    counter-reset: item;
+}
+
+ol > li {
+    counter-increment: item;
+    margin-bottom:10px;
+}
+
+ol > li.normal:before {
+    content: counter(item)".\00a0";
+    color: black;
+    float:left;
+    min-width:20px;
+    font-family:Brinnan, sans-serif;
+    font-size:1.6rem!important;
+    font-weight:400;
+    margin-right:10px;
+}
+
+ol > li:before {
+    content: counter(item)".\00a0";
+    color: black;
+    float:left;
+    min-width:20px;
+    font-family:Brinnan, sans-serif;
+    font-size:2rem!important;
+    font-weight:800;
+    margin-right:10px;
+}
+
+ol > li > h2{
+    font-size:2rem;
+    line-height:2rem!important;
+    font-weight:800;
+}
+
+ol > li > h3{
+    font-size:2rem;
+    line-height:2rem!important;
+    font-weight:800;
+}
+
+h1{
+    font-size:2.2rem!important;
+    font-weight:800;
+}
+
+.h4{
+    font-size:2rem!important;
+    font-weight:800;
+}
+
+.h5{
+    font-size:2rem!important;
+    font-weight:800;
+}
+
 #logoImage{
     width:250px;
     margin-bottom:1rem;
@@ -13,6 +90,20 @@
     transform:translateX(-50%);
     transition:0.4s all ease;
     text-decoration: none;
+}
+
+main{
+    padding-top:120px;
+}
+
+@media screen and (max-width:576px){
+    #logoImage{
+        width:150px;
+    }
+
+    main{
+        padding-top:70px;
+    }
 }
 
 #navbar{
@@ -26,10 +117,6 @@
 .scaleDown #logoImage{
     width:100px;
     transition:0.4s all ease;
-}
-
-main{
-    padding-top:120px;
 }
 
 .card{

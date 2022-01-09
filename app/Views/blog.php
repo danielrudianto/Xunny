@@ -57,8 +57,8 @@
 						<article>
                             <h1 class='text-center'><?= $header['displayTitle'] ?></h1>
                             <img src='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>' class='w-100' />
-                            <h2 class='text-center h5'><?= $header['subtitle'] ?></h2>
-                            <p class='text-center h5'><?= date("d M Y", strtotime($header['created_date'])) ?></p>
+                            <p class='text-md-center text-left'><?= $header['subtitle'] ?></p>
+                            <p class='text-md-center text-left'><strong><?= date("d M Y", strtotime($header['created_date'])) ?></strong></p>
                             <?= $this->include('/share'); ?>
                             <br><br>
                             <hr>
@@ -86,15 +86,15 @@
                                 id='callToActionButton'>Dapatkan Penawaran</button>
                         </section>
                         <section class='d-block mt-5'>
-                        <h3>Artikel lain yang mungkin anda suka.</h3>
+                        <h2>Artikel lain yang mungkin anda suka.</h2>
                         <div class='row'>
                             <?php foreach($featured as $feature){ ?>
                                 <div class='col-xl-6 col-lg-6 col-md-6 col-sm-10 col-12 d-flex align-items-stretch mb-3' id='blog-<?= $feature['id'] ?>'>
                                     <div class='card w-100'>
                                         <img class="card-img-top" src="<?= base_url() ?>/assets/blog/<?= $feature['id'] ?>.webp" alt="<?= $feature['title'] ?>">
                                         <div class='card-body'>
-                                            <h5 class='card-title'><?= $feature['displayTitle'] ?></h5>
-                                            <h6 class='card-text'><?= $feature['subtitle'] ?></h6>
+                                            <h3 class='h5 card-title'><?= $feature['displayTitle'] ?></h3>
+                                            <p class='card-text'><?= $feature['subtitle'] ?></p>
                                             <p class='card-date'><?= ceil($feature['words'] / 130) ?> min. read</p>
                                         </div>
                                     </div>
