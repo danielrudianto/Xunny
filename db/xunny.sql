@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 22, 2022 at 01:26 AM
--- Server version: 10.4.21-MariaDB
--- PHP Version: 7.3.31
+-- Generation Time: Jan 22, 2022 at 02:09 AM
+-- Server version: 10.4.19-MariaDB
+-- PHP Version: 7.4.20
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -94,12 +94,14 @@ INSERT INTO `blog` (`id`, `title`, `displayTitle`, `subtitle`, `words`, `created
 (49, 'Ketahui cara mudah membuat web dengan PHP', 'Ketahui cara mudah membuat web dengan PHP', 'Membuat web dengan bahasa pemrograman PHP memiliki banyak manfaat dan merupakan salah satu cara untuk menghasilkan web sesuai standar. Pada artikel ini, kami akan membahas bagaimana cara mudah untuk membuat web dengan menggunakan PHP.', 459, 'Daniel Tri', '2022-01-18', 'coding, php, membuat php'),
 (50, 'Beberapa tips dan trik belajar coding dari nol', 'Beberapa tips dan trik belajar coding dari nol', 'Dengan banyaknya informasi di dunia kita saat ini, memungkinkan kita untuk mempelajari berbagai macam hal, termasuk coding. Pada artikel ini, akan membahas mengenai tips dan trik belajar coding dari nol.', 413, 'Daniel Tri', '2022-01-19', 'coding, HTML, belajar coding'),
 (51, 'Yuk mengenal dan melihat beberapa contoh program python web', 'Yuk mengenal dan melihat beberapa contoh program python web', 'Python merupakan bahasa pemrograman yang cukup populer, dapat digunakan untuk membuat berbagai software web, game, hingga robotic dan artificial intelligence. Pada rtikel ini, kami akan membahas beberapa contoh program sederhana yang dapat dibuat dengan menggunakan Python.', 411, 'Daniel Tri', '2022-01-20', 'python, bahasa pemogrammer, contoh program python'),
-(52, 'Simak 4 panduan belajar Bahasa pemrograman c untuk pemula', 'Simak 4 panduan belajar Bahasa pemrograman c++ untuk pemula', 'Jenis pemrograman C++ merupakan salah satu bahasa program paling populer karena sangat powerfull. Meskipun C++ merupakan salah satu bahasa yang \"tua\", namun kekuatan dari bahasa ini menjadikannya masih relevan hingga jaman sekarang.', 427, 'Daniel Tri', '2022-01-20', 'javascript, java, belajarcoding C++, Dynamic memory Allocation'),
+(52, 'Simak 4 panduan belajar Bahasa pemrograman c untuk pemula', 'Simak 4 panduan belajar Bahasa pemrograman C++ untuk pemula', 'Jenis pemrograman C++ merupakan salah satu bahasa program paling populer karena sangat powerfull. Meskipun C++ merupakan salah satu bahasa yang \"tua\", namun kekuatan dari bahasa ini menjadikannya masih relevan hingga jaman sekarang.', 427, 'Daniel Tri', '2022-01-20', 'javascript, java, belajarcoding C++, Dynamic memory Allocation'),
 (53, 'Mengenal bahasa pemrograman C untuk pemula sejarah dan komponen', 'Mengenal bahasa pemrograman C untuk pemula: sejarah dan komponen', 'Walaupun sudah berusia 45 tahun, bahasa pemrograman C juga masih diminati banyak orang untuk dipelajari. Karena bahasa pemrograman ini masih dapat diaplikasikan ke dalam perangkat lunak - perangkat lunak hari ini. Pada aritkel ini, kami akan membahas bahasa pemrograman C.', 424, 'Daniel Tri', '2022-01-20', 'C, Sejarah C, Komponen C'),
 (54, '4 Tips belajar pemrograman web dengan PHP dan MySQL', '4 Tips belajar pemrograman web dengan PHP dan MySQL', 'Dengan belajar pemrograman web dengan PHP dan MySQL, kamu dapat menulis berbagai kode program dapat menghasilkan berbagai aplikasi dan software seperti Website dan Webapps tradisional. Pada artikel ini, kami akan membahas tips untuk belajar pemrograman web menggunakan PHP dan MySQL.', 414, 'Daniel Tri', '2022-01-21', 'PHP, MySQL, web'),
 (55, 'Fungsi Software Developer yang Menjamin Kenyamanan Anda', 'Fungsi Software Developer yang Menjamin Kenyamanan Anda', 'Perkembangan dunia teknologi memang menjadi hal yang secara besar dan tentunya akan menghasilkan layanan cukup potensial terkait semua kebutuhan manusia. Software developer dapat membantu anda untuk menyedikan layanan teknologi untuk kepentingan perusahaan anda.', 742, 'Daniel Tri', '2022-01-22', 'Fungsi software developer'),
 (56, 'Contoh Bahasa Pemrograman PHP Dijamin Mudah Dipelajari', 'Contoh Bahasa Pemrograman PHP, Dijamin Mudah Dipelajari', 'PHP menjadi salah satu bahasa pemrograman yang perlu dipelajari. Sehingga penting untuk mengetahui contoh bahasa pemrograman PHP untuk memudahkan anda dalam belajar. Dalam artikel ini, kami akan membahas contoh bahasa pemrograman PHP yang dijamin mudah untuk dipelajari.', 403, 'Daniel Tri', '2022-01-22', 'Bahasa Pemrograman PHP, Belajar PHP, Contoh Bahasa Pemrograman, Fungsi PHP'),
-(57, 'Pemrograman Web dan Perangkat Bergerak Ini yang Perlu Anda Ketahui', 'Pemrograman Web dan Perangkat Bergerak, Ini yang Perlu Anda Ketahui', 'Semakin canggih teknologi, maka semakin banyak penggunaan program-program komputer tertentu. Sehingga penting untuk mengetahui pemrograman web dan perangkat bergerak supaya anda bisa meningkatkan pengetahuan mengenai pemrograman komputer.', 400, 'Daniel Tri', '2022-01-22', 'Pemrograman Web, Client Server, Perangkat Bergerak, Back End, PWPB Populer');
+(57, 'Pemrograman Web dan Perangkat Bergerak Ini yang Perlu Anda Ketahui', 'Pemrograman Web dan Perangkat Bergerak, Ini yang Perlu Anda Ketahui', 'Semakin canggih teknologi, maka semakin banyak penggunaan program-program komputer tertentu. Sehingga penting untuk mengetahui pemrograman web dan perangkat bergerak supaya anda bisa meningkatkan pengetahuan mengenai pemrograman komputer.', 400, 'Daniel Tri', '2022-01-22', 'Pemrograman Web, Client Server, Perangkat Bergerak, Back End, PWPB Populer'),
+(58, 'Tips dan Trik Belajar Coding di HP Paling Gampang Bagi Pemula', 'Tips dan Trik Belajar Coding di HP Paling Gampang Bagi Pemula', 'Mempelajari bahasa pemrograman dengan berbagai coding di HP kini dapat dilakukan oleh para programmer pemula hanya dengan mengetahui tips belajar coding mudah.', 1043, 'Daniel Tri', '2022-01-22', 'belajar coding di HP, bahasa pemrograman, aplikasi, program, web, kode, programmer, internet'),
+(59, '5 Contoh Library Modul untuk Membuat Aplikasi dengan Python', '5 Contoh Library Modul untuk Membuat Aplikasi dengan Python', 'Saat ini, kamu bisa menggunakan library modul untuk membantu kamu dalam membuat aplikasi. Beberapa contoh library modul tersebut adalah PyGTK, PySciter, Tkinter, Toga, wxPython, dan lain sebagainya.', 422, 'Daniel Tri', '2022-01-22', 'Library modul, Pemrograman, Python');
 
 -- --------------------------------------------------------
 
@@ -177,7 +179,9 @@ INSERT INTO `blog_tag` (`id`, `blog_id`, `tags_id`) VALUES
 (61, 54, 2),
 (62, 55, 3),
 (63, 56, 2),
-(64, 57, 2);
+(64, 57, 2),
+(65, 58, 2),
+(66, 59, 2);
 
 -- --------------------------------------------------------
 
@@ -254,13 +258,13 @@ ALTER TABLE `tags`
 -- AUTO_INCREMENT for table `blog`
 --
 ALTER TABLE `blog`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=58;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=60;
 
 --
 -- AUTO_INCREMENT for table `blog_tag`
 --
 ALTER TABLE `blog_tag`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
 
 --
 -- AUTO_INCREMENT for table `comment`
