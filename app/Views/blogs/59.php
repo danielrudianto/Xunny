@@ -4,7 +4,7 @@
     <p>Saat ini, sudah banyak library modul yang bisa kamu gunakan untuk membuat aplikasi dengan Python. Bahkan, kamu bisa mendapatkannya secara gratis. Oleh karena itu, berikut ini kami paparkan beberapa contoh library modul yang bisa kamu pakai:</p>
     <ol>
         <li>
-            <h2 class='h5 mt-5'>1.	PyGTK</h2>
+            <h2 class='h5 mt-5'>PyGTK</h2>
             <p>PyGTK merupakan salah satu library modul untuk yang bisa kamu gunakan untuk membuat aplikasi dengan Python dengan GTK+ (Gimp Toolkits). GTK+ ialah library yang pada umumnya digunakan untuk membuat suatu aplikasi GUI di Linux. Selain itu, PyGTK bersifat cross platform. Artinya, PyGTL bisa kamu install di berbagai platform, baik dari Windows, MacOS, hingga <a href='<?= base_url() ?>/Blogs/kelebihan-dan-kekurangan-linux-yang-anda-perlu-ketahui'>Linux</a>.</p>
             <p>Untuk menggunakan PyGTK, kamu perlu mengimpor modulnya terlebih dahulu dengan cara mengetikkan perintah <code>import gtk</code> di Python.</p>
         </li>
