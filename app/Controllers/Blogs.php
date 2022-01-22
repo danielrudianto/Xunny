@@ -14,7 +14,12 @@ class Blogs extends BaseController
         public function index($name = NULL)
         {
             if($name == NULL){
-                echo view("blogs");
+                $blogModel = new BlogModel();
+                $data = array();
+                $blogs      = $blogModel->getPaginatedBlogs(0);
+                
+                $data['blogs']  = $blogs;
+                echo view("blogs", $data);
             } else {
                 $formattedName = str_replace(["-"], " ", $name);
 
@@ -66,9 +71,9 @@ class Blogs extends BaseController
 
                 $result             = $commentModel->insert([
                     "id" => "",
-                    "name" => mysqli_real_escape_string($name),
-                    "website" => mysqli_real_escape_string($website),
-                    "comment" => mysqli_real_escape_string($comment),
+                    "name" => $this->db->escape($name),
+                    "website" => $this->db->escape($website),
+                    "comment" => $this->db->escape($comment),
                     "blog_id" => $id
                 ]);
 

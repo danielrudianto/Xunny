@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="xunny.id">
 		<link rel="icon" type="image/png" href="<?= base_url('assets/img/root/favicon.png') ?>">
+		<link rel="apple-touch-icon" href="<?= base_url('assets/img/root/AppleTouchIcon.png') ?>">
         <link rel="stylesheet" href="<?= base_url('assets/css/404.css') ?>" />
 		
 		<link rel="stylesheet" href="<?= base_url('assets/css/framework/bootstrap.min.css') ?>">

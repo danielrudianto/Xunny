@@ -8,7 +8,8 @@
 	<meta name='robots' content='follow, index'>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="icon" type="image/png" href="assets/img/root/favicon.png">
+	<link rel="icon" type="image/png" href="<?= base_url('assets/img/root/favicon.png') ?>">
+	<link rel="apple-touch-icon" href="<?= base_url('assets/img/root/AppleTouchIcon.png') ?>">
 	<link rel="stylesheet" href="assets/css/framework/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/fonts/Inter/style.css">
 	<link rel="stylesheet" href="assets/css/vlt-plugins.min.css">
