@@ -32,7 +32,7 @@
                     <script>
                         preloadedIds.push({
                             id: <?= $blog['id'] ?>,
-                            title: "<?= $blog['title'] ?>"
+                            title: "<?= $blog['displayTitle'] ?>"
                         });
                     </script>
                     <div 
@@ -43,7 +43,7 @@
                                 <img 
                                 class="card-image" 
                                 src="<?= base_url() ?>/assets/blog/<?= $blog['id'] ?>.webp" 
-                                alt="<?= $blog['title'] ?>">
+                                alt="<?= $blog['displayTitle'] ?>">
                             </div>
                             <div class='card-body'>
                                 <div 
@@ -53,7 +53,7 @@
                                         <span class='badge badge-pill badge-dark px-3 mr-2'>#&nbsp;<?= $tag ?></span>
                                     <?php } ?>
                                 </div>
-                                <h5 class='card-title'><?= $blog['title'] ?></h5>
+                                <h5 class='card-title'><?= $blog['displayTitle'] ?></h5>
                                 <p class='h6 card-text mb-5'><?= $blog['subtitle'] ?></p>
                                 <p class='card-date'><?= date('d M Y', strtotime($blog['created_date'])) ?> | <?= number_format(ceil($blog['words'] / 130), 0) ?> min read</p>
                             </div>

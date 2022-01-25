@@ -29,6 +29,6 @@
             <p>Proses yang dilakukan Back End diinput oleh Client Side kemudian di kelola oleh sistem. Kemudian, jika prosesnya telah selesai akan dikembalikan ke Client sesuai dengan keinginan pengguna. Peranan Back End yaitu mengelola data yang dikirimkan oleh pengguna. Semuanya akan dikerjakan sesuai dengan perintah client. </p>
         </li>
     </ol>
-    <p>Jika anda merasa tertarik untuk mengetahui hal ini secara lebih mendalam, maka anda bisa belajar coding di hp. Saat ini sudah banyak yang menawarkan pembelajaran coding secara online. Oleh karena itu, anda tidak akan kesulitan untuk belajar dari smartphone anda. </p>
+    <p>Jika anda merasa tertarik untuk mengetahui hal ini secara lebih mendalam, maka anda bisa belajar coding di HP. Saat ini sudah banyak yang menawarkan pembelajaran coding secara online. Oleh karena itu, anda tidak akan kesulitan untuk belajar dari smartphone anda. </p>
     <p>Demikianlah, pembahasan hal yang perlu anda ketahui tentang pemrograman web dan perangkat bergerak. Anda bisa mempelajarinya coding lebih lanjut untuk menambah pengetahuan anda tentang pemrograman web dan pemrograman perangkat bergerak. Meskipun terlihat memusingkan, namun anda pasti bisa melakukannya. Yuk, semangat belajar.</p>
 <?php $this->endSection() ?>

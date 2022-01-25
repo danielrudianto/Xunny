@@ -68,7 +68,7 @@
 
     <h2 class='h4 mt-5'>Bagaimana cara belajar Python bagi pemula?</h2>
     <figure>
-        <img src='<?= base_url() ?>/Study.png' class='w-100' alt='Study illustraion' title='Study Illustration'>
+        <img src='<?= base_url() ?>/assets/blogContent/Study.png' class='w-100' alt='Study illustraion' title='Study Illustration'>
     </figure>
     <p>Bagi Anda yang tertarik untuk menekuni bidang programmer, maka tidak ada salahnya untuk menggunakan bahasa pemrograman yang mudah dan simpel seperti halnya Python. Meski demikian, Anda yang termasuk dalam kategori programmer pemula perlu memperhatikan beberapa hal penting saat akan mempelajari bahasa pemrograman Python seperti berikut ini :</p>
     <ol>

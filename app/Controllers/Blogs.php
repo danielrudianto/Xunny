@@ -25,6 +25,7 @@ class Blogs extends BaseController
 
                 $blogModel = new BlogModel();
                 $commentModel = new CommentModel();
+                // $blogHeader         = $blogModel->getByTitle($formattedName);
                 $blogHeader       = $blogModel->where(['title' => $formattedName])->first();
                 $data['header'] = array(
                     "title" => "Not found"

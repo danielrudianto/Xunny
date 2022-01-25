@@ -5,6 +5,9 @@
     <ol>
         <li>
             <h2 class='h5 mt-5'>PyGTK</h2>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/PYGTK.png' class='w-100' alt='PyGTK banner' title='PyGTK Banner'>
+            </figure>
             <p>PyGTK merupakan salah satu library modul untuk yang bisa kamu gunakan untuk membuat aplikasi dengan Python dengan GTK+ (Gimp Toolkits). GTK+ ialah library yang pada umumnya digunakan untuk membuat suatu aplikasi GUI di Linux. Selain itu, PyGTK bersifat cross platform. Artinya, PyGTL bisa kamu install di berbagai platform, baik dari Windows, MacOS, hingga <a href='<?= base_url() ?>/Blogs/kelebihan-dan-kekurangan-linux-yang-anda-perlu-ketahui'>Linux</a>.</p>
             <p>Untuk menggunakan PyGTK, kamu perlu mengimpor modulnya terlebih dahulu dengan cara mengetikkan perintah <code>import gtk</code> di Python.</p>
         </li>
@@ -15,6 +18,9 @@
         </li>
         <li>
             <h2 class='h5 mt-5'>Tkinter</h2>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/Tkinter.png' class='w-100' alt='Tkinter banner' title='Tkinter Banner'>
+            </figure>
             <p>Tkinter merupakan salah satu library modul paling standar yang bisa kamu gunakan untuk membuat aplikasi dengan Python. Sebenarnya, kamu tidak perlu menginstall software tambahan. Karena begitu kamu meng-install Phyton, Tkinter secara otomatis telah ter-install.</p>
             <p>Untuk memeriksanya, kamu bisa mengetikkan perintah “import _tkinter” di Python. Jika ternyata ada error “No module named _tkinter”, tandanya tidak ada Tkinter di Python kamu. Untuk meng-install-nya, kamu cukup mengetikkan perintah <code>sudo apt install python-tk</code> atau <code>sudo apt install python3-tk</code>.</p>
         </li>
@@ -25,6 +31,9 @@
         </li>
         <li>
             <h2 class='h5 mt-5'>wxPython</h2>
+            <figure>
+                <img src='<?= base_url() ?>/assets/blogContent/WXPython.png' class='w-100' alt='wxPython banner' title='wxPython Banner'>
+            </figure>
             <p>wxPython merupakan salah satu library modul yang dapat kamu gunakan di berbagai platform. Keunikan dari wxPython sendiri adalah menggunakan library dari wxWidget yang dibuat dengan bahasa pemrograman C++. Sehingga, kamu akan sangat disarankan menggunakan wxPython ini jika ingin membuat aplikasi dengan Python yang bisa digunakan secara cross-platform.</p>
             <p>Untuk menggunakan wxPython, kamu perlu mengimpor modulnya terlebih dahulu dengan cara mengetikkan perintah “import wx” di Python.</p>
         </li>
