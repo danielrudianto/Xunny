@@ -104,6 +104,14 @@
                                         <img class="card-img-top" src="<?= base_url() ?>/assets/blog/<?= $feature['id'] ?>.webp" alt="<?= $feature['title'] ?>">
                                         <div class='card-body'>
                                             <h3 class='h5 card-title'><?= $feature['displayTitle'] ?></h3>
+                                            <?php
+                                                $array = explode(',', $feature['tags']);
+                                                foreach($array as $tag){
+                                            ?>
+                                            <span class="badge badge-pill badge-dark px-3 mr-2">#&nbsp;<?= $tag ?></span>
+                                            <?php 
+                                                }
+                                            ?>
                                             <p class='card-text'><?= $feature['subtitle'] ?></p>
                                             <p class='card-date'><?= ceil($feature['words'] / 130) ?> min. read</p>
                                         </div>
