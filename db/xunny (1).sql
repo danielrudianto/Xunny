@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 22, 2022 at 02:09 AM
--- Server version: 10.4.19-MariaDB
--- PHP Version: 7.4.20
+-- Generation Time: Jan 27, 2022 at 08:27 PM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 7.3.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -101,7 +101,10 @@ INSERT INTO `blog` (`id`, `title`, `displayTitle`, `subtitle`, `words`, `created
 (56, 'Contoh Bahasa Pemrograman PHP Dijamin Mudah Dipelajari', 'Contoh Bahasa Pemrograman PHP, Dijamin Mudah Dipelajari', 'PHP menjadi salah satu bahasa pemrograman yang perlu dipelajari. Sehingga penting untuk mengetahui contoh bahasa pemrograman PHP untuk memudahkan anda dalam belajar. Dalam artikel ini, kami akan membahas contoh bahasa pemrograman PHP yang dijamin mudah untuk dipelajari.', 403, 'Daniel Tri', '2022-01-22', 'Bahasa Pemrograman PHP, Belajar PHP, Contoh Bahasa Pemrograman, Fungsi PHP'),
 (57, 'Pemrograman Web dan Perangkat Bergerak Ini yang Perlu Anda Ketahui', 'Pemrograman Web dan Perangkat Bergerak, Ini yang Perlu Anda Ketahui', 'Semakin canggih teknologi, maka semakin banyak penggunaan program-program komputer tertentu. Sehingga penting untuk mengetahui pemrograman web dan perangkat bergerak supaya anda bisa meningkatkan pengetahuan mengenai pemrograman komputer.', 400, 'Daniel Tri', '2022-01-22', 'Pemrograman Web, Client Server, Perangkat Bergerak, Back End, PWPB Populer'),
 (58, 'Tips dan Trik Belajar Coding di HP Paling Gampang Bagi Pemula', 'Tips dan Trik Belajar Coding di HP Paling Gampang Bagi Pemula', 'Mempelajari bahasa pemrograman dengan berbagai coding di HP kini dapat dilakukan oleh para programmer pemula hanya dengan mengetahui tips belajar coding mudah.', 1043, 'Daniel Tri', '2022-01-22', 'belajar coding di HP, bahasa pemrograman, aplikasi, program, web, kode, programmer, internet'),
-(59, '5 Contoh Library Modul untuk Membuat Aplikasi dengan Python', '5 Contoh Library Modul untuk Membuat Aplikasi dengan Python', 'Saat ini, kamu bisa menggunakan library modul untuk membantu kamu dalam membuat aplikasi. Beberapa contoh library modul tersebut adalah PyGTK, PySciter, Tkinter, Toga, wxPython, dan lain sebagainya.', 422, 'Daniel Tri', '2022-01-22', 'Library modul, Pemrograman, Python');
+(59, '5 Contoh Library Modul untuk Membuat Aplikasi dengan Python', '5 Contoh Library Modul untuk Membuat Aplikasi dengan Python', 'Saat ini, kamu bisa menggunakan library modul untuk membantu kamu dalam membuat aplikasi. Beberapa contoh library modul tersebut adalah PyGTK, PySciter, Tkinter, Toga, wxPython, dan lain sebagainya.', 422, 'Daniel Tri', '2022-01-22', 'Library modul, Pemrograman, Python'),
+(60, 'Paling Populer Ini Dia 5 Bahasa Pemrograman untuk Membuat Aplikasi', 'Paling Populer, Ini Dia 5 Bahasa Pemrograman untuk Membuat Aplikasi', 'Pemahaman mengenai bahasa pemrograman memang menarik untuk dipelajari. Sehingga penting untuk membahas bahasa pemrograman untuk membuat aplikasi yang penting untuk diketahui.', 388, 'Daniel Tri', '2022-01-23', 'Bahasa Pemrograman Populer, Pemrograman Aplikasi, Javascript, PHP, C#'),
+(61, 'Bongkar Rahasia Ini Dia Program C Indomaret', 'Bongkar Rahasia, Ini Dia Program C++ Indomaret', 'Bahasa pemrograman bisa juga digunakan oleh kasir mini mart seperti indomart, alfamart, dan lain lain. Sehingga, penting untuk mengetahui rahasia program c++ kasir indomaret supaya anda tidak penasaran.', 400, 'Daniel Tri', '2022-01-23', 'C++ Kasir, Bahasa Program C++, Coding, Belajar Bahasa Pemrograman'),
+(62, 'Mengenal Pengertian Hingga Contoh Pemrograman Berorientasi Objek Untuk Pemrograman Aplikasi', 'Mengenal Pengertian Hingga Contoh Pemrograman Berorientasi Objek Untuk Pemrograman Aplikasi', 'Pemrograman berorientasi objek merupakan metode pemrograman yang berorientasi pada objek. Para developer sering menggunakan metode yang satu ini karena berbagai kelebihan.', 415, 'Daniel Tri', '2022-01-23', 'Bahasa pemrograman, Pemrograman aplikasi, Pemrograman berbasis objek');
 
 -- --------------------------------------------------------
 
@@ -181,7 +184,10 @@ INSERT INTO `blog_tag` (`id`, `blog_id`, `tags_id`) VALUES
 (63, 56, 2),
 (64, 57, 2),
 (65, 58, 2),
-(66, 59, 2);
+(66, 59, 2),
+(67, 60, 2),
+(68, 61, 3),
+(69, 62, 2);
 
 -- --------------------------------------------------------
 
@@ -258,13 +264,13 @@ ALTER TABLE `tags`
 -- AUTO_INCREMENT for table `blog`
 --
 ALTER TABLE `blog`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=60;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
 
 --
 -- AUTO_INCREMENT for table `blog_tag`
 --
 ALTER TABLE `blog_tag`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=70;
 
 --
 -- AUTO_INCREMENT for table `comment`
