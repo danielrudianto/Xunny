@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>Xunny | Blogs</title>
+        <title>Xunny | Programming, Application, SEO, and Digital Marketing Blogs</title>
         <meta name='robots' content='follow, index'>
         <link rel="icon" type="image/png" href="<?= base_url('assets/img/root/favicon.png') ?>">
         <link rel="apple-touch-icon" href="<?= base_url('assets/img/root/AppleTouchIcon.png') ?>">
@@ -12,6 +12,7 @@
         <link rel='stylesheet' href='<?= base_url('assets/css/blog.main.css') ?>'>
         <meta name='keywords' content='Xunny Blog, Web Developer Blog, Blog, Programming Blog, App Developer Blog'>
         <meta name='description' content='Selamat datang di blog kami, Xunny Blog. Kami membuat blog edukatif mengenai pengembangan web dan aplikasi.'>
+        <link href='<?= base_url() ?>/Blogs' rel='canonical'>
         <meta name="author" content="Xunny.id">
     </head>
     <body>
@@ -25,6 +26,7 @@
                 preloadedIds = [];
             </script>
             <div class='container'>
+                <h1 class='d-none'>Koleksi blog kami</h1>
                 <div class='row justify-content-center' id='blogWrapper'>
                 <?php foreach($blogs as $blog){
                     $tags       = explode(",", $blog['tags']);

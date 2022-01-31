@@ -4,13 +4,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<title>Xunny Blog | <?= $header['title'] ?></title>
+		<title>Xunny Blog | <?= $header['displayTitle'] ?></title>
         <link rel="icon" type="image/png" href="<?= base_url('assets/img/root/favicon.png') ?>">
         <link rel="apple-touch-icon" href="<?= base_url('assets/img/root/AppleTouchIcon.png') ?>">
 	    <link rel="stylesheet" href="<?= base_url('assets/css/framework/bootstrap.min.css') ?>">
         <link rel='stylesheet' href='<?= base_url('assets/css/blog.main.css') ?>'>
 		<script src="<?= base_url('assets/vendors/jquery-3.5.1.min.js') ?>"></script>
 		<script src="<?= base_url('assets/vendors/bootstrap.min.js') ?>"></script>
+        <link href='<?= base_url() . '/Blogs/' . strtolower(str_replace(' ', '-', $header['title'])) ?>' rel='canonical'>
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-XK1HVB7DEM"></script>
         <script>
@@ -22,10 +23,10 @@
         </script>
 
         <meta name='keywords' content='<?= $header['keywords'] ?>'>
-		<meta name="author" content="xunny.id">
         <meta name='description' content='<?= $header['subtitle'] ?>'>
         <meta name='robots' content='follow, index'>
         <meta name="author" content="Xunny.id">
+        <meta name='publisher' content='Xunny.id'>
         <meta name='image_src' content='<?= base_url('assets/blog') . '/' . $header['id'] . '.webp' ?>'>
 
         <meta property="og:url"           content="<?= current_url() ?>" />

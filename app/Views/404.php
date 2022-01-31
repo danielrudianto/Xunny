@@ -23,7 +23,7 @@
 			<div class="overlay"></div>
 
 			<div class="item-title">
-			  
+			  	
 				<div id="message"></div>
 
 				<div class="link-bottom">
