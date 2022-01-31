@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Xunny | IT Developer Indonesia</title>
+	<title>Xunny | Indonesian IT and Software Developer</title>
 	<meta name="description" content="Kami adalah perusahaan programmer yang memiliki spesialisasi dalam mobile, melingkupi android dan iOS, dan web development. Dengan satu visi, untuk membantu mengembangkan UMKM di Indonesia, kami akan senantiasa memberikan anda produk custom dengan kualitas terbaik.">
 	<meta name='robots' content='follow, index'>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,6 +38,7 @@
 	<meta property="og:image:height"  content="512" />
 	<meta property="og:site_name"     content="Xunny.id">
 	<meta property="fb:app_id" content="393891865610" />
+	<link href='https://xunny.id' rel='canonical'>
 	<script>var idArray = [];</script>
 	<style>
 		#snackbar {
@@ -535,7 +536,7 @@
 								<div class="col-lg-10 offset-lg-1">
 									<div class="vlt-animated-block" style="animation-delay:0s; animation-duration:700ms;">
 										<div class="d-block d-md-flex align-items-center justify-content-between">
-											<h1 class="has-white-color">Testimonials</h1>
+											<h2 class="has-white-color">Testimonials</h2>
 											<div class="vlt-gap-30--sm"></div>
 											<div class="vlt-testimonial-slider-controls"><span class="prev">🡐</span><span class="pagination"></span><span class="next">🡒</span></div>
 										</div>
@@ -685,7 +686,7 @@
 						<div class="container">
 							<div class="row">
 								<div class="col-lg-10 offset-lg-1">
-									<h1 class="d-block has-white-color">Kontak</h1>
+									<h2 class="d-block has-white-color">Kontak</h2>
 									<div class="vlt-gap-30--sm"></div>
 									<p class='h4 d-block text-white'>Ada yang ingin anda tanyakan? Jangan sungkan untuk kontak kami!</p>
 									<hr>

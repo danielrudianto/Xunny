@@ -25,8 +25,8 @@ class Blogs extends BaseController
 
                 $blogModel = new BlogModel();
                 $commentModel = new CommentModel();
-                // $blogHeader         = $blogModel->getByTitle($formattedName);
-                $blogHeader       = $blogModel->where(['title' => $formattedName])->first();
+                $blogHeader         = $blogModel->getByTitle($formattedName);
+                // $blogHeader       = $blogModel->where(['title' => $formattedName])->first();
                 $data['header'] = array(
                     "title" => "Not found"
                 );
@@ -34,11 +34,11 @@ class Blogs extends BaseController
                 if($blogHeader == NULL){
                     throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
                 } else {
-                    $data['header']     = $blogHeader;
-                    $data['featured']   = $blogModel->orderBy('RAND()')->whereNotIn('id', array($blogHeader['id']))->paginate(2);
+                    $data['header']     = $blogHeader[0];
+                    $data['featured']   = $blogModel->getRandom(2, $blogHeader[0]['id']);
                     $data['comments']   = $commentModel->where("blog_id", $blogHeader['id'])->orderBy('created_on', 'desc')->paginate(10);
                     $data['commentsCount']  = $commentModel->where('blog_id', $blogHeader['id'])->countAllResults();
-                    echo view("blogs/" . $blogHeader['id'], $data);
+                    echo view("blogs/" . $blogHeader[0]['id'], $data);
                 }
                 
             }

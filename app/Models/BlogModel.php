@@ -56,5 +56,26 @@
             $result         = $query->getResultArray();
             return $result;   
         }
+
+        public function getRandom($requestedItems, $existingItem)
+        {
+            $query      = $this->db->query("
+                SELECT blog.*, blogTag.*
+                FROM blog
+                JOIN (
+                    SELECT blog_tag.blog_id, GROUP_CONCAT(tags.name) AS tags
+                    FROM blog_tag
+                    JOIN tags ON blog_tag.tags_id = tags.id
+                    GROUP BY blog_id
+                ) AS blogTag
+                ON blog.id = blogTag.blog_id
+                WHERE blog.id != $existingItem
+                ORDER BY RAND()
+                LIMIT $requestedItems
+            ");
+
+            $result         = $query->getResultArray();
+            return $result;   
+        }
     }
 ?>

@@ -106,5 +106,5 @@
             <p>Bedanya adalah biaya untuk menggunakan Spiceworks terbilang cukup murah. Dalam 1 bulan saja, biaya penggunaannya hanya USD 10. Ini jelas lebih murah dari aplikasi sejenisnya yang harganya jauh lebih mahal. </p>
         </li>
     </ol>
-    <p>Customer service merupakan salah satu pilar penting dalam seluruh perusahaan, baik barang, jasa, ataupun manufaktur. Kami harap artikel ini dapat membantu anda untuk dapat meutilisasi aplikasi aplikasi ini guna meningkatkan kualitas customer service kalian. Karena dengan semakin meningkatnya <a href='<?= base_url() ?>/Blogs/Blogs/inilah-manfaat-website-bagi-perusahaan-tak-perlu-ragu-untuk-membuatnya'>branding</a>, semakin tinggi juga kebutuhan untuk customer service. </p>
+    <p>Customer service merupakan salah satu pilar penting dalam seluruh perusahaan, baik barang, jasa, ataupun manufaktur. Kami harap artikel ini dapat membantu anda untuk dapat meutilisasi aplikasi aplikasi ini guna meningkatkan kualitas customer service kalian. Karena dengan semakin meningkatnya <a href='<?= base_url() ?>/Blogs/inilah-manfaat-website-bagi-perusahaan-tak-perlu-ragu-untuk-membuatnya'>branding</a>, semakin tinggi juga kebutuhan untuk customer service. </p>
 <?php $this->endSection(); ?>
