@@ -32,6 +32,17 @@
             return $result;
         }
 
+        public function getAll(){
+            $query      = $this->db->query("
+                SELECT *
+                FROM blog
+                ORDER BY created_date ASC"
+            );
+
+            $result     = $query->getResultArray();
+            return $result;
+        }
+
         public function getByTitle($title)
         {
             $query      = $this->db->query("
