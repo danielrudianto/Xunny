@@ -1,8 +1,9 @@
 <?php
-header('Content-type: application/xml; charset="ISO-8859-1"',true);  
+  header('Content-type: application/xml; charset="ISO-8859-1"',true); 
 ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://xunny.id/</loc>
         <lastmod>2022-01-28T09:25:04+00:00</lastmod>
@@ -70,28 +71,28 @@ header('Content-type: application/xml; charset="ISO-8859-1"',true);
         </image:image>
         <priority>1.00</priority>
     </url>
-    <url>
+    <!-- <url>
         <loc>https://xunny.id/Blogs</loc>
-        <lastmod>2022-01-28T09:25:04+00:00</lastmod>
+        <lastmod><?= date('Y-m-d H:m:s') ?></lastmod>
         <priority>0.80</priority>
     </url>
     <?php foreach ($blogs as $blog) { ?>
         <url>
-            <loc>https://xunny.id/Blogs/<?= str_replace([" "], "-", $blog->displayTitle) ?></loc>
-            <lastmod>2022-01-28T09:25:04+00:00</lastmod>
+            <loc>https://xunny.id/Blogs/<?= str_replace([" "], "-", $blog["displayTitle"]) ?></loc>
+            <lastmod><?= date('Y-m-d H:i:s') ?></lastmod>
             <priority>0.60</priority>
             <image:image>
-                <image:loc>http://xunny.id/assets/blog/<?= $blog->id ?>.webp</image:loc>
-                <image:caption>5 Framework CSS terbaik untuk pengembangan website</image:caption>
-                <image:title>5 Framework CSS terbaik untuk pengembangan website</image:title>
+                <image:loc>http://xunny.id/assets/blog/<?= $blog["id"] ?>.webp</image:loc>
+                <image:caption><?= $blog["title"] ?></image:caption>
+                <image:title><?= $blog["title"] ?></image:title>
                 <image:geo_location>Bandung, Indonesia</image:geo_location>
             </image:image>
             <image:image>
-                <image:loc>http://xunny.id/assets/blog/4.png</image:loc>
-                <image:caption>5 Framework CSS terbaik untuk pengembangan website</image:caption>
-                <image:title>5 Framework CSS terbaik untuk pengembangan website</image:title>
+                <image:loc>http://xunny.id/assets/blog/<?= $blog["id"] ?>.png</image:loc>
+                <image:caption><?= $blog["title"] ?></image:caption>
+                <image:title><?= $blog["title"] ?></image:title>
                 <image:geo_location>Bandung, Indonesia</image:geo_location>
             </image:image>
         </url>
-    <?php } ?>
+    <?php } ?> -->
 </urlset>
