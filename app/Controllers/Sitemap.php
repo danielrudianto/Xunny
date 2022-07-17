@@ -83,6 +83,10 @@ class Sitemap extends BaseController
                 <image:geo_location>Bandung, Indonesia</image:geo_location>
             </image:image>
             <priority>1.00</priority>
+            </url>
+            <url>
+            <loc>'. base_url() . '/Contact</loc>
+            <lastmod>' . date('Y-m-d H:i:s') . '</lastmod>
             </url>';
             $xmlString .= PHP_EOL;
         for($i = 0; $i < count($blogs); $i++){

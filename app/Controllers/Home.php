@@ -38,4 +38,8 @@ class Home extends BaseController
             }
         }
     }
+
+    public function Contact(){
+        return view('contact');
+    }
 }

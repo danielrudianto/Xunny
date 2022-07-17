@@ -20,68 +20,112 @@
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XK1HVB7DEM"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
 		gtag('js', new Date());
 
 		gtag('config', 'G-XK1HVB7DEM');
 	</script>
 
-	<meta property="og:url"           content="<?= base_url() ?>" />
-	<meta property="og:type"          content="website" />
-	<meta property="og:title"         content="Xunny | IT Developer Indonesia" />
-	<meta property="og:description"   content="Kami adalah perusahaan programmer yang memiliki spesialisasi dalam mobile, melingkupi android dan iOS, dan web development. Dengan satu visi, untuk membantu mengembangkan UMKM di Indonesia, kami akan senantiasa memberikan anda produk custom dengan kualitas terbaik." />
-	<meta property="og:image:secure_url"         content="<?= base_url() ?>/assets/img/root/favicon.png" />
-	<meta property="og:image:url"     content="<?= base_url() ?>/assets/img/root/favicon.png" />
-	<meta property="og:image"         content="<?= base_url() ?>/assets/img/root/favicon.png" />
-	<meta property="og:type"          content="website" />
-	<meta property="og:image:width"   content="512" />
-	<meta property="og:image:height"  content="512" />
-	<meta property="og:site_name"     content="Xunny.id">
+	<meta property="og:url" content="<?= base_url() ?>" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Xunny | IT Developer Indonesia" />
+	<meta property="og:description" content="Kami adalah perusahaan programmer yang memiliki spesialisasi dalam mobile, melingkupi android dan iOS, dan web development. Dengan satu visi, untuk membantu mengembangkan UMKM di Indonesia, kami akan senantiasa memberikan anda produk custom dengan kualitas terbaik." />
+	<meta property="og:image:secure_url" content="<?= base_url() ?>/assets/img/root/favicon.png" />
+	<meta property="og:image:url" content="<?= base_url() ?>/assets/img/root/favicon.png" />
+	<meta property="og:image" content="<?= base_url() ?>/assets/img/root/favicon.png" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image:width" content="512" />
+	<meta property="og:image:height" content="512" />
+	<meta property="og:site_name" content="Xunny.id">
 	<meta property="fb:app_id" content="393891865610" />
 	<link href='https://xunny.id' rel='canonical'>
-	<script>var idArray = [];</script>
+	<script>
+		var idArray = [];
+	</script>
 	<style>
 		#snackbar {
-			visibility: hidden; /* Hidden by default. Visible on click */
-			min-width: 250px; /* Set a default minimum width */
-			background-color: #333; /* Black background color */
-			color: #fff; /* White text color */
-			text-align: center; /* Centered text */
-			border-radius: 2px; /* Rounded borders */
-			padding: 16px; /* Padding */
-			position: fixed; /* Sit on top of the screen */
-			z-index: 1200; /* Add a z-index if needed */
-			left: 50%; /* Center the snackbar */
-			transform:translateX(-50%);
-			bottom: 30px; /* 30px from the bottom */
+			visibility: hidden;
+			/* Hidden by default. Visible on click */
+			min-width: 250px;
+			/* Set a default minimum width */
+			background-color: #333;
+			/* Black background color */
+			color: #fff;
+			/* White text color */
+			text-align: center;
+			/* Centered text */
+			border-radius: 2px;
+			/* Rounded borders */
+			padding: 16px;
+			/* Padding */
+			position: fixed;
+			/* Sit on top of the screen */
+			z-index: 1200;
+			/* Add a z-index if needed */
+			left: 50%;
+			/* Center the snackbar */
+			transform: translateX(-50%);
+			bottom: 30px;
+			/* 30px from the bottom */
 		}
-		
+
 		/* Show the snackbar when clicking on a button (class added with JavaScript) */
 		#snackbar.show {
 			visibility: visible;
 			-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
 			animation: fadein 0.5s, fadeout 0.5s 2.5s;
 		}
-		
+
 		/* Animations to fade the snackbar in and out */
 		@-webkit-keyframes fadein {
-			from {bottom: 0; opacity: 0;}
-			to {bottom: 30px; opacity: 1;}
+			from {
+				bottom: 0;
+				opacity: 0;
+			}
+
+			to {
+				bottom: 30px;
+				opacity: 1;
+			}
 		}
-		
+
 		@keyframes fadein {
-			from {bottom: 0; opacity: 0;}
-			to {bottom: 30px; opacity: 1;}
+			from {
+				bottom: 0;
+				opacity: 0;
+			}
+
+			to {
+				bottom: 30px;
+				opacity: 1;
+			}
 		}
-		
+
 		@-webkit-keyframes fadeout {
-			from {bottom: 30px; opacity: 1;}
-			to {bottom: 0; opacity: 0;}
+			from {
+				bottom: 30px;
+				opacity: 1;
+			}
+
+			to {
+				bottom: 0;
+				opacity: 0;
+			}
 		}
-		
+
 		@keyframes fadeout {
-			from {bottom: 30px; opacity: 1;}
-			to {bottom: 0; opacity: 0;}
+			from {
+				bottom: 30px;
+				opacity: 1;
+			}
+
+			to {
+				bottom: 0;
+				opacity: 0;
+			}
 		}
 	</style>
 </head>
@@ -109,8 +153,9 @@
 							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round">
 								<line x1="3" y1="12" x2="21" y2="12" />
 								<line x1="3" y1="6" x2="21" y2="6" />
-								<line x1="3" y1="18" x2="21" y2="18" /></svg>
-							</a>
+								<line x1="3" y1="18" x2="21" y2="18" />
+							</svg>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -120,7 +165,8 @@
 		<div class="vlt-offcanvas-menu__header">
 			<a class="vlt-menu-burger vlt-menu-burger--opened js-offcanvas-menu-close" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round">
 					<line x1="18" y1="6" x2="6" y2="18" />
-					<line x1="6" y1="6" x2="18" y2="18" /></svg></a>
+					<line x1="6" y1="6" x2="18" y2="18" />
+				</svg></a>
 		</div>
 		<nav class="vlt-offcanvas-menu__navigation">
 			<ul class="sf-menu">
@@ -230,7 +276,7 @@
 												<div class="vlt-services">
 													<h5 class="vlt-services__title"><a href="#">App Development</a>
 													</h5>
-													<p class="vlt-services__text">Pengembangan aplikasi dengan alur custom untuk memecahkan	masalah dalam suatu unit usaha.</p>
+													<p class="vlt-services__text">Pengembangan aplikasi dengan alur custom untuk memecahkan masalah dalam suatu unit usaha.</p>
 												</div>
 											</div>
 											<div class="vlt-gap-40--sm"></div>
@@ -240,7 +286,7 @@
 												<div class="vlt-services">
 													<h5 class="vlt-services__title"><a href="#">Quality Assurance</a>
 													</h5>
-													<p class="vlt-services__text">Menjaga kualitas dan performa produk dengan mencegah tindakan	yang beresiko.</p>
+													<p class="vlt-services__text">Menjaga kualitas dan performa produk dengan mencegah tindakan yang beresiko.</p>
 												</div>
 											</div>
 										</div>
@@ -298,7 +344,7 @@
 															</div>
 															<div class="row justify-content-center">
 																<div class="col-lg-4 col-md-6 col-sm-10 d-none d-sm-block">
-																	<img src="assets/img/experience-02.webp"  alt="Problem solving illustration" class="w-100">
+																	<img src="assets/img/experience-02.webp" alt="Problem solving illustration" class="w-100">
 																</div>
 																<div class="col-lg-4 col-md-6 col-sm-10">
 																	<h5 class="vlt-timeline-item__title"><span class="has-first-color"><i>Problem Solving</i></span></h5>
@@ -352,13 +398,17 @@
 									<div class="vlt-slide-photo">
 										<div class="vlt-slide-photo__inside"><img src="assets/img/attachment-07.webp" alt="Sample running application"></div>
 										<div class="vlt-slide-photo__particle vlt-fade-in-bottom--small has-border-radius has-box-shadow" style="top: -50px; right: -40px; width: 100px; transition-delay: 300ms;">
-											<img src="assets/img/root/parallax-particle-01.webp" alt="Media particle ornament"></div>
+											<img src="assets/img/root/parallax-particle-01.webp" alt="Media particle ornament">
+										</div>
 										<div class="vlt-slide-photo__particle vlt-fade-in-bottom--small has-border-radius has-box-shadow" style="top: 40px; left: -30px; width: 80px; transition-delay: 600ms;">
-											<img src="assets/img/root/parallax-particle-02.webp" alt="Application particle ornament"></div>
+											<img src="assets/img/root/parallax-particle-02.webp" alt="Application particle ornament">
+										</div>
 										<div class="vlt-slide-photo__particle vlt-fade-in-left--small has-border-radius has-box-shadow" style="left: 30px; bottom: -50px; width: 100px; transition-delay: 900ms;">
-											<img src="assets/img/root/parallax-particle-03.webp" alt="Desktop particle ornament"></div>
+											<img src="assets/img/root/parallax-particle-03.webp" alt="Desktop particle ornament">
+										</div>
 										<div class="vlt-slide-photo__particle vlt-fade-in-left--small negative-z-index" style="right: -40px; bottom: -30px; width: 290px; transition-delay: 1.2s;">
-											<img src="assets/img/root/plus-light-pattern.webp" alt="Plus light pattern"></div>
+											<img src="assets/img/root/plus-light-pattern.webp" alt="Plus light pattern">
+										</div>
 									</div>
 									<div class="vlt-gap-100--md"></div>
 								</div>
@@ -371,7 +421,7 @@
 										<ul class="about-ul">
 											<li>
 												<img src="assets/img/Update.webp" alt="Better technology icon" />
-												Better Tech 
+												Better Tech
 											</li>
 											<li>
 												<img src="assets/img/Phone.webp" alt="Better quality icon" />
@@ -399,7 +449,7 @@
 												<div class="vlt-work-thumbnail"><img src="assets/img/portfolio-01.webp" alt="Web development icon"></div>
 												<div class="vlt-work-content">
 													<header class="vlt-work-header">
-														<div class="vlt-work-meta">Website // portofolio //  company profile // online shop</div>
+														<div class="vlt-work-meta">Website // portofolio // company profile // online shop</div>
 														<h3 class="vlt-work-title">Web Developent</h3>
 													</header>
 												</div>
@@ -410,7 +460,7 @@
 												<div class="vlt-work-thumbnail"><img src="assets/img/portfolio-02.webp" alt="Mobile and web application development icon"></div>
 												<div class="vlt-work-content">
 													<header class="vlt-work-header">
-														<div class="vlt-work-meta">Web app // android app // ios app //  hybrid app</div>
+														<div class="vlt-work-meta">Web app // android app // ios app // hybrid app</div>
 														<h3 class="vlt-work-title">App Developent</h3>
 													</header>
 												</div>
@@ -421,7 +471,7 @@
 												<div class="vlt-work-thumbnail"><img src="assets/img/portfolio-03.webp" alt="Design UI and UX icon"></div>
 												<div class="vlt-work-content">
 													<header class="vlt-work-header">
-														<div class="vlt-work-meta">App flow // graphic // layout //  user-friendly UI</div>
+														<div class="vlt-work-meta">App flow // graphic // layout // user-friendly UI</div>
 														<h3 class="vlt-work-title"><a href="#">UI/UX Design</a></h3>
 													</header>
 												</div>
@@ -445,13 +495,13 @@
 						<div class="vlt-project-showcase d-none d-lg-flex">
 							<ul class="vlt-project-showcase__items">
 								<li class="vlt-project-showcase__item">
-									<h3 class="vlt-project-showcase__item__title">Web Developent</h3><span class="vlt-project-showcase__item__category">Website // portofolio //  company profile // online shop</span>
+									<h3 class="vlt-project-showcase__item__title">Web Developent</h3><span class="vlt-project-showcase__item__category">Website // portofolio // company profile // online shop</span>
 								</li>
 								<li class="vlt-project-showcase__item">
-									<h3 class="vlt-project-showcase__item__title">App Developent</h3><span class="vlt-project-showcase__item__category">Web app // android app // ios app //  hybrid app</span>
+									<h3 class="vlt-project-showcase__item__title">App Developent</h3><span class="vlt-project-showcase__item__category">Web app // android app // ios app // hybrid app</span>
 								</li>
 								<li class="vlt-project-showcase__item">
-									<h3 class="vlt-project-showcase__item__title">UI/UX Design</h3><span class="vlt-project-showcase__item__category">App flow // graphic // layout //  user-friendly UI</span>
+									<h3 class="vlt-project-showcase__item__title">UI/UX Design</h3><span class="vlt-project-showcase__item__category">App flow // graphic // layout // user-friendly UI</span>
 								</li>
 								<li class="vlt-project-showcase__item">
 									<h3 class="vlt-project-showcase__item__title">Quality Assurance</h3><span class="vlt-project-showcase__item__category">Performance // scalability // functional</span>
@@ -690,29 +740,10 @@
 									<div class="vlt-gap-30--sm"></div>
 									<p class='h4 d-block text-white'>Ada yang ingin anda tanyakan? Jangan sungkan untuk kontak kami!</p>
 									<hr>
-									<form id='contactForm' method='POST'>
-										<label class='text-white'>Name</label>
-										<input name='name' type='text' required id='name'>
-
-										<label class='text-white'>Email</label>
-										<input name='email' type='email' required id='email'>
-
-										<label class='text-white'>Pesan</label>
-										<textarea  
-											style='resize:none'
-											name='message' 
-											rows='5'
-											type='text' 
-											required
-											id='message'></textarea>
-										<br>
-
-										<button id='submitButton' type='submit' class='vlt-btn'>Submit</button>
-									</form>
+									<button id='submitButton' type='button' onclick='location.href="<?= base_url() ?>/Contact";' class='vlt-btn'>Halaman Kontak</button>
 								</div>
 							</div>
 						</div>
-						<div id="snackbar">Terima kasih telah menghubungi kami. Kami akan segera kontak anda kembali.</div>
 					</div>
 				</div>
 			</div>
@@ -733,11 +764,9 @@
 									</div>
 									<div class="vlt-gap-50"></div>
 									<div class="row">
-										<?php foreach($blogs as $blog){ ?>
+										<?php foreach ($blogs as $blog) { ?>
 											<div class="col-md-4 d-flex align-items-stretch mb-3">
-												<div class="vlt-animated-block card p-3"
-													style="animation-delay:100ms; animation-duration:700ms;"
-													id='blog-<?= $blog['id'] ?>'>
+												<div class="vlt-animated-block card p-3" style="animation-delay:100ms; animation-duration:700ms;" id='blog-<?= $blog['id'] ?>'>
 													<article class="vlt-post">
 														<div class="vlt-post-thumbnail"><img src="assets/blog/<?= $blog['id'] ?>.webp" alt="<?= $blog['title'] ?> blog thumbnail"><a class="vlt-post-thumbnail__link" href="#"></a>
 														</div>
@@ -813,37 +842,10 @@
 	<script src="assets/scripts/vlt-helpers.js"></script>
 	<script src="assets/scripts/vlt-controllers.min.js"></script>
 	<script>
-		$(document).ready(function(){
+		$(document).ready(function() {
 			idArray.forEach(blog => {
-				$('#blog-' + blog.id).click(function(){
-					window.location.href = "<?= base_url('Blogs') ?>/" + blog.title.toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'');
-				})
-			})
-
-			$('#contactForm').submit(function(event){
-				event.preventDefault();
-				$.ajax({
-					url:"<?= base_url('Home/sendEmail') ?>",
-					data:{
-						name: $('#name').val(),
-						email: $('#email').val(),
-						message: $('#message').val()
-					},
-					type:"POST",
-					beforeSend:function(){
-						$('#submitButton').attr('disabled', true);
-					},
-					success:function(response){
-						$('#submitButton').attr('disabled', false);
-						if(response == 1){
-							$('#contactForm').trigger("reset");
-							var x = document.getElementById("snackbar");
-							x.className = "show";
-							setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-						} else {
-
-						}
-					}
+				$('#blog-' + blog.id).click(function() {
+					window.location.href = "<?= base_url('Blogs') ?>/" + blog.title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
 				})
 			})
 		})
